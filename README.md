@@ -9,19 +9,22 @@ Trackless Links is a comprehensive Safari Extension for iOS that transforms how 
 * **Automatic Tracker Removal**: Silently strips tracking parameters (utm_source, fbclid, gclid, etc.) from URLs as you browse
 * **Comprehensive Blocklist**: Pre-loaded with common tracking parameters, fully customizable
 * **Clean Link Sharing**: Share shorter, cleaner URLs without tracking codes
+* **Privacy Statistics**: Track blocked trackers and applied redirects
 
 ### 🔀 Smart Redirects
 * **Skip Unwanted Sites**: Automatically redirect to better alternatives (Reddit → old.reddit.com, Twitter → Nitter, etc.)
 * **Custom Rules**: Create your own redirect patterns with exact matches or regex support
 * **Browse Your Way**: Take control of where links actually take you
+* **Drag-and-Drop Reordering**: Easily prioritize redirects by reordering them with drag-and-drop
 
 ### ⚡ Browsing Enhancements
 * **Restore Blocked Functionality**: Re-enable text selection, copying, and right-click menus on sites that disable them
 * **Media Control**: Show native video/audio controls, block autoplay, set default playback speeds
 * **Remove Annoyances**: Disable "Are you sure you want to leave?" dialogs, prevent forced new tabs, and more
+* **Clean User Interface**: Completely redesigned interface with improved navigation and cleaner layouts
 
 ## 🚀 Get the App
-[Download Trackless Links from the App Store](https://alexloth.com/) and transform your browsing experience today.
+[Download Trackless Links from the App Store](https://apps.apple.com/us/app/trackless-links-extension/id6749830894?platform=iphone) and transform your browsing experience today.
 
 ## 🔒 Privacy by Design
 Your privacy and control are the core features of this app:
