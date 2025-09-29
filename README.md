@@ -3,6 +3,8 @@ Browse privately, skip unwanted sites, and take control of your web experience.
 
 Trackless Links is a comprehensive Safari Extension for iOS that transforms how you browse the web. It automatically removes tracking parameters for privacy, redirects you away from unwanted sites to better alternatives, and restores website functionality that sites often break or disable.
 
+Crafted with the Liquid Glass design language, the entire experience feels light, tactile, and right at home on the latest iPhone lineup.
+
 ## ✨ Key Features
 
 ### 🛡️ Privacy Protection
@@ -22,6 +24,49 @@ Trackless Links is a comprehensive Safari Extension for iOS that transforms how 
 * **Media Control**: Show native video/audio controls, block autoplay, set default playback speeds
 * **Remove Annoyances**: Disable "Are you sure you want to leave?" dialogs, prevent forced new tabs, and more
 * **Clean User Interface**: Completely redesigned interface with improved navigation and cleaner layouts
+
+## � Screenshots
+
+Experience the beautifully crafted interface across all key features:
+
+<table>
+<tr>
+<td width="50%">
+
+### 🏠 Dashboard & Analytics
+Real-time privacy protection insights with live statistics tracking blocked trackers, applied redirects, and bandwidth saved. Clean Liquid Glass design optimized for modern iPhones.
+
+<img src="screenshots/trackless-links-ios-safari-extension-dashboard.png" alt="Trackless Links main dashboard showing privacy protection statistics with blocked trackers count, applied redirects, and clean modern interface" width="400"/>
+
+</td>
+<td width="50%">
+
+### 🔀 Custom Redirect Rules
+Powerful redirect management with drag-and-drop reordering. Create custom rules to automatically redirect unwanted sites to better alternatives with exact match or regex support.
+
+<img src="screenshots/trackless-links-custom-url-redirect-rules.png" alt="Custom URL redirect rules interface showing editable redirect patterns from unwanted sites to preferred alternatives with reordering capability" width="400"/>
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 🛡️ Tracking Filter Management
+Comprehensive tracking parameter blocklist with full customization. Pre-loaded with common tracking codes (utm_source, fbclid, gclid) and easily extendable for your needs.
+
+<img src="screenshots/trackless-links-url-tracking-filter-list.png" alt="URL tracking filter configuration showing comprehensive list of blocked tracking parameters with add/remove functionality and custom pattern support" width="400"/>
+
+</td>
+<td width="50%">
+
+### ⚡ Browser Enhancement Tweaks
+Restore website functionality that sites often disable. Re-enable text selection, right-click menus, video controls, and remove annoying browsing restrictions.
+
+<img src="screenshots/trackless-links-browser-privacy-tweaks.png" alt="Browser privacy and functionality tweaks panel showing options to restore disabled features like text selection, right-click menus, and media controls" width="400"/>
+
+</td>
+</tr>
+</table>
 
 ## 🚀 Get the App
 [Download Trackless Links from the App Store](https://apps.apple.com/us/app/trackless-links-extension/id6749830894?platform=iphone) and transform your browsing experience today.
