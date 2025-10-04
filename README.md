@@ -25,7 +25,13 @@ Crafted with the Liquid Glass design language, the entire experience feels light
 * **Remove Annoyances**: Disable "Are you sure you want to leave?" dialogs, prevent forced new tabs, and more
 * **Clean User Interface**: Completely redesigned interface with improved navigation and cleaner layouts
 
-## � Screenshots
+### 📦 Archive Search
+* **One-Tap Archive Access**: Quickly find cached versions of web pages directly from the extension popup
+* **Multiple Archive Services**: Choose from Wayback Machine, Archive.is, Archive.today, Ghost Archive, and Perma.cc
+* **Customizable Selection**: Enable only the archive services you prefer to use
+* **Find Lost Content**: View archived snapshots of changed or deleted pages with a single tap
+
+## 📱 Screenshots
 
 Experience the beautifully crafted interface across all key features:
 
