@@ -27,9 +27,9 @@ Crafted with the Liquid Glass design language, the entire experience feels light
 
 ### 📦 Archive Search
 * **One-Tap Archive Access**: Quickly find cached versions of web pages directly from the extension popup
-* **Multiple Archive Services**: Choose from Wayback Machine, Archive.is, Archive.today, Ghost Archive, and Perma.cc
-* **Customizable Selection**: Enable only the archive services you prefer to use
-* **Find Lost Content**: View archived snapshots of changed or deleted pages with a single tap
+* **Wayback Machine Integration**: Access archived web page snapshots with a single tap
+* **Expandable Service Support**: Add additional archive services if needed
+* **Find Lost Content**: View archived snapshots of changed or deleted pages with ease
 
 ## 📱 Screenshots
 
@@ -94,7 +94,7 @@ Help us make Trackless Links even better! We welcome your feedback and ideas:
 * **Request a Feature**: [Suggest new functionality](https://github.com/aloth/trackless-links/issues/new?template=feature_request.md)
 
 ## 🌍 Localization
-Trackless Links is currently available in English. Localization support is planned for future releases.
+Trackless Links is available in English and German (Deutsch), with more languages planned for future releases.
 
 ---
 
