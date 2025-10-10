@@ -19,6 +19,12 @@ Crafted with the Liquid Glass design language, the entire experience feels light
 * **Browse Your Way**: Take control of where links actually take you
 * **Drag-and-Drop Reordering**: Easily prioritize redirects by reordering them with drag-and-drop
 
+### 📤 Share Sheet Integration
+* **Open from Anywhere**: Share links from Reddit, X, and any app directly to Trackless Links
+* **Clean & Open**: Instantly remove tracking parameters and open in Safari
+* **Quick Archive Access**: Send shared links directly to your configured archive services
+* **Seamless iOS Integration**: Works with the native iOS Share Sheet for quick access
+
 ### ⚡ Browsing Enhancements
 * **Restore Blocked Functionality**: Re-enable text selection, copying, and right-click menus on sites that disable them
 * **Media Control**: Show native video/audio controls, block autoplay, set default playback speeds
