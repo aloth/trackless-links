@@ -37,6 +37,13 @@ Crafted with the Liquid Glass design language, the entire experience feels light
 * **Expandable Service Support**: Add additional archive services if needed
 * **Find Lost Content**: View archived snapshots of changed or deleted pages with ease
 
+### ☁️ iCloud Sync (Optional)
+* **Cross-Device Sync**: Keep your settings synchronized across all your Apple devices
+* **Privacy-First**: Completely opt-in—sync is disabled by default
+* **Comprehensive Coverage**: Syncs filters, redirects, tweaks, archive settings, and statistics
+* **Seamless Updates**: Changes on one device automatically appear on others within seconds
+* **Your iCloud, Your Data**: All synced data stays in your personal iCloud account
+
 ## 📱 Screenshots
 
 Experience the beautifully crafted interface across all key features:
@@ -89,6 +96,7 @@ Your privacy and control are the core features of this app:
 * **100% Local Processing**: All URL cleaning, redirecting, and tweaks happen on your device
 * **Zero Data Collection**: We never see, collect, store, or transmit your browsing data
 * **No Servers Required**: No external services or cloud processing
+* **Optional iCloud Sync**: When enabled, your settings sync via your personal iCloud account—disabled by default
 * **Your Data Stays Yours**: Complete privacy protection by design
 
 [Read the full Privacy Policy](https://github.com/aloth/trackless-links/blob/main/privacy_policy.md)
@@ -100,7 +108,12 @@ Help us make Trackless Links even better! We welcome your feedback and ideas:
 * **Request a Feature**: [Suggest new functionality](https://github.com/aloth/trackless-links/issues/new?template=feature_request.md)
 
 ## 🌍 Localization
-Trackless Links is available in English and German (Deutsch), with more languages planned for future releases.
+Trackless Links is available in multiple languages with full app and extension localization:
+
+* 🇺🇸 English
+* 🇩🇪 German (Deutsch)
+* 🇨🇳 Chinese Simplified (简体中文)
+* 🇯🇵 Japanese (日本語)
 
 ---
 
