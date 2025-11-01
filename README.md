@@ -1,48 +1,51 @@
 # Trackless Links: Complete Browsing Control for Safari
-Browse privately, skip unwanted sites, and take control of your web experience.
 
-Trackless Links is a comprehensive Safari Extension for iOS that transforms how you browse the web. It automatically removes tracking parameters for privacy, redirects you away from unwanted sites to better alternatives, and restores website functionality that sites often break or disable.
+**Browse privately, skip unwanted sites, and take back control of your web experience on iOS and macOS.**
 
-Crafted with the Liquid Glass design language, the entire experience feels light, tactile, and right at home on the latest iPhone lineup.
+Trackless Links is a comprehensive Safari Extension that transforms how you browse. It automatically removes tracking parameters for privacy, lets you create powerful rules to redirect unwanted sites to better alternatives, and restores website functionality that sites often break or disable.
+
+Crafted with a clean, modern design language, the entire experience feels light, powerful, and perfectly at home on both iPhone and Mac.
+
+## 🚀 Get the Apps
+
+Trackless Links is available as a dedicated app for iOS (iPhone & iPad) and as a Pro version for macOS.
+
+  * **[Download Trackless Links for iOS from the App Store](https://apps.apple.com/us/app/trackless-links-extension/id6749830894?platform=iphone)**
+  * **[Download Trackless Links Pro for MacOS from the App Store](https://apps.apple.com/us/app/trackless-links-pro/id6754613166)**
 
 ## ✨ Key Features
 
-### 🛡️ Privacy Protection
-* **Automatic Tracker Removal**: Silently strips tracking parameters (utm_source, fbclid, gclid, etc.) from URLs as you browse
-* **Comprehensive Blocklist**: Pre-loaded with common tracking parameters, fully customizable
-* **Clean Link Sharing**: Share shorter, cleaner URLs without tracking codes
-* **Privacy Statistics**: Track blocked trackers and applied redirects
+Trackless Links is a complete toolkit for a better browsing experience, built on four powerful pillars.
 
-### 🔀 Smart Redirects
-* **Skip Unwanted Sites**: Automatically redirect to better alternatives (Reddit → old.reddit.com, Twitter → Nitter, etc.)
-* **Custom Rules**: Create your own redirect patterns with exact matches or regex support
-* **Browse Your Way**: Take control of where links actually take you
-* **Drag-and-Drop Reordering**: Easily prioritize redirects by reordering them with drag-and-drop
+### 🛡️ Core Privacy Engine
 
-### 📤 Share Sheet Integration
-* **Open from Anywhere**: Share links from Reddit, X, and any app directly to Trackless Links
-* **Clean & Open**: Instantly remove tracking parameters and open in Safari
-* **Quick Archive Access**: Send shared links directly to your configured archive services
-* **Seamless iOS Integration**: Works with the native iOS Share Sheet for quick access
+  * **Automatic Tracker Removal**: Silently strips tracking parameters (`utm_source`, `fbclid`, `gclid`, etc.) from URLs as you browse to protect your privacy.
+  * **Customizable Blocklist**: Comes pre-loaded with common trackers and allows you to add your own custom rules.
+  * **Privacy Statistics**: See exactly how many trackers have been blocked and how many redirects have been applied right from the main dashboard.
 
-### ⚡ Browsing Enhancements
-* **Restore Blocked Functionality**: Re-enable text selection, copying, and right-click menus on sites that disable them
-* **Media Control**: Show native video/audio controls, block autoplay, set default playback speeds
-* **Remove Annoyances**: Disable "Are you sure you want to leave?" dialogs, prevent forced new tabs, and more
-* **Clean User Interface**: Completely redesigned interface with improved navigation and cleaner layouts
+### 🔀 Power-User Redirects
+
+  * **Skip Unwanted Sites**: Automatically redirect sites to better alternatives (e.g., `Reddit` → `old.reddit.com`, `Twitter` → `Nitter`, `YouTube` → `yewtu.be`).
+  * **Advanced Rule Creation**: Build your own powerful redirect rules with full support for regular expressions (Regex) for ultimate control.
+  * **Prioritize Your Rules**: Easily reorder your redirects with simple drag-and-drop to manage rule priority.
+
+### ⚡ Enhanced Browsing Experience (Tweaks)
+
+  * **Restore Website Functionality**: Re-enable text selection, copying, and context menus on sites that try to disable them.
+  * **Remove Annoyances**: Block common annoyances like "Are you sure you want to leave?" dialogs and prevent sites from forcing links to open in a new tab.
+  * **Better Media Controls**: Force native video/audio controls on websites, block autoplay, and set default playback speeds that persist across sites.
 
 ### 📦 Archive Search
-* **One-Tap Archive Access**: Quickly find cached versions of web pages directly from the extension popup
-* **Wayback Machine Integration**: Access archived web page snapshots with a single tap
-* **Expandable Service Support**: Add additional archive services if needed
-* **Find Lost Content**: View archived snapshots of changed or deleted pages with ease
 
-### ☁️ iCloud Sync (Optional)
-* **Cross-Device Sync**: Keep your settings synchronized across all your Apple devices
-* **Privacy-First**: Completely opt-in—sync is disabled by default
-* **Comprehensive Coverage**: Syncs filters, redirects, tweaks, archive settings, and statistics
-* **Seamless Updates**: Changes on one device automatically appear on others within seconds
-* **Your iCloud, Your Data**: All synced data stays in your personal iCloud account
+* **One-Tap Archive Access**: Quickly find cached versions of web pages directly from the extension popup.
+* **Wayback Machine Integration**: Access archived web page snapshots with a single tap.
+* **Expandable Service Support**: Add additional archive services if needed.
+* **Find Lost Content**: View archived snapshots of changed or deleted pages with ease.
+
+### 📤 Seamless Workflow Integration
+
+  * **Deep Share Sheet Integration**: Clean links or look them up in a web archive directly from the Share Sheet in any iOS app.
+  * **Optional iCloud Sync**: Keep all your custom filters, redirects, and tweak settings perfectly in sync across all your Apple devices.
 
 ## 📱 Screenshots
 
@@ -87,27 +90,26 @@ Restore website functionality that sites often disable. Re-enable text selection
 </tr>
 </table>
 
-## 🚀 Get the App
-[Download Trackless Links from the App Store](https://apps.apple.com/us/app/trackless-links-extension/id6749830894?platform=iphone) and transform your browsing experience today.
-
 ## 🔒 Privacy by Design
+
 Your privacy and control are the core features of this app:
 
-* **100% Local Processing**: All URL cleaning, redirecting, and tweaks happen on your device
-* **Zero Data Collection**: We never see, collect, store, or transmit your browsing data
-* **No Servers Required**: No external services or cloud processing
-* **Optional iCloud Sync**: When enabled, your settings sync via your personal iCloud account—disabled by default
-* **Your Data Stays Yours**: Complete privacy protection by design
+  * **100% On-Device Processing**: All URL cleaning, redirecting, and tweaks happen locally on your device.
+  * **Zero Data Collection**: We never see, collect, store, or transmit your browsing data.
+  * **No External Servers**: The core functionality requires no external services or cloud processing.
+  * **Optional & Private iCloud Sync**: When enabled, your settings sync via your personal iCloud account—it is disabled by default and your data is never visible to us.
 
 [Read the full Privacy Policy](https://github.com/aloth/trackless-links/blob/main/privacy_policy.md)
 
 ## 🛠️ Support & Feedback
-Help us make Trackless Links even better! We welcome your feedback and ideas:
+
+Help make Trackless Links even better\! We welcome your feedback and ideas:
 
 * **Report a Bug**: [Submit a bug report](https://github.com/aloth/trackless-links/issues/new?template=bug-report.md)
 * **Request a Feature**: [Suggest new functionality](https://github.com/aloth/trackless-links/issues/new?template=feature_request.md)
 
 ## 🌍 Localization
+
 Trackless Links is available in multiple languages with full app and extension localization:
 
 * 🇺🇸 English
