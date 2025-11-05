@@ -1,17 +1,24 @@
 # Trackless Links: Complete Browsing Control for Safari
 
-**Browse privately, skip unwanted sites, and take back control of your web experience on iOS and macOS.**
+**Browse privately, skip unwanted sites, and take back control of your web experience.**
 
 Trackless Links is a comprehensive Safari Extension that transforms how you browse. It automatically removes tracking parameters for privacy, lets you create powerful rules to redirect unwanted sites to better alternatives, and restores website functionality that sites often break or disable.
 
-Crafted with a clean, modern design language, the entire experience feels light, powerful, and perfectly at home on both iPhone and Mac.
+Crafted with a clean, modern design language, the entire experience feels light, powerful, and perfectly at home on all your devices.
 
 ## 🚀 Get the Apps
 
-Trackless Links is available as a dedicated app for iOS (iPhone & iPad) and as a Pro version for macOS.
+Choose the version that fits your needs:
 
-  * **[Download Trackless Links for iOS from the App Store](https://apps.apple.com/us/app/trackless-links-extension/id6749830894?platform=iphone)**
-  * **[Download Trackless Links Pro for MacOS from the App Store](https://apps.apple.com/us/app/trackless-links-pro/id6754613166)**
+### Trackless Links Pro (Universal Purchase)
+**One purchase, all your devices.** Get full-featured browsing control on iPhone, iPad, and Mac with seamless iCloud sync.
+
+  * **[Download Trackless Links Pro from the App Store](https://apps.apple.com/us/app/trackless-links-pro/id6754613166)** – Universal Purchase for iPhone, iPad, and Mac
+
+### Trackless Links (iOS Only)
+Complete browsing control for iPhone and iPad.
+
+  * **[Download Trackless Links for iOS from the App Store](https://apps.apple.com/us/app/trackless-links-extension/id6749830894?platform=iphone)** – iPhone and iPad
 
 ## ✨ Key Features
 
@@ -44,8 +51,8 @@ Trackless Links is a complete toolkit for a better browsing experience, built on
 
 ### 📤 Seamless Workflow Integration
 
-  * **Deep Share Sheet Integration**: Clean links or look them up in a web archive directly from the Share Sheet in any iOS app.
-  * **Optional iCloud Sync**: Keep all your custom filters, redirects, and tweak settings perfectly in sync across all your Apple devices.
+  * **Deep Share Sheet Integration**: Clean links or look them up in a web archive directly from the Share Sheet in any app (iOS and iPadOS).
+  * **Optional iCloud Sync**: Keep all your custom filters, redirects, and tweak settings perfectly in sync across all your Apple devices (Trackless Links Pro includes automatic sync between iPhone, iPad, and Mac).
 
 ## 📱 Screenshots
 
@@ -56,7 +63,7 @@ Experience the beautifully crafted interface across all key features:
 <td width="50%">
 
 ### 🏠 Dashboard & Analytics
-Real-time privacy protection insights with live statistics tracking blocked trackers, applied redirects, and bandwidth saved. Clean Liquid Glass design optimized for modern iPhones.
+Real-time privacy protection insights with live statistics tracking blocked trackers, applied redirects, and bandwidth saved. Clean Liquid Glass design optimized for iPhone, iPad, and Mac.
 
 <img src="screenshots/trackless-links-ios-safari-extension-dashboard.png" alt="Trackless Links main dashboard showing privacy protection statistics with blocked trackers count, applied redirects, and clean modern interface" width="400"/>
 
@@ -92,12 +99,12 @@ Restore website functionality that sites often disable. Re-enable text selection
 
 ## 🔒 Privacy by Design
 
-Your privacy and control are the core features of this app:
+Your privacy and control are the core features of both apps:
 
   * **100% On-Device Processing**: All URL cleaning, redirecting, and tweaks happen locally on your device.
   * **Zero Data Collection**: We never see, collect, store, or transmit your browsing data.
   * **No External Servers**: The core functionality requires no external services or cloud processing.
-  * **Optional & Private iCloud Sync**: When enabled, your settings sync via your personal iCloud account—it is disabled by default and your data is never visible to us.
+  * **Optional & Private iCloud Sync**: When enabled, your settings sync via your personal iCloud account—it is disabled by default and your data is never visible to us. Trackless Links Pro offers seamless sync across iPhone, iPad, and Mac.
 
 [Read the full Privacy Policy](https://github.com/aloth/trackless-links/blob/main/privacy_policy.md)
 
@@ -119,4 +126,5 @@ Trackless Links is available in multiple languages with full app and extension l
 
 ---
 
-**Browse with privacy, control, and confidence. Get Trackless Links today!**
+**Browse with privacy, control, and confidence.**  
+**Get Trackless Links Pro (iPhone, iPad & Mac) or Trackless Links (iPhone & iPad) today!**
