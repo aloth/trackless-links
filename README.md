@@ -41,6 +41,7 @@ Trackless Links is a complete toolkit for a better browsing experience, built on
   * **Restore Website Functionality**: Re-enable text selection, copying, and context menus on sites that try to disable them.
   * **Remove Annoyances**: Block common annoyances like "Are you sure you want to leave?" dialogs and prevent sites from forcing links to open in a new tab.
   * **Better Media Controls**: Force native video/audio controls on websites, block autoplay, and set default playback speeds that persist across sites.
+  * **Intelligent Dark Mode**: Apply dark mode to any website with smart color inversion that preserves images and media while transforming text and backgrounds for comfortable night browsing.
 
 ### 📦 Archive Search
 
