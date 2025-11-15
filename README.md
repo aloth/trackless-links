@@ -45,14 +45,14 @@ Trackless Links is a complete toolkit for a better browsing experience, built on
 
 ### 📦 Archive Search
 
-* **One-Tap Archive Access**: Quickly find cached versions of web pages directly from the extension popup.
-* **Wayback Machine Integration**: Access archived web page snapshots with a single tap.
-* **Expandable Service Support**: Add additional archive services if needed.
-* **Find Lost Content**: View archived snapshots of changed or deleted pages with ease.
+* **One-Tap Archive Access**: Quickly find cached versions of web pages directly from Safari's extension popup or Share Sheet.
+* **Multiple Archive Services**: Choose from Wayback Machine - or add other popular archive services.
+* **Smart URL Processing**: Automatically removes query parameters for better archive match rates (configurable).
+* **Find Lost Content**: View archived snapshots of hidden or deleted pages with ease.
 
 ### 📤 Seamless Workflow Integration
 
-  * **Deep Share Sheet Integration**: Clean links or look them up in a web archive directly from the Share Sheet in any app (iOS and iPadOS).
+  * **Deep Share Sheet Integration**: Clean links or look them up in web archives directly from the Share Sheet in any app (iOS and iPadOS). Access your configured archive services from anywhere - Safari, Reddit, X, and more.
   * **Optional iCloud Sync**: Keep all your custom filters, redirects, and tweak settings perfectly in sync across all your Apple devices (Trackless Links Pro includes automatic sync between iPhone, iPad, and Mac).
 
 ## 📱 Screenshots
