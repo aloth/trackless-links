@@ -33,6 +33,7 @@ Trackless Links is a complete toolkit for a better browsing experience, built on
 ### 🔀 Power-User Redirects
 
   * **Skip Unwanted Sites**: Automatically redirect sites to better alternatives (e.g., `Reddit` → `old.reddit.com`, `Twitter` → `Nitter`, `YouTube` → `yewtu.be`).
+  * **Predefined Rules**: Includes 20+ predefined redirects focusing on privacy and alternative frontends (Reddit, Twitter/X, YouTube, Medium, and more).
   * **Advanced Rule Creation**: Build your own powerful redirect rules with full support for regular expressions (Regex) for ultimate control.
   * **Prioritize Your Rules**: Easily reorder your redirects with simple drag-and-drop to manage rule priority.
 
