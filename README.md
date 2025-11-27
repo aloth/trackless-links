@@ -117,14 +117,23 @@ Help make Trackless Links even better\! We welcome your feedback and ideas:
 * **Report a Bug**: [Submit a bug report](https://github.com/aloth/trackless-links/issues/new?template=bug-report.md)
 * **Request a Feature**: [Suggest new functionality](https://github.com/aloth/trackless-links/issues/new?template=feature_request.md)
 
+## 📖 FAQ & User Guide
+
+New to Trackless Links or want to learn more about URL tracking and privacy? Check out the comprehensive FAQ:
+
+* [FAQ (English)](FAQ.md)
+* [FAQ (Deutsch)](FAQ_de.md)
+* [FAQ (日本語)](FAQ_ja.md)
+* [FAQ (简体中文)](FAQ_zh-Hans.md)
+
 ## 🌍 Localization
 
 Trackless Links is available in multiple languages with full app and extension localization:
 
 * 🇺🇸 English
-* 🇩🇪 German (Deutsch)
-* 🇨🇳 Chinese Simplified (简体中文)
-* 🇯🇵 Japanese (日本語)
+* 🇩🇪 [German (Deutsch)](README_de.md)
+* 🇨🇳 [Chinese Simplified (简体中文)](README_zh-Hans.md)
+* 🇯🇵 [Japanese (日本語)](README_ja.md)
 
 ---
 
