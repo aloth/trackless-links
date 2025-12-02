@@ -58,7 +58,7 @@ We may update this Privacy Policy from time to time. The updated policy will be 
 If you have any questions or concerns regarding this Privacy Policy, please contact:
 
 - **Alexander Loth**
-  - By email: [support@alexloth.com](mailto:support@alexloth.com)
+  - By email: [support+trackless@alexloth.com](mailto:support+trackless@alexloth.com)
   - By visiting the GitHub page: [https://github.com/aloth/trackless-links](https://github.com/aloth/trackless-links) (Link to be updated)
 
 By using Trackless Links, you acknowledge that you have read and understood this Privacy Policy.
