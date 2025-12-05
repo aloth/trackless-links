@@ -1,141 +1,174 @@
-# Trackless Links: Safari を完全にコントロール
+# Trackless Links – プライバシー保護・URL浄化・トラッカーブロックのSafari拡張機能
 
-**プライベートに閲覧し、不要なサイトをスキップし、ウェブ体験を取り戻そう。**
+**トラッキングコードを削除し、煩わしいサイトをリダイレクトし、失われたウェブサイト機能を復元するSafari拡張機能。**
 
-Trackless Links は、ブラウジング体験を根本から変える Safari 拡張機能です。プライバシー保護のためにトラッキングパラメータを自動的に削除し、不要なサイトを好みの代替サイトにリダイレクトするルールを作成でき、サイトが無効にしがちな機能を復元します。
+`?utm_source=...`だらけの汚いURLを共有するのにうんざりしていませんか？テキスト選択をブロックしたり、動画を自動再生するサイトにイライラしていませんか？Trackless Linksがすべて自動で解決します。しかもデータ収集ゼロ、100%デバイス上で動作します。
 
-クリーンでモダンなデザイン言語で作られており、すべてのデバイスで軽快かつパワフルに動作します。
+クリーンでモダンなデザインで、iPhone、iPad、Macで軽快かつパワフルに動作します。
 
-## 🚀 アプリを入手
+---
 
-ニーズに合ったバージョンを選んでください：
+## 🚀 今すぐダウンロード
 
-### Trackless Links Pro（ユニバーサル購入）
-**一度の購入で、すべてのデバイスに。** iPhone、iPad、Mac でフル機能のブラウジングコントロールを、シームレスな iCloud 同期とともに。
+### Trackless Links Pro — Macユーザーに最適
+**1回の購入でiPhone + iPad + Mac。** すべてのAppleデバイスでシームレスなiCloud同期とフル機能を提供。
 
-  * **[Trackless Links Pro を App Store でダウンロード](https://apps.apple.com/us/app/trackless-links-pro/id6754613166)** – iPhone、iPad、Mac 対応のユニバーサル購入
+[![App Storeでダウンロード](https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg)](https://apps.apple.com/us/app/trackless-links-pro/id6754613166)
 
-### Trackless Links（iOS のみ）
-iPhone と iPad 向けの完全なブラウジングコントロール。
+### Trackless Links — iPhone & iPadに最適
+iOS向けの完全なプライバシー保護とブラウジングコントロール。
 
-  * **[Trackless Links for iOS を App Store でダウンロード](https://apps.apple.com/us/app/trackless-links-extension/id6749830894?platform=iphone)** – iPhone、iPad 対応
+[![App Storeでダウンロード](https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg)](https://apps.apple.com/us/app/trackless-links-extension/id6749830894?platform=iphone)
 
-## ✨ 主な機能
+---
 
-Trackless Links は、4つの強力な柱に基づいた、より良いブラウジング体験のための完全なツールキットです。
+## ✨ Trackless Linksが選ばれる理由
 
-### 🛡️ プライバシーエンジン
+ほとんどの「プライバシー」拡張機能は広告をブロックするだけ。Trackless Linksはそれ以上のことができます – URLをクリーンにし、トラッキングの多いサイトから遠ざけ、壊れたウェブサイト機能を修復します。しかもサーバーに1バイトも送信しません。
 
-  * **自動トラッカー削除**：ブラウジング中に URL からトラッキングパラメータ（`utm_source`、`fbclid`、`gclid` など）を静かに削除し、プライバシーを保護します。
-  * **カスタマイズ可能なブロックリスト**：一般的なトラッカーがプリロードされており、独自のルールを追加できます。
-  * **プライバシー統計**：メインダッシュボードから、ブロックされたトラッカー数と適用されたリダイレクト数を確認できます。
+### 🛡️ 自動トラッカー削除
 
-### 🔀 パワーユーザー向けリダイレクト
+閲覧履歴を晒すリンクの共有はもう終わり。
 
-  * **不要なサイトをスキップ**：サイトを自動的により良い代替先にリダイレクト（例：`Reddit` → `old.reddit.com`、`Twitter` → `Nitter`、`YouTube` → `yewtu.be`）。
-  * **定義済みルール**：プライバシーと代替フロントエンドに焦点を当てた 20 以上の定義済みリダイレクトを収録（Reddit、Twitter/X、YouTube、Medium など）。
-  * **高度なルール作成**：正規表現（Regex）を完全サポートし、究極のコントロールのための独自の強力なリダイレクトルールを作成。
-  * **ルールの優先順位付け**：ドラッグ＆ドロップで簡単にリダイレクトの順序を変更し、優先度を管理。
+- **トラッキングパラメータを除去** – `utm_source`、`fbclid`、`gclid`、`mc_eid`などをすべてのURLから削除
+- **50以上の一般的なトラッキングコードを事前登録**
+- **独自ルールを追加**して完全にカスタマイズ
+- **リアルタイム統計**でブロックしたトラッカー数を確認
 
-### ⚡ ブラウジング体験の向上（Tweaks）
+### 🔀 スマートURLリダイレクト
 
-  * **ウェブサイト機能の復元**：テキスト選択、コピー、コンテキストメニューを無効にしようとするサイトで、これらを再有効化。
-  * **煩わしさを削除**：「このページを離れますか？」ダイアログなどの煩わしい要素をブロックし、リンクが強制的に新しいタブで開くのを防止。
-  * **より良いメディアコントロール**：ウェブサイトでネイティブの動画/音声コントロールを強制し、自動再生をブロックし、サイト間で保持されるデフォルト再生速度を設定。
-  * **インテリジェントダークモード**：画像やメディアを保持しながらテキストと背景を変換するスマートな色反転で、あらゆるウェブサイトにダークモードを適用し、快適な夜間ブラウジングを実現。
+煩わしいサイトを自動でスキップ。
 
-### 📦 アーカイブ検索
+- **Reddit → Old Reddit** – リデザインから脱出
+- **Twitter/X → Nitter** – プライバシー尊重の代替
+- **YouTube → Invidious** – 広告なし視聴
+- **20以上の内蔵リダイレクト**でプライバシーとスピードを重視
+- **カスタムルールを作成** – テキストまたは正規表現で
+- **ドラッグ＆ドロップで優先順位設定** – あなたのルール、あなたの順序
 
-* **ワンタップでアーカイブにアクセス**：Safari の拡張機能ポップアップまたは共有シートから、ウェブページのキャッシュ版をすばやく検索。
-* **複数のアーカイブサービス**：Wayback Machine から選択するか、他の人気アーカイブサービスを追加。
-* **スマート URL 処理**：より良いアーカイブマッチ率のためにクエリパラメータを自動的に削除（設定可能）。
-* **失われたコンテンツを見つける**：隠されたページや削除されたページのアーカイブスナップショットを簡単に表示。
+### ⚡ 本当に使えるブラウザ調整
 
-### 📤 シームレスなワークフロー統合
+サイトが壊そうとするウェブ機能を復元。
 
-  * **深い共有シート統合**：任意のアプリ（iOS および iPadOS）の共有シートから、リンクをクリーニングしたり、ウェブアーカイブで検索したりできます。Safari、Reddit、X など、どこからでも設定済みのアーカイブサービスにアクセス可能。
-  * **シームレスな iCloud 同期**：すべてのフィルター、リダイレクト、Tweak 設定を、すべての Apple デバイス間で完璧に同期。iPhone、iPad、Mac 間で変更が即座に同期されます（Trackless Links Pro）。注：プライバシー統計はデバイス固有で、プライバシー保護のため同期されません。
+- **テキスト選択を強制** – コピーをブロックするサイトで
+- **右クリックメニューを有効化** – どこでも
+- **自動再生動画をブロック** – すべてのサイトで
+- **ピクチャ・イン・ピクチャを強制** – どの動画でも
+- **「このページを離れますか？」ポップアップを削除**
+- **ダークモードを適用** – スマートな色反転であらゆるサイトに
+- **再生速度を固定** – 動画が1xにリセットされない
+
+### 📦 ウェブアーカイブ検索
+
+削除・変更されたコンテンツを即座に発見。
+
+- **ワンタップでWayback Machineにアクセス** – Safariツールバーから
+- **複数のアーカイブサービス**を設定可能
+- **スマートURL浄化**でマッチ率向上
+- **共有シートから動作** – どのアプリでも
+
+### 📤 あらゆる場所で動作
+
+- **共有シート連携** – Reddit、Twitter、メールなど、どこからでもリンクを浄化
+- **iCloud同期** – iPhone、iPad、Mac間で設定が即座に同期
+- **即時Safari連携** – 変更がすぐに反映
+
+---
 
 ## 📱 スクリーンショット
-
-すべての主要機能にわたる美しく作り込まれたインターフェースをご覧ください：
 
 <table>
 <tr>
 <td width="50%">
 
-### 🏠 ダッシュボード＆分析
-ブロックされたトラッカー、適用されたリダイレクト、節約されたデータ量を追跡するライブ統計によるリアルタイムのプライバシー保護インサイト。iPhone、iPad、Mac に最適化されたクリーンな Liquid Glass デザイン。
+### 🏠 プライバシーダッシュボード
+ブロックしたトラッカー、適用したリダイレクト、節約したデータ量をリアルタイム表示。iPhone、iPad、Mac向けのクリーンなLiquid Glassデザイン。
 
-<img src="screenshots/trackless-links-ios-safari-extension-dashboard.png" alt="Trackless Links メインダッシュボード - ブロックされたトラッカー数、適用されたリダイレクト、クリーンでモダンなインターフェースを表示" width="400"/>
+<img src="screenshots/trackless-links-ios-safari-extension-dashboard.png" alt="Trackless Links Safari拡張機能ダッシュボード - プライバシー統計表示、ブロックしたトラッカー数と適用したリダイレクト" width="400"/>
 
 </td>
 <td width="50%">
 
 ### 🔀 カスタムリダイレクトルール
-ドラッグ＆ドロップで並べ替え可能な強力なリダイレクト管理。完全一致または正規表現サポートで、不要なサイトをより良い代替先に自動的にリダイレクトするカスタムルールを作成。
+ドラッグ＆ドロップ対応の強力なURLリダイレクト管理。完全一致と正規表現パターンをサポート。
 
-<img src="screenshots/trackless-links-custom-url-redirect-rules.png" alt="カスタム URL リダイレクトルールインターフェース - 不要なサイトから好みの代替先への編集可能なリダイレクトパターンを表示" width="400"/>
+<img src="screenshots/trackless-links-custom-url-redirect-rules.png" alt="URLリダイレクトルールエディター - トラッキングサイトからプライバシー重視の代替先へのカスタムリダイレクト作成" width="400"/>
 
 </td>
 </tr>
 <tr>
 <td width="50%">
 
-### 🛡️ トラッキングフィルター管理
-完全にカスタマイズ可能な包括的なトラッキングパラメータブロックリスト。一般的なトラッキングコード（utm_source、fbclid、gclid）がプリロードされ、ニーズに応じて簡単に拡張可能。
+### 🛡️ トラッキングパラメータフィルター
+URLトラッキングコードの包括的なブロックリスト。utm_source、fbclid、gclidなど50以上を事前登録。
 
-<img src="screenshots/trackless-links-url-tracking-filter-list.png" alt="URL トラッキングフィルター設定 - ブロックされたトラッキングパラメータの包括的なリストを表示" width="400"/>
+<img src="screenshots/trackless-links-url-tracking-filter-list.png" alt="URLトラッキングパラメータフィルターリスト - utm_source fbclid gclidなどのトラッキングコードをブロック" width="400"/>
 
 </td>
 <td width="50%">
 
-### ⚡ ブラウザ拡張 Tweaks
-サイトがよく無効にするウェブサイト機能を復元。テキスト選択、右クリックメニュー、ビデオコントロールを再有効化し、煩わしいブラウジング制限を削除。
+### ⚡ ブラウザ拡張調整
+無効化されたウェブサイト機能を復元。テキスト選択、右クリックメニュー、動画コントロールを有効化し、ブラウジング制限を解除。
 
-<img src="screenshots/trackless-links-browser-privacy-tweaks.png" alt="ブラウザプライバシーと機能 Tweaks パネル - テキスト選択、右クリックメニュー、メディアコントロールなどの無効化された機能を復元するオプションを表示" width="400"/>
+<img src="screenshots/trackless-links-browser-privacy-tweaks.png" alt="ブラウザ調整パネル - テキスト選択有効化、自動再生ブロック、ダークモード強制、ピクチャ・イン・ピクチャ" width="400"/>
 
 </td>
 </tr>
 </table>
 
-## 🔒 設計によるプライバシー
+---
 
-あなたのプライバシーとコントロールが、両アプリの核心機能です：
+## 🔒 信頼できるプライバシー
 
-  * **100% デバイス上で処理**：すべての URL クリーニング、リダイレクト、Tweaks はデバイス上でローカルに実行されます。
-  * **データ収集なし**：私たちはあなたのブラウジングデータを見ることも、収集することも、保存することも、送信することもありません。
-  * **外部サーバー不要**：コア機能は外部サービスやクラウド処理を必要としません。
-  * **オプションかつプライベートな iCloud 同期**：有効にすると、設定は個人の iCloud アカウント経由で同期されます。デフォルトでは無効で、あなたのデータは私たちには見えません。Trackless Links Pro は iPhone、iPad、Mac 間でシームレスな同期を提供します。
+**私たちはあなたのデータを見ることができません。なぜなら受け取らないからです。**
 
-[プライバシーポリシー全文を読む](https://github.com/aloth/trackless-links/blob/main/privacy_policy.md)
+- ✅ **100%デバイス上で処理** – iPhone、iPad、Macから何も出ていかない
+- ✅ **データ収集ゼロ** – 分析なし、トラッキングなし、サーバーなし
+- ✅ **アカウント不要** – インストール後すぐに動作
+- ✅ **オプションのiCloud同期** – 私たちのではなく「あなたの」iCloudを使用（デフォルトで無効）
+- ✅ **オープンな開発** – GitHubでバグ報告と機能リクエストを受付
 
-## 🛠️ サポート＆フィードバック
-
-Trackless Links をさらに良くするお手伝いをしてください！フィードバックやアイデアをお待ちしています：
-
-* **バグを報告**：[バグレポートを提出](https://github.com/aloth/trackless-links/issues/new?template=bug-report.md)
-* **機能をリクエスト**：[新機能を提案](https://github.com/aloth/trackless-links/issues/new?template=feature_request.md)
-
-## 📖 FAQ＆ユーザーガイド
-
-Trackless Links を初めて使う方、または URL トラッキングとプライバシーについてもっと知りたい方は、包括的な FAQ をご覧ください：
-
-* [FAQ (English)](FAQ.md)
-* [FAQ (Deutsch)](FAQ_de.md)
-* [FAQ (日本語)](FAQ_ja.md)
-* [FAQ (简体中文)](FAQ_zh-Hans.md)
-
-## 🌍 ローカライズ
-
-Trackless Links は複数の言語で利用可能で、アプリと拡張機能の完全なローカライズに対応しています：
-
-* 🇺🇸 [English](README.md)
-* 🇩🇪 [ドイツ語（Deutsch）](README_de.md)
-* 🇨🇳 [中国語（簡体字 / 简体中文）](README_zh-Hans.md)
-* 🇯🇵 日本語
+[プライバシーポリシー全文を読む →](https://github.com/aloth/trackless-links/blob/main/privacy_policy.md)
 
 ---
 
-**プライバシー、コントロール、信頼を持ってブラウジングしよう。**  
-**Trackless Links Pro（iPhone、iPad、Mac）または Trackless Links（iPhone、iPad）を今すぐ入手！**
+## 🛠️ サポート＆フィードバック
+
+Trackless Linksをより良くするお手伝いを：
+
+- 🐛 [バグを報告](https://github.com/aloth/trackless-links/issues/new?template=bug-report.md)
+- 💡 [機能をリクエスト](https://github.com/aloth/trackless-links/issues/new?template=feature_request.md)
+
+---
+
+## 📖 FAQ＆ユーザーガイド
+
+URLトラッキングは初めて？プライバシー保護の仕組みを知りたい？包括的なFAQをご覧ください：
+
+- [FAQ (English)](FAQ.md)
+- [FAQ (Deutsch)](FAQ_de.md)
+- [FAQ (日本語)](FAQ_ja.md)
+- [FAQ (简体中文)](FAQ_zh-Hans.md)
+
+---
+
+## 🌍 対応言語
+
+Trackless Linksは以下の言語に完全対応：
+
+- 🇺🇸 [English](README.md)
+- 🇩🇪 [Deutsch（ドイツ語）](README_de.md)
+- 🇯🇵 日本語
+- 🇨🇳 [简体中文（中国語簡体字）](README_zh-Hans.md)
+
+---
+
+## 🏷️ キーワード
+
+Safari拡張機能、トラッカーブロッカー、URL浄化、プライバシー拡張機能、utmパラメータ削除、fbclidブロック、Safariプライバシー、iOSプライバシーアプリ、Macプライバシーツール、URLリダイレクト、コンテンツブロッカー、アンチトラッキング、クリーンリンク、トラッキングなしでリンク共有、Wayback Machine、ウェブアーカイブ検索、自動再生ブロック、ダークモード強制、ピクチャ・イン・ピクチャ、テキスト選択、右クリックメニュー
+
+---
+
+**トラッキングリンクの共有をやめよう。プライベートにブラウズしよう。**
+
+**[Trackless Links Proを入手](https://apps.apple.com/us/app/trackless-links-pro/id6754613166)**（iPhone、iPad、Mac）または **[Trackless Links](https://apps.apple.com/us/app/trackless-links-extension/id6749830894)**（iPhone、iPad）

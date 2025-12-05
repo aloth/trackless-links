@@ -185,15 +185,66 @@ Check these common issues:
 
 Modern websites often restrict what you can do in your own browser. They disable text selection to prevent copying, autoplay videos to boost engagement metrics, and show intrusive popups to keep you from leaving.
 
-Tweaks restore control to you:
-
-- Re-enable text selection on sites that block it
-- Block autoplay videos and audio
-- Force dark mode on any website
-- Remove "Are you sure you want to leave?" popups
-- And more
+Tweaks restore control to you. Trackless Links includes over 20 sophisticated browser modifications organized into six categories.
 
 All tweaks are opt-in, so you control which ones to enable.
+
+### Complete List of Tweaks
+
+#### Reading & Interaction
+
+| Tweak | What it does |
+|-------|--------------|
+| **Allow text selection & copy** | Re-enables selection, copy, paste, and context menus on sites that try to block them. Essential for research and note-taking. |
+| **Disable exit dialogs** | Prevents annoying "Are you sure you want to leave?" prompts when you navigate away or close a tab. |
+| **Disable forced new tabs** | Stops sites from forcing links to open in new tabs (target="_blank"). Links open in the same tab by default. |
+| **Ignore text fragments** | Removes Chrome-style #:~:text= fragments from URLs so pages do not auto-scroll to highlighted text. |
+| **Allow drag & drop** | Restores default text dragging and drag-and-drop behavior on sites that block it. |
+
+#### Cookie Banner Handling (Experimental)
+
+Trackless Links offers intelligent cookie consent management with three modes:
+
+| Mode | Behavior |
+|------|----------|
+| **Off** | No cookie banner interference |
+| **Hide only** | Visually hides cookie banners without clicking anything |
+| **Auto-reject** | Automatically clicks "reject" or "essential only" buttons, then hides any remaining banners |
+
+The auto-reject feature supports multiple languages and works with Google, common consent frameworks, and many popular websites.
+
+#### Media Controls
+
+| Tweak | What it does |
+|-------|--------------|
+| **Always show play/pause controls** | Forces native browser controls on audio and video players, even when sites hide them. |
+| **Block autoplay** | Stops videos and audio from playing automatically when you load a page. |
+| **Apply default speed** | Sets all media to your preferred playback speed (0.5x to 3.0x). |
+| **Lock playback speed** | Prevents sites from resetting your chosen speed. |
+| **Pause all media on page load** | Pauses every audio and video element when a page loads. |
+| **Enable Picture-in-Picture** | Restores PiP functionality on sites that try to disable it. |
+
+#### Privacy & Clean-up
+
+| Tweak | What it does |
+|-------|--------------|
+| **Clean URLs you copy** | Automatically strips tracking parameters from any link you copy to the clipboard. |
+| **Bypass common redirectors** | Unwraps shortened URLs (like t.co, bit.ly links) and goes directly to the destination. |
+
+#### Extra Tweaks
+
+| Tweak | What it does |
+|-------|--------------|
+| **Disable page zoom limits** | Removes restrictions on zooming in and out on mobile-unfriendly sites. |
+| **Force dark mode** | Applies intelligent color inversion to create dark themes on any website. Preserves images and videos while transforming text and backgrounds. |
+| **Disable animations** | Reduces or removes CSS animations and transitions. Helpful for accessibility and focus. |
+
+#### Advanced (May Break Some Sites)
+
+| Tweak | What it does |
+|-------|--------------|
+| **Force visible scrollbars** | Makes scrollbars always visible instead of auto-hiding. May conflict with some layouts. |
+| **Block window.close()** | Prevents websites from closing your tab or window via JavaScript. |
 
 ### How do I enable tweaks?
 

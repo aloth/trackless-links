@@ -185,15 +185,66 @@ Ja. Die Reihenfolge ist wichtig, da die erste passende Regel gewinnt. So änders
 
 Moderne Websites schränken oft ein, was du in deinem eigenen Browser tun kannst. Sie deaktivieren die Textauswahl, um das Kopieren zu verhindern, spielen Videos automatisch ab, um Engagement-Metriken zu steigern, und zeigen aufdringliche Popups, um dich am Verlassen zu hindern.
 
-Tweaks geben dir die Kontrolle zurück:
-
-- Textauswahl auf Seiten wieder aktivieren, die sie blockieren
-- Automatische Video- und Audiowiedergabe blockieren
-- Dark Mode auf jeder Website erzwingen
-- "Möchtest du diese Seite wirklich verlassen?"-Popups entfernen
-- Und mehr
+Tweaks geben dir die Kontrolle zurück. Trackless Links enthält über 20 ausgeklügelte Browser-Modifikationen, organisiert in sechs Kategorien.
 
 Alle Tweaks sind optional, du entscheidest also, welche du aktivierst.
+
+### Vollständige Liste der Tweaks
+
+#### Lesen & Interaktion
+
+| Tweak | Was er bewirkt |
+|-------|----------------|
+| **Textauswahl & Kopieren erlauben** | Aktiviert Auswahl, Kopieren, Einfügen und Kontextmenüs auf Seiten wieder, die versuchen, sie zu blockieren. Unverzichtbar für Recherche und Notizen. |
+| **Exit-Dialoge deaktivieren** | Verhindert nervige "Möchtest du diese Seite wirklich verlassen?"-Abfragen beim Navigieren oder Schließen eines Tabs. |
+| **Erzwungene neue Tabs deaktivieren** | Stoppt Seiten dabei, Links zwangsweise in neuen Tabs zu öffnen (target="_blank"). Links öffnen standardmäßig im selben Tab. |
+| **Text-Fragmente ignorieren** | Entfernt Chrome-artige #:~:text=-Fragmente aus URLs, damit Seiten nicht automatisch zu markiertem Text scrollen. |
+| **Drag & Drop erlauben** | Stellt Standard-Textziehen und Drag-and-Drop-Verhalten auf Seiten wieder her, die es blockieren. |
+
+#### Cookie-Banner-Behandlung (Experimentell)
+
+Trackless Links bietet intelligentes Cookie-Consent-Management mit drei Modi:
+
+| Modus | Verhalten |
+|-------|-----------|
+| **Aus** | Keine Einmischung bei Cookie-Bannern |
+| **Nur ausblenden** | Blendet Cookie-Banner visuell aus, ohne etwas anzuklicken |
+| **Automatisch ablehnen** | Klickt automatisch auf "Ablehnen" oder "Nur essenzielle"-Buttons, blendet dann verbleibende Banner aus |
+
+Die Auto-Ablehnen-Funktion unterstützt mehrere Sprachen und funktioniert mit Google, gängigen Consent-Frameworks und vielen beliebten Websites.
+
+#### Mediensteuerung
+
+| Tweak | Was er bewirkt |
+|-------|----------------|
+| **Immer Play/Pause-Steuerung anzeigen** | Erzwingt native Browser-Steuerelemente bei Audio- und Videoplayern, auch wenn Seiten sie verstecken. |
+| **Autoplay blockieren** | Stoppt Videos und Audio daran, beim Laden einer Seite automatisch abzuspielen. |
+| **Standard-Geschwindigkeit anwenden** | Setzt alle Medien auf deine bevorzugte Wiedergabegeschwindigkeit (0,5x bis 3,0x). |
+| **Wiedergabegeschwindigkeit sperren** | Verhindert, dass Seiten deine gewählte Geschwindigkeit zurücksetzen. |
+| **Alle Medien beim Laden pausieren** | Pausiert jedes Audio- und Videoelement, wenn eine Seite lädt. |
+| **Bild-in-Bild aktivieren** | Stellt PiP-Funktionalität auf Seiten wieder her, die versuchen, sie zu deaktivieren. |
+
+#### Datenschutz & Bereinigung
+
+| Tweak | Was er bewirkt |
+|-------|----------------|
+| **Kopierte URLs bereinigen** | Entfernt automatisch Tracking-Parameter aus jedem Link, den du in die Zwischenablage kopierst. |
+| **Gängige Redirectors umgehen** | Entpackt verkürzte URLs (wie t.co, bit.ly-Links) und geht direkt zum Ziel. |
+
+#### Zusätzliche Tweaks
+
+| Tweak | Was er bewirkt |
+|-------|----------------|
+| **Seiten-Zoom-Limits deaktivieren** | Entfernt Einschränkungen beim Hinein- und Herauszoomen auf mobilunfreundlichen Seiten. |
+| **Dark Mode erzwingen** | Wendet intelligente Farbinversion an, um dunkle Themes auf jeder Website zu erstellen. Bewahrt Bilder und Videos, während Text und Hintergründe transformiert werden. |
+| **Animationen deaktivieren** | Reduziert oder entfernt CSS-Animationen und Übergänge. Hilfreich für Barrierefreiheit und Fokus. |
+
+#### Erweitert (Kann einige Seiten beeinträchtigen)
+
+| Tweak | Was er bewirkt |
+|-------|----------------|
+| **Sichtbare Scrollbalken erzwingen** | Macht Scrollbalken immer sichtbar statt automatisch auszublenden. Kann mit einigen Layouts in Konflikt geraten. |
+| **window.close() blockieren** | Verhindert, dass Websites deinen Tab oder dein Fenster per JavaScript schließen. |
 
 ### Wie aktiviere ich Tweaks?
 

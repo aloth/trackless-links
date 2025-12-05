@@ -1,141 +1,174 @@
-# Trackless Links: Volle Kontrolle über Safari
+# Trackless Links – Safari-Erweiterung für Datenschutz, URL-Bereinigung & Tracker-Blockierung
 
-**Surfe privat, umgehe unerwünschte Seiten und nimm die Kontrolle über dein Web-Erlebnis zurück.**
+**Die Safari-Erweiterung, die Tracking-Codes entfernt, nervige Seiten umleitet und Website-Funktionen wiederherstellt, die du vermisst hast.**
 
-Trackless Links ist eine umfassende Safari-Erweiterung, die dein Surfen grundlegend verändert. Sie entfernt automatisch Tracking-Parameter für mehr Privatsphäre, ermöglicht leistungsstarke Weiterleitungsregeln zu besseren Alternativen und stellt Website-Funktionen wieder her, die Seiten oft absichtlich deaktivieren.
+Genug von hässlichen URLs voller `?utm_source=...` Tracking-Müll? Frustriert von Websites, die Textauswahl blockieren oder Videos automatisch abspielen? Trackless Links behebt all das automatisch – und läuft zu 100% auf deinem Gerät, ohne Datensammlung.
 
-Mit einem klaren, modernen Design fühlt sich die gesamte Erfahrung leicht, leistungsstark und perfekt auf all deinen Geräten zu Hause an.
+Mit einem klaren, modernen Design fühlt sich Trackless Links leicht und leistungsstark an auf iPhone, iPad und Mac.
 
-## 🚀 Apps herunterladen
+---
 
-Wähle die Version, die zu dir passt:
+## 🚀 Jetzt herunterladen
 
-### Trackless Links Pro (Universalkauf)
-**Ein Kauf, alle Geräte.** Erhalte die volle Browsing-Kontrolle auf iPhone, iPad und Mac mit nahtloser iCloud-Synchronisierung.
+### Trackless Links Pro — Ideal für Mac-Nutzer
+**Ein Kauf. iPhone + iPad + Mac.** Voller Funktionsumfang mit nahtloser iCloud-Synchronisierung über alle Apple-Geräte.
 
-  * **[Trackless Links Pro im App Store laden](https://apps.apple.com/us/app/trackless-links-pro/id6754613166)** – Universalkauf für iPhone, iPad und Mac
+[![Im App Store laden](https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg)](https://apps.apple.com/us/app/trackless-links-pro/id6754613166)
 
-### Trackless Links (nur iOS)
-Vollständige Browsing-Kontrolle für iPhone und iPad.
+### Trackless Links — Ideal für iPhone & iPad
+Vollständiger Datenschutz und Browsing-Kontrolle für iOS.
 
-  * **[Trackless Links für iOS im App Store laden](https://apps.apple.com/us/app/trackless-links-extension/id6749830894?platform=iphone)** – iPhone und iPad
+[![Im App Store laden](https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg)](https://apps.apple.com/us/app/trackless-links-extension/id6749830894?platform=iphone)
 
-## ✨ Hauptfunktionen
+---
 
-Trackless Links ist ein komplettes Werkzeug für ein besseres Surferlebnis, aufgebaut auf vier leistungsstarken Säulen.
+## ✨ Was macht Trackless Links besonders?
 
-### 🛡️ Kern-Datenschutz-Engine
+Die meisten „Datenschutz"-Erweiterungen blockieren nur Werbung. Trackless Links kann mehr – es säubert deine URLs, leitet dich weg von Tracking-lastigen Seiten und repariert kaputte Website-Funktionen. Alles ohne ein einziges Byte an irgendeinen Server zu senden.
 
-  * **Automatische Tracker-Entfernung**: Entfernt unauffällig Tracking-Parameter (`utm_source`, `fbclid`, `gclid` usw.) aus URLs während du surfst, um deine Privatsphäre zu schützen.
-  * **Anpassbare Sperrliste**: Kommt mit gängigen Trackern vorinstalliert und ermöglicht das Hinzufügen eigener Regeln.
-  * **Datenschutz-Statistiken**: Sieh direkt im Dashboard, wie viele Tracker blockiert und wie viele Weiterleitungen angewendet wurden.
+### 🛡️ Automatische Tracker-Entfernung
 
-### 🔀 Weiterleitungen für Power-User
+Schluss mit Links, die dein Surfverhalten verraten.
 
-  * **Unerwünschte Seiten überspringen**: Leite Seiten automatisch zu besseren Alternativen um (z.B. `Reddit` → `old.reddit.com`, `Twitter` → `Nitter`, `YouTube` → `yewtu.be`).
-  * **Vordefinierte Regeln**: Enthält über 20 vordefinierte Weiterleitungen mit Fokus auf Datenschutz und alternative Frontends (Reddit, Twitter/X, YouTube, Medium und mehr).
-  * **Erweiterte Regelerstellung**: Erstelle eigene leistungsstarke Weiterleitungsregeln mit voller Unterstützung für reguläre Ausdrücke (Regex) für ultimative Kontrolle.
-  * **Regeln priorisieren**: Ordne deine Weiterleitungen einfach per Drag-and-Drop neu an, um die Priorität zu verwalten.
+- **Entfernt Tracking-Parameter** wie `utm_source`, `fbclid`, `gclid`, `mc_eid` aus jeder URL
+- **Vorinstallierte Sperrliste** mit über 50 gängigen Tracking-Codes
+- **Eigene Regeln hinzufügen** für vollständige Anpassung
+- **Echtzeit-Statistiken** zeigen genau, wie viele Tracker blockiert wurden
 
-### ⚡ Verbessertes Surferlebnis (Tweaks)
+### 🔀 Intelligente URL-Weiterleitungen
 
-  * **Website-Funktionen wiederherstellen**: Aktiviere Textauswahl, Kopieren und Kontextmenüs auf Seiten, die versuchen, diese zu deaktivieren.
-  * **Nerviges entfernen**: Blockiere störende Dialoge wie "Möchtest du diese Seite wirklich verlassen?" und verhindere, dass Links zwangsweise in neuen Tabs geöffnet werden.
-  * **Bessere Mediensteuerung**: Erzwinge native Video-/Audio-Steuerelemente auf Websites, blockiere Autoplay und setze Standardwiedergabegeschwindigkeiten, die seitenübergreifend bestehen bleiben.
-  * **Intelligenter Dark Mode**: Wende Dark Mode auf jeder Website an mit intelligenter Farbumkehrung, die Bilder und Medien bewahrt, während Text und Hintergründe für angenehmes Surfen bei Nacht angepasst werden.
+Überspringe nervige Seiten automatisch.
 
-### 📦 Archivsuche
+- **Reddit → Old Reddit** – Entkomme dem Redesign
+- **Twitter/X → Nitter** – Datenschutzfreundliche Alternative
+- **YouTube → Invidious** – Werbefreies Ansehen
+- **20+ eingebaute Weiterleitungen** mit Fokus auf Datenschutz und Geschwindigkeit
+- **Eigene Regeln erstellen** mit Text oder Regex
+- **Drag-and-Drop-Priorität** – Deine Regeln, deine Reihenfolge
 
-* **Archivzugriff mit einem Tipp**: Finde gecachte Versionen von Webseiten direkt aus Safaris Erweiterungs-Popup oder dem Share Sheet.
-* **Mehrere Archivdienste**: Wähle die Wayback Machine oder füge andere beliebte Archivdienste hinzu.
-* **Intelligente URL-Verarbeitung**: Entfernt automatisch Query-Parameter für bessere Archiv-Trefferquoten (konfigurierbar).
-* **Verlorene Inhalte finden**: Sieh archivierte Schnappschüsse von versteckten oder gelöschten Seiten mit Leichtigkeit.
+### ⚡ Browser-Tweaks, die wirklich funktionieren
 
-### 📤 Nahtlose Workflow-Integration
+Stelle die Web-Funktionen wieder her, die Seiten gerne kaputt machen.
 
-  * **Tiefe Share Sheet-Integration**: Bereinige Links oder schlage sie in Webarchiven nach, direkt aus dem Share Sheet in jeder App (iOS und iPadOS). Greife von überall auf deine konfigurierten Archivdienste zu – Safari, Reddit, X und mehr.
-  * **Nahtlose iCloud-Synchronisierung**: Halte alle deine Filter, Weiterleitungen und Tweak-Einstellungen auf all deinen Apple-Geräten perfekt synchron. Änderungen werden sofort zwischen iPhone, iPad und Mac synchronisiert (Trackless Links Pro). Hinweis: Datenschutz-Statistiken bleiben gerätespezifisch und werden nicht synchronisiert, um deine Privatsphäre zu schützen.
+- **Textauswahl erzwingen** auf Seiten, die Kopieren blockieren
+- **Rechtsklick-Menüs aktivieren** überall
+- **Autoplay-Videos blockieren** auf allen Seiten
+- **Bild-in-Bild erzwingen** für jedes Video
+- **„Seite wirklich verlassen?"-Popups entfernen**
+- **Dark Mode anwenden** auf jede Website mit intelligenter Farbumkehrung
+- **Wiedergabegeschwindigkeit fixieren** damit Videos nicht auf 1x zurückspringen
+
+### 📦 Web-Archiv-Suche
+
+Finde gelöschte oder geänderte Inhalte sofort.
+
+- **Ein-Tipp-Zugriff auf Wayback Machine** aus der Safari-Toolbar
+- **Mehrere Archivdienste** konfigurierbar
+- **Intelligente URL-Bereinigung** für bessere Trefferquoten
+- **Funktioniert aus dem Share Sheet** in jeder App
+
+### 📤 Funktioniert überall, wo du surfst
+
+- **Share Sheet-Integration** – Links säubern aus Reddit, Twitter, E-Mail, überall
+- **iCloud-Synchronisierung** – Einstellungen synchronisieren sofort zwischen iPhone, iPad und Mac
+- **Sofortige Safari-Integration** – Änderungen greifen unmittelbar
+
+---
 
 ## 📱 Screenshots
-
-Erlebe die sorgfältig gestaltete Benutzeroberfläche mit allen Hauptfunktionen:
 
 <table>
 <tr>
 <td width="50%">
 
-### 🏠 Dashboard & Analysen
-Echtzeit-Einblicke in den Datenschutz mit Live-Statistiken zu blockierten Trackern, angewendeten Weiterleitungen und gespartem Datenvolumen. Klares Liquid Glass-Design, optimiert für iPhone, iPad und Mac.
+### 🏠 Datenschutz-Dashboard
+Echtzeit-Statistiken mit blockierten Trackern, angewendeten Weiterleitungen und gespartem Datenvolumen. Klares Liquid Glass-Design für iPhone, iPad und Mac.
 
-<img src="screenshots/trackless-links-ios-safari-extension-dashboard.png" alt="Trackless Links Haupt-Dashboard zeigt Datenschutz-Statistiken mit Anzahl blockierter Tracker, angewendeten Weiterleitungen und moderner Benutzeroberfläche" width="400"/>
+<img src="screenshots/trackless-links-ios-safari-extension-dashboard.png" alt="Trackless Links Safari-Erweiterung Dashboard zeigt Datenschutz-Statistiken - blockierte Tracker und angewendete Weiterleitungen" width="400"/>
 
 </td>
 <td width="50%">
 
 ### 🔀 Eigene Weiterleitungsregeln
-Leistungsstarke Weiterleitungsverwaltung mit Drag-and-Drop-Neuordnung. Erstelle eigene Regeln, um unerwünschte Seiten automatisch zu besseren Alternativen umzuleiten, mit exakter Übereinstimmung oder Regex-Unterstützung.
+Leistungsstarke URL-Weiterleitungsverwaltung mit Drag-and-Drop. Unterstützt exakte Übereinstimmung und Regex-Muster.
 
-<img src="screenshots/trackless-links-custom-url-redirect-rules.png" alt="Interface für eigene URL-Weiterleitungsregeln zeigt bearbeitbare Weiterleitungsmuster von unerwünschten zu bevorzugten Seiten mit Neuordnungsfunktion" width="400"/>
+<img src="screenshots/trackless-links-custom-url-redirect-rules.png" alt="URL-Weiterleitungsregeln-Editor - eigene Weiterleitungen von Tracking-Seiten zu datenschutzfreundlichen Alternativen erstellen" width="400"/>
 
 </td>
 </tr>
 <tr>
 <td width="50%">
 
-### 🛡️ Tracking-Filter-Verwaltung
-Umfassende Tracking-Parameter-Sperrliste mit voller Anpassbarkeit. Vorinstalliert mit gängigen Tracking-Codes (utm_source, fbclid, gclid) und einfach erweiterbar für deine Bedürfnisse.
+### 🛡️ Tracking-Parameter-Filter
+Umfassende Sperrliste für URL-Tracking-Codes. Vorinstalliert mit utm_source, fbclid, gclid und über 50 weiteren.
 
-<img src="screenshots/trackless-links-url-tracking-filter-list.png" alt="URL-Tracking-Filter-Konfiguration zeigt umfassende Liste blockierter Tracking-Parameter mit Hinzufügen/Entfernen-Funktionalität und Unterstützung für eigene Muster" width="400"/>
+<img src="screenshots/trackless-links-url-tracking-filter-list.png" alt="URL-Tracking-Parameter-Filterliste - utm_source fbclid gclid und andere Tracking-Codes blockieren" width="400"/>
 
 </td>
 <td width="50%">
 
 ### ⚡ Browser-Verbesserungs-Tweaks
-Stelle Website-Funktionen wieder her, die Seiten oft deaktivieren. Aktiviere Textauswahl, Rechtsklick-Menüs, Video-Steuerelemente und entferne nervige Surfbeschränkungen.
+Deaktivierte Website-Funktionen wiederherstellen. Textauswahl, Rechtsklick-Menüs, Video-Steuerung aktivieren und Surf-Beschränkungen entfernen.
 
-<img src="screenshots/trackless-links-browser-privacy-tweaks.png" alt="Browser-Datenschutz- und Funktionalitäts-Tweaks zeigen Optionen zur Wiederherstellung deaktivierter Funktionen wie Textauswahl, Rechtsklick-Menüs und Mediensteuerung" width="400"/>
+<img src="screenshots/trackless-links-browser-privacy-tweaks.png" alt="Browser-Tweaks-Panel - Textauswahl aktivieren, Autoplay blockieren, Dark Mode erzwingen, Bild-in-Bild" width="400"/>
 
 </td>
 </tr>
 </table>
 
-## 🔒 Datenschutz durch Design
+---
 
-Deine Privatsphäre und Kontrolle sind die Kernfunktionen beider Apps:
+## 🔒 Datenschutz, dem du vertrauen kannst
 
-  * **100% Verarbeitung auf dem Gerät**: Alle URL-Bereinigungen, Weiterleitungen und Tweaks finden lokal auf deinem Gerät statt.
-  * **Keine Datensammlung**: Wir sehen, sammeln, speichern oder übertragen niemals deine Browsing-Daten.
-  * **Keine externen Server**: Die Kernfunktionalität benötigt keine externen Dienste oder Cloud-Verarbeitung.
-  * **Optionale und private iCloud-Synchronisierung**: Wenn aktiviert, werden deine Einstellungen über deinen persönlichen iCloud-Account synchronisiert – standardmäßig deaktiviert und deine Daten sind für uns niemals sichtbar. Trackless Links Pro bietet nahtlose Synchronisierung zwischen iPhone, iPad und Mac.
+**Wir können deine Daten nicht sehen, weil wir sie nie erhalten.**
 
-[Die vollständige Datenschutzerklärung lesen](https://github.com/aloth/trackless-links/blob/main/privacy_policy.md)
+- ✅ **100% Verarbeitung auf dem Gerät** – Nichts verlässt dein iPhone, iPad oder Mac
+- ✅ **Keine Datensammlung** – Keine Analysen, kein Tracking, keine Server
+- ✅ **Kein Account nötig** – Funktioniert sofort nach der Installation
+- ✅ **Optionale iCloud-Synchronisierung** – Nutzt DEINE iCloud, nicht unsere (standardmäßig deaktiviert)
+- ✅ **Offene Entwicklung** – Fehlerberichte und Feature-Wünsche auf GitHub
 
-## 🛠️ Support & Feedback
-
-Hilf dabei, Trackless Links noch besser zu machen! Wir freuen uns über dein Feedback und deine Ideen:
-
-* **Fehler melden**: [Fehlerbericht einreichen](https://github.com/aloth/trackless-links/issues/new?template=bug-report.md)
-* **Funktion vorschlagen**: [Neue Funktionalität vorschlagen](https://github.com/aloth/trackless-links/issues/new?template=feature_request.md)
-
-## 📖 FAQ & Benutzerhandbuch
-
-Neu bei Trackless Links oder möchtest mehr über URL-Tracking und Datenschutz erfahren? Schau dir die umfassenden FAQ an:
-
-* [FAQ (English)](FAQ.md)
-* [FAQ (Deutsch)](FAQ_de.md)
-* [FAQ (日本語)](FAQ_ja.md)
-* [FAQ (简体中文)](FAQ_zh-Hans.md)
-
-## 🌍 Lokalisierung
-
-Trackless Links ist in mehreren Sprachen verfügbar mit vollständiger App- und Erweiterungs-Lokalisierung:
-
-* 🇺🇸 [English](README.md)
-* 🇩🇪 Deutsch
-* 🇨🇳 [Chinesisch (vereinfacht / 简体中文)](README_zh-Hans.md)
-* 🇯🇵 [Japanisch (日本語)](README_ja.md)
+[Datenschutzerklärung lesen →](https://github.com/aloth/trackless-links/blob/main/privacy_policy.md)
 
 ---
 
-**Surfe mit Privatsphäre, Kontrolle und Vertrauen.**  
-**Hol dir Trackless Links Pro (iPhone, iPad & Mac) oder Trackless Links (iPhone & iPad) noch heute!**
+## 🛠️ Support & Feedback
+
+Hilf dabei, Trackless Links besser zu machen:
+
+- 🐛 [Fehler melden](https://github.com/aloth/trackless-links/issues/new?template=bug-report.md)
+- 💡 [Funktion vorschlagen](https://github.com/aloth/trackless-links/issues/new?template=feature_request.md)
+
+---
+
+## 📖 FAQ & Benutzerhandbuch
+
+Neu bei URL-Tracking? Willst du verstehen, wie Datenschutz funktioniert? Schau dir die umfassenden FAQ an:
+
+- [FAQ (English)](FAQ.md)
+- [FAQ (Deutsch)](FAQ_de.md)
+- [FAQ (日本語)](FAQ_ja.md)
+- [FAQ (简体中文)](FAQ_zh-Hans.md)
+
+---
+
+## 🌍 Verfügbare Sprachen
+
+Trackless Links ist vollständig lokalisiert in:
+
+- 🇺🇸 [English](README.md)
+- 🇩🇪 Deutsch
+- �� [日本語 (Japanisch)](README_ja.md)
+- �� [简体中文 (Chinesisch)](README_zh-Hans.md)
+
+---
+
+## 🏷️ Suchbegriffe
+
+Safari-Erweiterung, Tracker-Blocker, URL-Bereinigung, Datenschutz-Erweiterung, utm-Parameter entfernen, fbclid blockieren, Safari-Datenschutz, iOS-Datenschutz-App, Mac-Datenschutz-Tool, URL-Weiterleitung, Content-Blocker, Anti-Tracking, saubere Links, Links ohne Tracking teilen, Wayback Machine, Web-Archiv-Suche, Autoplay blockieren, Dark Mode erzwingen, Bild-in-Bild, Textauswahl, Rechtsklick-Menü
+
+---
+
+**Schluss mit Tracking-Links. Surfe privat.**
+
+**[Trackless Links Pro holen](https://apps.apple.com/us/app/trackless-links-pro/id6754613166)** (iPhone, iPad, Mac) oder **[Trackless Links](https://apps.apple.com/us/app/trackless-links-extension/id6749830894)** (iPhone, iPad)

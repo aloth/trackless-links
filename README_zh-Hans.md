@@ -1,141 +1,174 @@
-# Trackless Links: Safari 完全掌控
+# Trackless Links – 隐私保护、URL清理与追踪器拦截的Safari扩展
 
-**私密浏览，跳过不需要的网站，夺回你的网络体验控制权。**
+**删除追踪代码、重定向烦人网站、恢复被禁用的网站功能的Safari扩展。**
 
-Trackless Links 是一款全面的 Safari 扩展，彻底改变你的浏览方式。它自动删除追踪参数以保护隐私，让你创建强大的规则将不需要的网站重定向到更好的替代方案，并恢复网站经常禁用的功能。
+受够了分享满是`?utm_source=...`追踪垃圾的网址？被那些阻止文字选择或强制自动播放视频的网站搞得很烦？Trackless Links自动解决这一切——而且100%在设备上运行，零数据收集。
 
-采用简洁现代的设计语言，整体体验轻盈、强大，在所有设备上都完美适配。
+采用简洁现代的设计，Trackless Links在iPhone、iPad和Mac上都轻盈而强大。
 
-## 🚀 获取应用
+---
 
-选择适合你需求的版本：
+## 🚀 立即下载
 
-### Trackless Links Pro（通用购买）
-**一次购买，所有设备通用。** 在 iPhone、iPad 和 Mac 上获得完整的浏览控制功能，并享受无缝 iCloud 同步。
+### Trackless Links Pro — Mac用户首选
+**一次购买，iPhone + iPad + Mac全覆盖。** 在所有Apple设备上享受完整功能，无缝iCloud同步。
 
-  * **[在 App Store 下载 Trackless Links Pro](https://apps.apple.com/us/app/trackless-links-pro/id6754613166)** – iPhone、iPad 和 Mac 通用购买
+[![在App Store下载](https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg)](https://apps.apple.com/us/app/trackless-links-pro/id6754613166)
 
-### Trackless Links（仅 iOS）
-为 iPhone 和 iPad 提供完整的浏览控制。
+### Trackless Links — iPhone & iPad首选
+iOS完整的隐私保护和浏览控制。
 
-  * **[在 App Store 下载 Trackless Links for iOS](https://apps.apple.com/us/app/trackless-links-extension/id6749830894?platform=iphone)** – iPhone 和 iPad
+[![在App Store下载](https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg)](https://apps.apple.com/us/app/trackless-links-extension/id6749830894?platform=iphone)
 
-## ✨ 主要功能
+---
 
-Trackless Links 是一套完整的工具包，基于四大强力支柱打造更好的浏览体验。
+## ✨ Trackless Links有何不同？
 
-### 🛡️ 核心隐私引擎
+大多数"隐私"扩展只是拦截广告。Trackless Links做得更多——它清理你的URL，让你远离追踪密集的网站，并修复被破坏的网站功能。而且不向任何服务器发送一个字节的数据。
 
-  * **自动删除追踪器**：在你浏览时静默删除 URL 中的追踪参数（`utm_source`、`fbclid`、`gclid` 等），保护你的隐私。
-  * **可自定义拦截列表**：预装常见追踪器，并允许你添加自己的自定义规则。
-  * **隐私统计**：在主仪表板上直接查看已拦截的追踪器数量和已应用的重定向次数。
+### 🛡️ 自动追踪器删除
 
-### 🔀 高级用户重定向
+不再分享暴露你浏览习惯的链接。
 
-  * **跳过不需要的网站**：自动将网站重定向到更好的替代方案（例如：`Reddit` → `old.reddit.com`、`Twitter` → `Nitter`、`YouTube` → `yewtu.be`）。
-  * **预定义规则**：包含 20 多个专注于隐私和替代前端的预定义重定向（Reddit、Twitter/X、YouTube、Medium 等）。
-  * **高级规则创建**：完全支持正则表达式（Regex），创建你自己的强大重定向规则，实现终极控制。
-  * **规则优先级排序**：通过简单的拖放操作轻松重新排列重定向顺序，管理规则优先级。
+- **剥离追踪参数**——从每个URL中删除`utm_source`、`fbclid`、`gclid`、`mc_eid`
+- **预装50多种常见追踪代码**
+- **添加自定义规则**实现完全自定义
+- **实时统计**显示你拦截了多少追踪器
 
-### ⚡ 增强浏览体验（调整）
+### 🔀 智能URL重定向
 
-  * **恢复网站功能**：在试图禁用文本选择、复制和右键菜单的网站上重新启用这些功能。
-  * **移除烦恼**：拦截"确定要离开此页面吗？"等烦人对话框，防止网站强制在新标签页中打开链接。
-  * **更好的媒体控制**：在网站上强制显示原生视频/音频控制，阻止自动播放，并设置跨站点保持的默认播放速度。
-  * **智能深色模式**：通过智能颜色反转为任何网站应用深色模式，保留图片和媒体的同时转换文本和背景，实现舒适的夜间浏览。
+自动跳过烦人的网站。
 
-### 📦 存档搜索
+- **Reddit → Old Reddit** – 逃离新版设计
+- **Twitter/X → Nitter** – 尊重隐私的替代方案
+- **YouTube → Invidious** – 无广告观看
+- **20多个内置重定向**专注于隐私和速度
+- **创建自定义规则**——文本或正则表达式
+- **拖放设置优先级** – 你的规则，你的顺序
 
-* **一键访问存档**：直接从 Safari 的扩展弹出窗口或共享表单快速查找网页的缓存版本。
-* **多种存档服务**：选择 Wayback Machine，或添加其他流行的存档服务。
-* **智能 URL 处理**：自动删除查询参数以获得更好的存档匹配率（可配置）。
-* **查找丢失的内容**：轻松查看隐藏或已删除页面的存档快照。
+### ⚡ 真正有效的浏览器调整
 
-### 📤 无缝工作流集成
+恢复网站试图破坏的网页功能。
 
-  * **深度共享表单集成**：直接从任何应用（iOS 和 iPadOS）的共享表单中清理链接或在网络存档中查找。从任何地方访问你配置的存档服务——Safari、Reddit、X 等。
-  * **无缝 iCloud 同步**：让所有自定义过滤器、重定向和调整设置在所有 Apple 设备间保持完美同步。更改会在 iPhone、iPad 和 Mac 之间即时同步（Trackless Links Pro）。注意：隐私统计数据是设备特定的，不会同步，以保护你的隐私。
+- **强制文字选择** – 在阻止复制的网站上
+- **启用右键菜单** – 任何地方
+- **阻止自动播放视频** – 所有网站
+- **强制画中画** – 任何视频
+- **移除"确定要离开此页面吗？"弹窗**
+- **应用深色模式** – 智能颜色反转适用于任何网站
+- **锁定播放速度** – 视频不会重置为1x
+
+### 📦 网页存档搜索
+
+即时查找已删除或更改的内容。
+
+- **一键访问Wayback Machine** – 从Safari工具栏
+- **多个存档服务**可配置
+- **智能URL清理**提高匹配率
+- **从共享表单工作** – 任何应用
+
+### 📤 随处可用
+
+- **共享表单集成** – 从Reddit、Twitter、邮件等任何地方清理链接
+- **iCloud同步** – 设置在iPhone、iPad、Mac之间即时同步
+- **即时Safari集成** – 更改立即生效
+
+---
 
 ## 📱 截图
-
-体验精心打造的界面及所有关键功能：
 
 <table>
 <tr>
 <td width="50%">
 
-### 🏠 仪表板与分析
-实时隐私保护洞察，通过实时统计追踪已拦截的追踪器、已应用的重定向和节省的带宽。简洁的 Liquid Glass 设计，针对 iPhone、iPad 和 Mac 进行了优化。
+### 🏠 隐私仪表板
+实时统计显示已拦截的追踪器、已应用的重定向和节省的带宽。为iPhone、iPad和Mac优化的简洁Liquid Glass设计。
 
-<img src="screenshots/trackless-links-ios-safari-extension-dashboard.png" alt="Trackless Links 主仪表板显示隐私保护统计数据，包括已拦截追踪器数量、已应用重定向和简洁现代的界面" width="400"/>
+<img src="screenshots/trackless-links-ios-safari-extension-dashboard.png" alt="Trackless Links Safari扩展仪表板显示隐私统计 - 拦截的追踪器数量和应用的重定向" width="400"/>
 
 </td>
 <td width="50%">
 
 ### 🔀 自定义重定向规则
-强大的重定向管理，支持拖放重新排序。创建自定义规则，通过精确匹配或正则表达式支持，自动将不需要的网站重定向到更好的替代方案。
+强大的URL重定向管理，支持拖放排序。支持精确匹配和正则表达式模式。
 
-<img src="screenshots/trackless-links-custom-url-redirect-rules.png" alt="自定义 URL 重定向规则界面，显示从不需要的网站到首选替代方案的可编辑重定向模式" width="400"/>
+<img src="screenshots/trackless-links-custom-url-redirect-rules.png" alt="URL重定向规则编辑器 - 创建从追踪网站到隐私优先替代方案的自定义重定向" width="400"/>
 
 </td>
 </tr>
 <tr>
 <td width="50%">
 
-### 🛡️ 追踪过滤器管理
-全面的追踪参数拦截列表，完全可自定义。预装常见追踪代码（utm_source、fbclid、gclid），可根据需要轻松扩展。
+### 🛡️ 追踪参数过滤器
+URL追踪代码的完整拦截列表。预装utm_source、fbclid、gclid等50多种。
 
-<img src="screenshots/trackless-links-url-tracking-filter-list.png" alt="URL 追踪过滤器配置，显示已拦截追踪参数的完整列表，具有添加/删除功能和自定义模式支持" width="400"/>
+<img src="screenshots/trackless-links-url-tracking-filter-list.png" alt="URL追踪参数过滤器列表 - 拦截utm_source fbclid gclid和其他追踪代码" width="400"/>
 
 </td>
 <td width="50%">
 
 ### ⚡ 浏览器增强调整
-恢复网站经常禁用的功能。重新启用文本选择、右键菜单、视频控制，并移除烦人的浏览限制。
+恢复被禁用的网站功能。启用文字选择、右键菜单、视频控制，移除浏览限制。
 
-<img src="screenshots/trackless-links-browser-privacy-tweaks.png" alt="浏览器隐私和功能调整面板，显示恢复已禁用功能的选项，如文本选择、右键菜单和媒体控制" width="400"/>
+<img src="screenshots/trackless-links-browser-privacy-tweaks.png" alt="浏览器调整面板 - 启用文字选择、阻止自动播放、强制深色模式、画中画" width="400"/>
 
 </td>
 </tr>
 </table>
 
-## 🔒 隐私优先设计
+---
 
-你的隐私和控制是两款应用的核心功能：
+## 🔒 值得信赖的隐私
 
-  * **100% 设备端处理**：所有 URL 清理、重定向和调整都在你的设备上本地进行。
-  * **零数据收集**：我们从不查看、收集、存储或传输你的浏览数据。
-  * **无需外部服务器**：核心功能不需要任何外部服务或云处理。
-  * **可选且私密的 iCloud 同步**：启用后，你的设置通过个人 iCloud 账户同步——默认禁用，你的数据对我们不可见。Trackless Links Pro 提供 iPhone、iPad 和 Mac 之间的无缝同步。
+**我们看不到你的数据，因为我们从不接收它。**
 
-[阅读完整隐私政策](https://github.com/aloth/trackless-links/blob/main/privacy_policy.md)
+- ✅ **100%设备端处理** – 没有任何东西离开你的iPhone、iPad或Mac
+- ✅ **零数据收集** – 无分析、无追踪、无服务器
+- ✅ **无需账户** – 安装后立即工作
+- ✅ **可选iCloud同步** – 使用「你的」iCloud，不是我们的（默认禁用）
+- ✅ **开放开发** – 在GitHub上接受错误报告和功能请求
 
-## 🛠️ 支持与反馈
-
-帮助让 Trackless Links 变得更好！我们欢迎你的反馈和想法：
-
-* **报告错误**：[提交错误报告](https://github.com/aloth/trackless-links/issues/new?template=bug-report.md)
-* **功能请求**：[建议新功能](https://github.com/aloth/trackless-links/issues/new?template=feature_request.md)
-
-## 📖 常见问题与用户指南
-
-刚开始使用 Trackless Links，或想了解更多关于 URL 追踪和隐私的知识？查看完整的常见问题解答：
-
-* [FAQ (English)](FAQ.md)
-* [FAQ (Deutsch)](FAQ_de.md)
-* [FAQ (日本語)](FAQ_ja.md)
-* [FAQ (简体中文)](FAQ_zh-Hans.md)
-
-## 🌍 本地化
-
-Trackless Links 提供多种语言版本，完整支持应用和扩展的本地化：
-
-* 🇺🇸 [English](README.md)
-* 🇩🇪 [德语（Deutsch）](README_de.md)
-* 🇨🇳 简体中文
-* 🇯🇵 [日语（日本語）](README_ja.md)
+[阅读完整隐私政策 →](https://github.com/aloth/trackless-links/blob/main/privacy_policy.md)
 
 ---
 
-**以隐私、控制和信心浏览。**  
-**立即获取 Trackless Links Pro（iPhone、iPad 和 Mac）或 Trackless Links（iPhone 和 iPad）！**
+## 🛠️ 支持与反馈
+
+帮助让Trackless Links变得更好：
+
+- 🐛 [报告错误](https://github.com/aloth/trackless-links/issues/new?template=bug-report.md)
+- 💡 [请求功能](https://github.com/aloth/trackless-links/issues/new?template=feature_request.md)
+
+---
+
+## 📖 常见问题与用户指南
+
+URL追踪新手？想了解隐私保护如何工作？查看完整的FAQ：
+
+- [FAQ (English)](FAQ.md)
+- [FAQ (Deutsch)](FAQ_de.md)
+- [FAQ (日本語)](FAQ_ja.md)
+- [FAQ (简体中文)](FAQ_zh-Hans.md)
+
+---
+
+## 🌍 可用语言
+
+Trackless Links完整支持以下语言：
+
+- 🇺🇸 [English](README.md)
+- 🇩🇪 [Deutsch（德语）](README_de.md)
+- 🇯🇵 [日本語（日语）](README_ja.md)
+- 🇨🇳 简体中文
+
+---
+
+## 🏷️ 关键词
+
+Safari扩展、追踪器拦截、URL清理、隐私扩展、删除utm参数、拦截fbclid、Safari隐私、iOS隐私应用、Mac隐私工具、URL重定向、内容拦截器、反追踪、干净链接、分享无追踪链接、Wayback Machine、网页存档搜索、阻止自动播放、强制深色模式、画中画、文字选择、右键菜单
+
+---
+
+**停止分享追踪链接。开始私密浏览。**
+
+**[获取Trackless Links Pro](https://apps.apple.com/us/app/trackless-links-pro/id6754613166)**（iPhone、iPad、Mac）或 **[Trackless Links](https://apps.apple.com/us/app/trackless-links-extension/id6749830894)**（iPhone、iPad）
