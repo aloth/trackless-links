@@ -40,8 +40,10 @@ Stop sharing links that expose your browsing habits.
 Skip annoying sites automatically.
 
 - **Reddit → Old Reddit** – Escape the redesign
-- **Twitter/X → Nitter** – Privacy-respecting alternative
+- **Twitter/X → XCancel** – Privacy-respecting alternative
 - **YouTube → Invidious** – Ad-free viewing
+- **Instagram → Imginn** – View without login
+- **Google Maps → Apple Maps** – Native maps experience
 - **20+ built-in redirects** focusing on privacy and speed
 - **Create custom rules** with plain text or regex
 - **Drag-and-drop priority** – Your rules, your order

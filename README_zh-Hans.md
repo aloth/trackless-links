@@ -40,8 +40,10 @@ iOS完整的隐私保护和浏览控制。
 自动跳过烦人的网站。
 
 - **Reddit → Old Reddit** – 逃离新版设计
-- **Twitter/X → Nitter** – 尊重隐私的替代方案
+- **Twitter/X → XCancel** – 尊重隐私的替代方案
 - **YouTube → Invidious** – 无广告观看
+- **Instagram → Imginn** – 无需登录即可查看
+- **Google Maps → Apple Maps** – 原生地图体验
 - **20多个内置重定向**专注于隐私和速度
 - **创建自定义规则**——文本或正则表达式
 - **拖放设置优先级** – 你的规则，你的顺序

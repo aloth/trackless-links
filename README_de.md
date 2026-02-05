@@ -40,8 +40,10 @@ Schluss mit Links, die dein Surfverhalten verraten.
 Überspringe nervige Seiten automatisch.
 
 - **Reddit → Old Reddit** – Entkomme dem Redesign
-- **Twitter/X → Nitter** – Datenschutzfreundliche Alternative
+- **Twitter/X → XCancel** – Datenschutzfreundliche Alternative
 - **YouTube → Invidious** – Werbefreies Ansehen
+- **Instagram → Imginn** – Ansehen ohne Login
+- **Google Maps → Apple Maps** – Native Karten-Erfahrung
 - **20+ eingebaute Weiterleitungen** mit Fokus auf Datenschutz und Geschwindigkeit
 - **Eigene Regeln erstellen** mit Text oder Regex
 - **Drag-and-Drop-Priorität** – Deine Regeln, deine Reihenfolge
