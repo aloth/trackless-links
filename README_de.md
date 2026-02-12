@@ -1,5 +1,9 @@
 # Trackless Links – Safari-Erweiterung für Datenschutz, URL-Bereinigung & Tracker-Blockierung
 
+<p align="center">
+  <img src="assets/images/trackless-links-url-tracker-removal-privacy-hero.png" alt="Trackless Links — break the tracking chain and browse with clean, private URLs" width="700">
+</p>
+
 **Die Safari-Erweiterung, die Tracking-Codes entfernt, nervige Seiten umleitet und Website-Funktionen wiederherstellt, die du vermisst hast.**
 
 Genug von hässlichen URLs voller `?utm_source=...` Tracking-Müll? Frustriert von Websites, die Textauswahl blockieren oder Videos automatisch abspielen? Trackless Links behebt all das automatisch – und läuft zu 100% auf deinem Gerät, ohne Datensammlung.
