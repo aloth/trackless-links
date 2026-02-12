@@ -1,5 +1,9 @@
 # Trackless Links – 隐私保护、URL清理与追踪器拦截的Safari扩展
 
+<p align="center">
+  <img src="assets/images/trackless-links-url-tracker-removal-privacy-hero.png" alt="Trackless Links — break the tracking chain and browse with clean, private URLs" width="700">
+</p>
+
 **删除追踪代码、重定向烦人网站、恢复被禁用的网站功能的Safari扩展。**
 
 受够了分享满是`?utm_source=...`追踪垃圾的网址？被那些阻止文字选择或强制自动播放视频的网站搞得很烦？Trackless Links自动解决这一切——而且100%在设备上运行，零数据收集。
