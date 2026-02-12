@@ -1,5 +1,9 @@
 # Trackless Links – プライバシー保護・URL浄化・トラッカーブロックのSafari拡張機能
 
+<p align="center">
+  <img src="assets/images/trackless-links-url-tracker-removal-privacy-hero.png" alt="Trackless Links — break the tracking chain and browse with clean, private URLs" width="700">
+</p>
+
 **トラッキングコードを削除し、煩わしいサイトをリダイレクトし、失われたウェブサイト機能を復元するSafari拡張機能。**
 
 `?utm_source=...`だらけの汚いURLを共有するのにうんざりしていませんか？テキスト選択をブロックしたり、動画を自動再生するサイトにイライラしていませんか？Trackless Linksがすべて自動で解決します。しかもデータ収集ゼロ、100%デバイス上で動作します。
