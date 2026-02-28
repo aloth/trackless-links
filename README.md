@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  [![Powered by CRED-1](https://img.shields.io/badge/Powered%20by-CRED--1-green?style=flat&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAyTDMgN3Y3YzAgNS41NSAzLjg0IDEwLjc0IDkgMTIgNS4xNi0xLjI2IDktNi40NSA5LTEyVjdMMTIgMnoiLz48L3N2Zz4=)](https://github.com/aloth/cred-1)
+  <a href="https://github.com/aloth/cred-1"><img src="https://img.shields.io/badge/Powered%20by-CRED--1-green?style=flat" alt="Powered by CRED-1"></a>
 </p>
 
 **The Safari extension that removes tracking codes, redirects annoying sites, and restores website functionality you've been missing.**
