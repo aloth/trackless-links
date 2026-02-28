@@ -4,6 +4,10 @@
   <img src="assets/images/trackless-links-url-tracker-removal-privacy-hero.png" alt="Trackless Links — break the tracking chain and browse with clean, private URLs" width="700">
 </p>
 
+<p align="center">
+  [![Powered by CRED-1](https://img.shields.io/badge/Powered%20by-CRED--1-green?style=flat&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAyTDMgN3Y3YzAgNS41NSAzLjg0IDEwLjc0IDkgMTIgNS4xNi0xLjI2IDktNi40NSA5LTEyVjdMMTIgMnoiLz48L3N2Zz4=)](https://github.com/aloth/cred-1)
+</p>
+
 **删除追踪代码、重定向烦人网站、恢复被禁用的网站功能的Safari扩展。**
 
 受够了分享满是`?utm_source=...`追踪垃圾的网址？被那些阻止文字选择或强制自动播放视频的网站搞得很烦？Trackless Links自动解决这一切——而且100%在设备上运行，零数据收集。
@@ -63,6 +67,16 @@ iOS完整的隐私保护和浏览控制。
 - **移除"确定要离开此页面吗？"弹窗**
 - **应用深色模式** – 智能颜色反转适用于任何网站
 - **锁定播放速度** – 视频不会重置为1x
+
+### 🔍 来源可信度 — 点击前了解
+
+访问已知传播虚假信息或假新闻的网站时获得警告。
+
+- **基于 [CRED-1](https://github.com/aloth/cred-1)** – 涵盖 2,672 个域名的开放、经同行评审的数据集
+- **分级警告横幅** – 高风险（红色）、较高（橙色）、中等（黄色）
+- **关闭或返回** – 按站点一键忽略或返回安全页面
+- **100% 设备本地处理** – 不发送任何浏览数据
+- **默认关闭** – 在可信度标签页中启用
 
 ### 📦 网页存档搜索
 

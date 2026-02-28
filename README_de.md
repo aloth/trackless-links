@@ -4,6 +4,10 @@
   <img src="assets/images/trackless-links-url-tracker-removal-privacy-hero.png" alt="Trackless Links — break the tracking chain and browse with clean, private URLs" width="700">
 </p>
 
+<p align="center">
+  [![Powered by CRED-1](https://img.shields.io/badge/Powered%20by-CRED--1-green?style=flat&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAyTDMgN3Y3YzAgNS41NSAzLjg0IDEwLjc0IDkgMTIgNS4xNi0xLjI2IDktNi40NSA5LTEyVjdMMTIgMnoiLz48L3N2Zz4=)](https://github.com/aloth/cred-1)
+</p>
+
 **Die Safari-Erweiterung, die Tracking-Codes entfernt, nervige Seiten umleitet und Website-Funktionen wiederherstellt, die du vermisst hast.**
 
 Genug von hässlichen URLs voller `?utm_source=...` Tracking-Müll? Frustriert von Websites, die Textauswahl blockieren oder Videos automatisch abspielen? Trackless Links behebt all das automatisch – und läuft zu 100% auf deinem Gerät, ohne Datensammlung.
@@ -63,6 +67,16 @@ Stelle die Web-Funktionen wieder her, die Seiten gerne kaputt machen.
 - **„Seite wirklich verlassen?"-Popups entfernen**
 - **Dark Mode anwenden** auf jede Website mit intelligenter Farbumkehrung
 - **Wiedergabegeschwindigkeit fixieren** damit Videos nicht auf 1x zurückspringen
+
+### 🔍 Quellen-Glaubwürdigkeit — Wissen vor dem Klick
+
+Werde gewarnt, wenn du Seiten besuchst, die für Falschinformationen, Fake News oder Verschwörungstheorien bekannt sind.
+
+- **Basierend auf [CRED-1](https://github.com/aloth/cred-1)** – Offener, peer-reviewter Datensatz mit 2.672 markierten Domains
+- **Abgestufte Warnbanner** – Hohes Risiko (rot), erhöht (orange), moderat (gelb)
+- **Ausblenden oder zurück** – Mit einem Tipp pro Seite ignorieren oder zur Sicherheit zurückkehren
+- **100% auf dem Gerät** – Keine Browsing-Daten werden gesendet
+- **Standardmäßig deaktiviert** – Im Glaubwürdigkeits-Tab aktivieren
 
 ### 📦 Web-Archiv-Suche
 

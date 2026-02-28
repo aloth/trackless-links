@@ -4,6 +4,10 @@
   <img src="assets/images/trackless-links-url-tracker-removal-privacy-hero.png" alt="Trackless Links — break the tracking chain and browse with clean, private URLs" width="700">
 </p>
 
+<p align="center">
+  [![Powered by CRED-1](https://img.shields.io/badge/Powered%20by-CRED--1-green?style=flat&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAyTDMgN3Y3YzAgNS41NSAzLjg0IDEwLjc0IDkgMTIgNS4xNi0xLjI2IDktNi40NSA5LTEyVjdMMTIgMnoiLz48L3N2Zz4=)](https://github.com/aloth/cred-1)
+</p>
+
 **トラッキングコードを削除し、煩わしいサイトをリダイレクトし、失われたウェブサイト機能を復元するSafari拡張機能。**
 
 `?utm_source=...`だらけの汚いURLを共有するのにうんざりしていませんか？テキスト選択をブロックしたり、動画を自動再生するサイトにイライラしていませんか？Trackless Linksがすべて自動で解決します。しかもデータ収集ゼロ、100%デバイス上で動作します。
@@ -63,6 +67,16 @@ iOS向けの完全なプライバシー保護とブラウジングコントロ�
 - **「このページを離れますか？」ポップアップを削除**
 - **ダークモードを適用** – スマートな色反転であらゆるサイトに
 - **再生速度を固定** – 動画が1xにリセットされない
+
+### 🔍 ソース信頼性 — クリック前に確認
+
+誤情報やフェイクニュースで知られるサイトを訪問する際に警告します。
+
+- **[CRED-1](https://github.com/aloth/cred-1) 搭載** – 2,672ドメインのオープンでピアレビュー済みデータセット
+- **段階的警告バナー** – 高リスク（赤）、注意（オレンジ）、中程度（黄）
+- **非表示または戻る** – サイトごとにワンタップで無視または安全に戻る
+- **100%デバイス上で完結** – 閲覧データは一切送信されません
+- **デフォルトでオフ** – 信頼性タブで有効にしてください
 
 ### 📦 ウェブアーカイブ検索
 

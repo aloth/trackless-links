@@ -4,6 +4,10 @@
   <img src="assets/images/trackless-links-url-tracker-removal-privacy-hero.png" alt="Trackless Links — break the tracking chain and browse with clean, private URLs" width="700">
 </p>
 
+<p align="center">
+  [![Powered by CRED-1](https://img.shields.io/badge/Powered%20by-CRED--1-green?style=flat&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAyTDMgN3Y3YzAgNS41NSAzLjg0IDEwLjc0IDkgMTIgNS4xNi0xLjI2IDktNi40NSA5LTEyVjdMMTIgMnoiLz48L3N2Zz4=)](https://github.com/aloth/cred-1)
+</p>
+
 **The Safari extension that removes tracking codes, redirects annoying sites, and restores website functionality you've been missing.**
 
 Tired of sharing messy URLs full of `?utm_source=...` tracking garbage? Frustrated by websites that block text selection or force autoplay videos? Trackless Links fixes all of this automatically – and it runs 100% on your device with zero data collection.
@@ -63,6 +67,16 @@ Restore the web functionality that sites try to break.
 - **Remove "Are you sure you want to leave?" popups**
 - **Apply dark mode** to any website with smart color inversion
 - **Lock playback speed** so videos don't reset to 1x
+
+### 🔍 Source Credibility — Know Before You Click
+
+Get warned when visiting sites known for misinformation, fake news, or conspiracy theories.
+
+- **Powered by [CRED-1](https://github.com/aloth/cred-1)** – Open, peer-reviewed dataset of 2,672 flagged domains
+- **Tiered warning banners** – High risk (red), elevated (orange), moderate (yellow)
+- **Dismiss or go back** – One tap to ignore per site or navigate to safety
+- **100% on-device** – No browsing data sent anywhere
+- **Off by default** – Enable when you're ready in the Credibility tab
 
 ### 📦 Web Archive Search
 
