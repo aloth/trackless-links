@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Trackless Links — Safari Extension for Privacy & URL Cleaning</title>
+<meta name="description" content="Remove tracking codes, block redirects, and restore website functionality. Safari extension for iPhone, iPad & Mac. 100% on-device, zero data collection.">
+<meta property="og:title" content="Trackless Links — Break the Tracking Chain">
+<meta property="og:description" content="Safari extension that removes trackers, cleans URLs, and blocks annoying site behaviors.">
+<meta property="og:image" content="https://raw.githubusercontent.com/aloth/trackless-links/main/assets/images/trackless-links-url-tracker-removal-privacy-hero.png">
+<meta property="og:url" content="https://aloth.github.io/trackless-links/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--blue:#1a73e8;--dark:#0f1729;--accent:#64B5F6;--gold:#FFD54F;--text:#1a1a2e;--muted:#6b7280}
+body{font-family:'Inter',system-ui,-apple-system,sans-serif;color:var(--text);overflow-x:hidden;-webkit-font-smoothing:antialiased}
+
+/* Hero */
+.hero{background:linear-gradient(135deg,#0f1729 0%,#1a2744 40%,#1e3a5f 100%);min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:60px 24px 40px;position:relative;overflow:hidden;color:#fff}
+.hero::before{content:'';position:absolute;top:0;left:0;right:0;bottom:0;background:radial-gradient(ellipse at 50% 0%,rgba(100,181,246,0.15) 0%,transparent 60%);pointer-events:none}
+.hero-badge{display:inline-flex;align-items:center;gap:6px;background:rgba(255,255,255,0.1);backdrop-filter:blur(10px);border-radius:20px;padding:6px 16px;font-size:13px;font-weight:600;color:rgba(255,255,255,0.7);margin-bottom:24px;border:1px solid rgba(255,255,255,0.15)}
+.hero h1{font-size:clamp(2rem,6vw,3.5rem);font-weight:800;line-height:1.1;margin-bottom:16px;letter-spacing:-0.02em}
+.hero h1 span{background:linear-gradient(135deg,var(--accent),var(--gold));-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.hero p{font-size:clamp(1rem,2.5vw,1.25rem);color:rgba(255,255,255,0.6);max-width:560px;line-height:1.6;margin-bottom:32px}
+.hero-image{max-width:min(700px,90vw);width:100%;border-radius:16px;box-shadow:0 30px 80px rgba(0,0,0,0.4);margin-top:20px}
+.app-store-btn{display:inline-block;transition:transform 0.2s}
+.app-store-btn:hover{transform:scale(1.05)}
+.app-store-btn img{height:54px}
+
+/* Before/After */
+.before-after{padding:80px 24px;background:#fff}
+.before-after h2{text-align:center;font-size:clamp(1.5rem,4vw,2.2rem);font-weight:800;margin-bottom:48px}
+.ba-container{display:flex;gap:24px;max-width:700px;margin:0 auto;flex-wrap:wrap;justify-content:center}
+.ba-card{flex:1;min-width:280px;border-radius:16px;padding:28px 24px;font-family:'SF Mono',ui-monospace,monospace;font-size:0.85rem;line-height:1.7;word-break:break-all}
+.ba-before{background:#fef2f2;border:2px solid #fecaca;color:#991b1b}
+.ba-before .label{color:#dc2626;font-family:'Inter',sans-serif;font-weight:700;font-size:0.9rem;margin-bottom:12px;display:block}
+.ba-after{background:#f0fdf4;border:2px solid #bbf7d0;color:#166534}
+.ba-after .label{color:#16a34a;font-family:'Inter',sans-serif;font-weight:700;font-size:0.9rem;margin-bottom:12px;display:block}
+.ba-before .tracker{background:#fecaca;padding:1px 4px;border-radius:3px}
+
+/* Features */
+.features{padding:80px 24px;background:#f9fafb}
+.features h2{text-align:center;font-size:clamp(1.5rem,4vw,2.2rem);font-weight:800;margin-bottom:12px}
+.features .subtitle{text-align:center;color:var(--muted);font-size:1.05rem;margin-bottom:56px;max-width:500px;margin-left:auto;margin-right:auto}
+.feature-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px;max-width:960px;margin:0 auto}
+.feature-card{background:#fff;border-radius:16px;padding:32px 24px;text-align:center;transition:transform 0.2s,box-shadow 0.2s;border:1px solid #e5e7eb}
+.feature-card:hover{transform:translateY(-4px);box-shadow:0 12px 40px rgba(0,0,0,0.08)}
+.feature-icon{font-size:40px;margin-bottom:16px}
+.feature-card h3{font-size:1.1rem;font-weight:700;margin-bottom:8px}
+.feature-card p{color:var(--muted);font-size:0.95rem;line-height:1.5}
+
+/* Screenshots */
+.screenshots{padding:80px 24px;background:#fff}
+.screenshots h2{text-align:center;font-size:clamp(1.5rem,4vw,2.2rem);font-weight:800;margin-bottom:48px}
+.screenshot-scroll{display:flex;gap:20px;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;padding:0 24px 24px;max-width:1100px;margin:0 auto}
+.screenshot-scroll::-webkit-scrollbar{display:none}
+.screenshot-scroll img{flex:0 0 auto;width:260px;border-radius:20px;box-shadow:0 8px 30px rgba(0,0,0,0.12);scroll-snap-align:center}
+
+/* Credibility */
+.credibility{padding:60px 24px;background:#f0fdf4;text-align:center}
+.credibility h2{font-size:clamp(1.3rem,3vw,1.8rem);font-weight:800;margin-bottom:12px}
+.credibility p{color:var(--muted);max-width:560px;margin:0 auto 20px;line-height:1.6}
+.cred-badge{display:inline-flex;align-items:center;gap:8px;background:#fff;border:2px solid #bbf7d0;border-radius:12px;padding:12px 24px;font-weight:600;color:#166534;text-decoration:none;transition:transform 0.2s,box-shadow 0.2s}
+.cred-badge:hover{transform:translateY(-2px);box-shadow:0 4px 20px rgba(22,101,52,0.15)}
+
+/* CTA */
+.cta{padding:80px 24px;background:var(--dark);text-align:center;color:#fff}
+.cta h2{font-size:clamp(1.5rem,4vw,2.2rem);font-weight:800;margin-bottom:12px}
+.cta p{color:rgba(255,255,255,0.6);font-size:1.05rem;margin-bottom:12px}
+.cta .platforms{color:rgba(255,255,255,0.4);font-size:0.9rem;margin-bottom:32px}
+.cta .github-link{display:inline-flex;align-items:center;gap:8px;color:rgba(255,255,255,0.5);font-size:0.9rem;margin-top:24px;text-decoration:none;transition:color 0.2s}
+.cta .github-link:hover{color:rgba(255,255,255,0.8)}
+.cta .github-link svg{width:20px;height:20px;fill:currentColor}
+
+footer{background:var(--dark);border-top:1px solid rgba(255,255,255,0.08);padding:24px;text-align:center;color:rgba(255,255,255,0.3);font-size:0.85rem}
+footer a{color:rgba(255,255,255,0.5);text-decoration:none}
+</style>
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-badge">🛡️ Safari Extension for iPhone, iPad & Mac</div>
+  <h1>Break the<br><span>tracking chain.</span></h1>
+  <p>Trackless Links removes tracking codes, cleans URLs, blocks annoying site behaviors, and warns you about low-credibility sources. All on-device.</p>
+  <a href="https://apps.apple.com/us/app/trackless-links-pro/id6754613166" class="app-store-btn">
+    <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store">
+  </a>
+  <img src="https://raw.githubusercontent.com/aloth/trackless-links/main/assets/images/trackless-links-url-tracker-removal-privacy-hero.png" alt="Trackless Links Safari extension removing URL trackers" class="hero-image" loading="eager">
+</section>
+
+<section class="before-after">
+  <h2>See the difference</h2>
+  <div class="ba-container">
+    <div class="ba-card ba-before">
+      <span class="label">❌ Before</span>
+      https://example.com/article<span class="tracker">?utm_source=twitter&utm_medium=social&utm_campaign=spring2026&ref=t.co&fbclid=IwAR3x...</span>
+    </div>
+    <div class="ba-card ba-after">
+      <span class="label">✅ After</span>
+      https://example.com/article
+    </div>
+  </div>
+</section>
+
+<section class="features">
+  <h2>More than a URL cleaner</h2>
+  <p class="subtitle">Six tools that make browsing better, built into one lightweight extension.</p>
+  <div class="feature-grid">
+    <div class="feature-card">
+      <div class="feature-icon">🧹</div>
+      <h3>Tracker Removal</h3>
+      <p>Strips utm_*, fbclid, gclid, and dozens more tracking parameters automatically from every URL.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">🔀</div>
+      <h3>Smart Redirects</h3>
+      <p>Custom redirect rules to skip amp pages, paywalls, or route through preferred mirrors.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">⚠️</div>
+      <h3>Source Credibility</h3>
+      <p>Powered by the CRED-1 dataset. Get warnings when visiting domains with low credibility scores.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">🔧</div>
+      <h3>Browser Tweaks</h3>
+      <p>Re-enable text selection, disable autoplay videos, remove overlay popups, and fix broken right-click.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">📦</div>
+      <h3>Web Archive</h3>
+      <p>Quick access to cached versions of pages via Wayback Machine and Google Cache.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">🔒</div>
+      <h3>Zero Data Collection</h3>
+      <p>Everything runs on-device. No analytics, no telemetry, no accounts. Your browsing stays yours.</p>
+    </div>
+  </div>
+</section>
+
+<section class="screenshots">
+  <h2>See it in action</h2>
+  <div class="screenshot-scroll">
+    <img src="https://raw.githubusercontent.com/aloth/trackless-links/main/assets/social-media/trackless-links_trackless-links-ios-safari-extension-dashboard_on_trackless-links-app-store-background-blue-teal-gradient.jpg" alt="Safari extension dashboard" loading="lazy">
+    <img src="https://raw.githubusercontent.com/aloth/trackless-links/main/assets/social-media/trackless-links_trackless-links-url-tracking-filter-list_on_trackless-links-ios-screenshot-backdrop-clean-minimalist.jpg" alt="URL tracking filter list" loading="lazy">
+    <img src="https://raw.githubusercontent.com/aloth/trackless-links/main/assets/social-media/trackless-links_trackless-links-pro-safari-extension-popup_on_trackless-links-pro-marketing-background-dark-gold-accent.jpg" alt="Safari extension popup" loading="lazy">
+    <img src="https://raw.githubusercontent.com/aloth/trackless-links/main/assets/social-media/trackless-links_trackless-links-custom-url-redirect-rules_on_trackless-links-ios-screenshot-backdrop-clean-minimalist.jpg" alt="Custom redirect rules" loading="lazy">
+    <img src="https://raw.githubusercontent.com/aloth/trackless-links/main/assets/social-media/trackless-links_trackless-links-browser-privacy-tweaks_on_trackless-links-app-store-background-blue-teal-gradient.jpg" alt="Browser privacy tweaks" loading="lazy">
+    <img src="https://raw.githubusercontent.com/aloth/trackless-links/main/assets/social-media/trackless-links_trackless-links-pro-web-archive-settings_on_trackless-links-app-store-background-blue-teal-gradient.jpg" alt="Web archive settings" loading="lazy">
+  </div>
+</section>
+
+<section class="credibility">
+  <h2>🛡️ Powered by CRED-1</h2>
+  <p>Trackless Links uses the open-source CRED-1 domain credibility dataset to warn you about unreliable sources before you engage with their content.</p>
+  <a href="https://github.com/aloth/cred-1" class="cred-badge">
+    📊 Explore the CRED-1 Dataset →
+  </a>
+</section>
+
+<section class="cta">
+  <h2>Browse without being tracked</h2>
+  <p>Free download. Universal purchase for iPhone, iPad & Mac.</p>
+  <p class="platforms">Requires iOS 17+ / macOS 14+ · iCloud Sync included</p>
+  <a href="https://apps.apple.com/us/app/trackless-links-pro/id6754613166" class="app-store-btn">
+    <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store">
+  </a>
+  <br>
+  <a href="https://github.com/aloth/trackless-links" class="github-link">
+    <svg viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+    View on GitHub ⭐
+  </a>
+</section>
+
+<footer>
+  <p>Made by <a href="https://alexloth.com">Alexander Loth</a></p>
+</footer>
+
+</body>
+</html>
