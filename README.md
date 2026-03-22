@@ -1,11 +1,13 @@
 # Trackless Links – Safari Extension for Privacy, URL Cleaning & Tracker Blocking
 
-<p align="center">
-  <img src="assets/images/trackless-links-url-tracker-removal-privacy-hero.png" alt="Trackless Links — break the tracking chain and browse with clean, private URLs" width="700">
-</p>
+[![App Store](https://img.shields.io/badge/App_Store-Download-blue?logo=apple&logoColor=white)](https://apps.apple.com/us/app/trackless-links-pro/id6754613166)
+[![Swift](https://img.shields.io/badge/Swift-6.0-orange?logo=swift&logoColor=white)](https://swift.org)
+[![Platform](https://img.shields.io/badge/Platform-iOS_17+_|_macOS_14+-lightgrey?logo=apple)](https://developer.apple.com/safari/extensions/)
+[![Powered by CRED-1](https://img.shields.io/badge/Powered%20by-CRED--1-green?style=flat)](https://github.com/aloth/cred-1)
+[![GitHub stars](https://img.shields.io/github/stars/aloth/trackless-links?style=social)](https://github.com/aloth/trackless-links/stargazers)
 
 <p align="center">
-  <a href="https://github.com/aloth/cred-1"><img src="https://img.shields.io/badge/Powered%20by-CRED--1-green?style=flat" alt="Powered by CRED-1"></a>
+  <img src="assets/images/trackless-links-url-tracker-removal-privacy-hero.png" alt="Trackless Links — break the tracking chain and browse with clean, private URLs" width="700">
 </p>
 
 **The Safari extension that removes tracking codes, redirects annoying sites, and restores website functionality you've been missing.**
