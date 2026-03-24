@@ -191,6 +191,13 @@ Safari extension, tracker blocker, URL cleaner, privacy extension, remove utm pa
 
 ---
 
+## Related Projects
+
+- [**Mindful Coffee**](https://github.com/aloth/mindful-coffee) — Smart caffeine tracking with sleep prediction & cortisol rhythm modeling
+- [**Mindful Body**](https://github.com/aloth/mindful-body) — Body composition tracker with HealthKit, iCloud sync & progress photos
+
+---
+
 **Stop sharing tracking links. Start browsing privately.**
 
 **[Get Trackless Links Pro](https://apps.apple.com/us/app/trackless-links-pro/id6754613166)** (iPhone, iPad, Mac) or **[Trackless Links](https://apps.apple.com/us/app/trackless-links-extension/id6749830894)** (iPhone, iPad)
