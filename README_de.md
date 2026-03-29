@@ -1,3 +1,5 @@
+🇺🇸 [English](README.md) | 🇩🇪 **Deutsch** | 🇯🇵 [日本語](README_ja.md) | 🇨🇳 [中文](README_zh-Hans.md)
+
 # Trackless Links – Safari-Erweiterung für Datenschutz, URL-Bereinigung & Tracker-Blockierung
 
 <p align="center">

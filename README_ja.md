@@ -1,3 +1,5 @@
+🇺🇸 [English](README.md) | 🇩🇪 [Deutsch](README_de.md) | 🇯🇵 **日本語** | 🇨🇳 [中文](README_zh-Hans.md)
+
 # Trackless Links – プライバシー保護・URL浄化・トラッカーブロックのSafari拡張機能
 
 <p align="center">

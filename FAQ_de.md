@@ -1,3 +1,5 @@
+🇺🇸 [English](FAQ.md) | 🇩🇪 **Deutsch** | 🇯🇵 [日本語](FAQ_ja.md) | 🇨🇳 [中文](FAQ_zh-Hans.md)
+
 # Trackless Links FAQ
 
 **Häufig gestellte Fragen und Benutzerhandbuch**

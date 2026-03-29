@@ -1,3 +1,5 @@
+🇺🇸 **English** | 🇩🇪 [Deutsch](README_de.md) | 🇯🇵 [日本語](README_ja.md) | 🇨🇳 [中文](README_zh-Hans.md)
+
 # Trackless Links – Safari Extension for Privacy, URL Cleaning & Tracker Blocking
 
 [![App Store](https://img.shields.io/badge/App_Store-Download-blue?logo=apple&logoColor=white)](https://apps.apple.com/us/app/trackless-links-pro/id6754613166)

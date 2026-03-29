@@ -1,3 +1,5 @@
+🇺🇸 [English](README.md) | 🇩🇪 [Deutsch](README_de.md) | 🇯🇵 [日本語](README_ja.md) | 🇨🇳 **中文**
+
 # Trackless Links – 隐私保护、URL清理与追踪器拦截的Safari扩展
 
 <p align="center">
