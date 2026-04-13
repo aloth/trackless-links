@@ -79,8 +79,9 @@ Get warned when visiting sites known for misinformation, fake news, or conspirac
 - **Powered by [CRED-1](https://github.com/aloth/cred-1)** – Open, peer-reviewed dataset of 2,672 flagged domains
 - **Tiered warning banners** – High risk (red), elevated (orange), moderate (yellow)
 - **Dismiss or go back** – One tap to ignore per site or navigate to safety
+- **Optional auto-updates** – Keep the bundled CRED-1 dataset aligned with the latest published release
 - **100% on-device** – No browsing data sent anywhere
-- **Off by default** – Enable when you're ready in the Credibility tab
+- **Off by default** – Enable when you're ready in the Credibility tab, including auto-updates if you want them
 
 ### 📦 Web Archive Search
 

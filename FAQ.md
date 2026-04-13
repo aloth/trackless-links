@@ -272,6 +272,30 @@ You can use them together for maximum control.
 
 ---
 
+## Source Credibility
+
+### What is Source Credibility?
+
+Source Credibility is an optional warning system that helps you identify websites known for misinformation, fake news, or conspiracy theories before you spend time on them.
+
+Trackless Links uses **CRED-1**, an open and peer-reviewed dataset of flagged domains. When enabled, Safari can show a warning banner before or while you browse those sites.
+
+### Is Source Credibility enabled by default?
+
+No. Source Credibility is **off by default**.
+
+You can enable it in the **Credibility** tab whenever you want. The optional **CRED-1 auto-update** feature is also off by default and must be enabled separately.
+
+### How do CRED-1 auto-updates work?
+
+If you turn on CRED-1 auto-updates, Trackless Links will periodically check for the latest published CRED-1 release and update the on-device dataset.
+
+Important details:
+- Auto-updates are **opt-in**
+- The app still includes a bundled CRED-1 dataset so Source Credibility works without an initial download
+- Checks and lookups stay **on-device** during normal browsing; Trackless Links does not send your browsing history anywhere
+- You can turn auto-updates off again at any time in the **Credibility** tab
+
 ## Archive Search
 
 ### What is Archive Search?

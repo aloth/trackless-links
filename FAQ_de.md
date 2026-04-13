@@ -272,6 +272,30 @@ Du kannst beide zusammen verwenden für maximale Kontrolle.
 
 ---
 
+## Quellen-Glaubwürdigkeit
+
+### Was ist Quellen-Glaubwürdigkeit?
+
+Quellen-Glaubwürdigkeit ist ein optionales Warnsystem, das dir hilft, Websites zu erkennen, die für Falschinformationen, Fake News oder Verschwörungstheorien bekannt sind, bevor du Zeit auf ihnen verbringst.
+
+Trackless Links nutzt dafür **CRED-1**, einen offenen und peer-reviewten Datensatz markierter Domains. Wenn die Funktion aktiviert ist, kann Safari vor oder während des Besuchs solcher Seiten ein Warnbanner anzeigen.
+
+### Ist Quellen-Glaubwürdigkeit standardmäßig aktiviert?
+
+Nein. Quellen-Glaubwürdigkeit ist **standardmäßig deaktiviert**.
+
+Du kannst die Funktion jederzeit im Tab **Glaubwürdigkeit** aktivieren. Die optionale Funktion **CRED-1 Auto-Update** ist ebenfalls standardmäßig aus und muss separat aktiviert werden.
+
+### Wie funktionieren CRED-1 Auto-Updates?
+
+Wenn du CRED-1 Auto-Updates aktivierst, prüft Trackless Links regelmäßig, ob es eine neue veröffentlichte CRED-1-Version gibt, und aktualisiert den Datensatz auf deinem Gerät.
+
+Wichtige Details:
+- Auto-Updates sind **opt-in**
+- Die App enthält weiterhin einen gebündelten CRED-1-Datensatz, damit Quellen-Glaubwürdigkeit auch ohne ersten Download funktioniert
+- Prüfungen und Abfragen bleiben beim normalen Surfen **auf dem Gerät**; Trackless Links sendet keinen Browserverlauf irgendwohin
+- Du kannst Auto-Updates jederzeit im Tab **Glaubwürdigkeit** wieder deaktivieren
+
 ## Archivsuche
 
 ### Was ist die Archivsuche?

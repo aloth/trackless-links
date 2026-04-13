@@ -77,8 +77,9 @@ Werde gewarnt, wenn du Seiten besuchst, die für Falschinformationen, Fake News 
 - **Basierend auf [CRED-1](https://github.com/aloth/cred-1)** – Offener, peer-reviewter Datensatz mit 2.672 markierten Domains
 - **Abgestufte Warnbanner** – Hohes Risiko (rot), erhöht (orange), moderat (gelb)
 - **Ausblenden oder zurück** – Mit einem Tipp pro Seite ignorieren oder zur Sicherheit zurückkehren
+- **Optionale Auto-Updates** – Halten den gebündelten CRED-1-Datensatz auf dem neuesten veröffentlichten Stand
 - **100% auf dem Gerät** – Keine Browsing-Daten werden gesendet
-- **Standardmäßig deaktiviert** – Im Glaubwürdigkeits-Tab aktivieren
+- **Standardmäßig deaktiviert** – Im Glaubwürdigkeits-Tab aktivieren, inklusive Auto-Updates wenn du möchtest
 
 ### 📦 Web-Archiv-Suche
 
