@@ -242,7 +242,7 @@ Die Auto-Ablehnen-Funktion unterstützt mehrere Sprachen und funktioniert mit Go
 | **Standard-Geschwindigkeit anwenden** | Setzt alle Medien auf deine bevorzugte Wiedergabegeschwindigkeit (0,5x bis 3,0x). |
 | **Wiedergabegeschwindigkeit sperren** | Verhindert, dass Seiten deine gewählte Geschwindigkeit zurücksetzen. |
 | **Alle Medien beim Laden pausieren** | Pausiert jedes Audio- und Videoelement, wenn eine Seite lädt. |
-| **Bild-in-Bild aktivieren** | Stellt PiP-Funktionalität auf Seiten wieder her, die versuchen, sie zu deaktivieren. |
+| **Bild-in-Bild aktivieren** | Stellt PiP-Funktionalität auf Seiten wieder her, die versuchen, sie zu deaktivieren. Auf YouTube: zum Home-Bildschirm wischen oder das Gerät sperren startet PiP automatisch, oder das Video etwa eine halbe Sekunde lang drücken. |
 
 #### Datenschutz & Bereinigung
 
@@ -250,6 +250,7 @@ Die Auto-Ablehnen-Funktion unterstützt mehrere Sprachen und funktioniert mit Go
 |-------|----------------|
 | **Kopierte URLs bereinigen** | Entfernt automatisch Tracking-Parameter aus jedem Link, den du in die Zwischenablage kopierst. |
 | **Gängige Redirectors umgehen** | Entpackt verkürzte URLs (wie t.co, bit.ly-Links) und geht direkt zum Ziel. |
+| **In Safari öffnen** *(neu in 4.1)* | Erzwingt, dass Links von den konfigurierten Domains in Safari geöffnet werden, statt in die installierte App zu springen. Enthält eine Domain-Liste mit Instagram, X (Twitter), YouTube, TikTok, Reddit, LinkedIn, Pinterest und Spotify. Alle Einträge sind standardmäßig deaktiviert. Eigene Domains lassen sich hinzufügen. |
 
 #### Zusätzliche Tweaks
 

@@ -242,7 +242,7 @@ The auto-reject feature supports multiple languages and works with Google, commo
 | **Apply default speed** | Sets all media to your preferred playback speed (0.5x to 3.0x). |
 | **Lock playback speed** | Prevents sites from resetting your chosen speed. |
 | **Pause all media on page load** | Pauses every audio and video element when a page loads. |
-| **Enable Picture-in-Picture** | Restores PiP functionality on sites that try to disable it. |
+| **Enable Picture-in-Picture** | Restores PiP functionality on sites that try to disable it. On YouTube, swipe up to the home screen or lock your device to start PiP automatically, or long-press the video for about half a second. |
 
 #### Privacy & Clean-up
 
@@ -250,6 +250,7 @@ The auto-reject feature supports multiple languages and works with Google, commo
 |-------|--------------|
 | **Clean URLs you copy** | Automatically strips tracking parameters from any link you copy to the clipboard. |
 | **Bypass common redirectors** | Unwraps shortened URLs (like t.co, bit.ly links) and goes directly to the destination. |
+| **Open in Safari** *(new in 4.1)* | Forces links from the configured domains to open inside Safari instead of jumping into the installed app. Includes a per-domain list with Instagram, X (Twitter), YouTube, TikTok, Reddit, LinkedIn, Pinterest, and Spotify. All entries are off by default. You can also add custom domains. |
 
 #### Extra Tweaks
 

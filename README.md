@@ -47,6 +47,23 @@ Stop sharing links that expose your browsing habits.
 - **Add your own rules** for complete customization
 - **Real-time statistics** show exactly how many trackers you've blocked
 
+### 🌐 Open in Safari (New in 4.1)
+
+Keep links **inside Safari** instead of jumping into the installed app every time you tap one.
+
+- **Per-domain control** — toggle Instagram, X (Twitter), YouTube, TikTok, Reddit, LinkedIn, Pinterest, and Spotify individually
+- **Custom domains** — add any site you want to keep in Safari
+- **Off by default** — opt in only for the apps that bug you
+- Stops the constant context-switch when sharing or browsing links
+
+### 📺 YouTube Picture-in-Picture (New in 4.1)
+
+Finally on the free tier. Watch any YouTube video in PiP without leaving the page.
+
+- **Auto-PiP**: swipe up to the home screen or lock your device while a YouTube video plays — PiP starts automatically
+- **Long-press**: hold a video for about half a second to start PiP on demand
+- **Off by default** — enable in **Settings → Tweaks → Enable Picture-in-Picture**
+
 ### 🔀 Smart URL Redirects
 
 Skip annoying sites automatically.

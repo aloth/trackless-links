@@ -45,6 +45,23 @@ Schluss mit Links, die dein Surfverhalten verraten.
 - **Eigene Regeln hinzufügen** für vollständige Anpassung
 - **Echtzeit-Statistiken** zeigen genau, wie viele Tracker blockiert wurden
 
+### 🌐 In Safari öffnen (Neu in 4.1)
+
+Links bleiben **in Safari**, statt jedes Mal in die installierte App zu springen.
+
+- **Pro Domain steuerbar** — Instagram, X (Twitter), YouTube, TikTok, Reddit, LinkedIn, Pinterest und Spotify einzeln umschaltbar
+- **Eigene Domains** — beliebige Seiten hinzufügen, die du in Safari halten möchtest
+- **Standardmäßig aus** — nur für die Apps aktivieren, die dich nerven
+- Schluss mit dem ständigen App-Wechsel beim Teilen oder Browsen von Links
+
+### 📺 Bild-in-Bild auf YouTube (Neu in 4.1)
+
+Endlich auch in der Standardversion. Jedes YouTube-Video im PiP weiterschauen, ohne die Seite zu verlassen.
+
+- **Auto-PiP**: Während ein Video läuft, zum Home-Bildschirm wischen oder das Gerät sperren — PiP startet automatisch
+- **Lange drücken**: Video etwa eine halbe Sekunde gedrückt halten, um PiP manuell zu starten
+- **Standardmäßig aus** — aktivieren unter **Einstellungen → Tweaks → Bild-in-Bild aktivieren**
+
 ### 🔀 Intelligente URL-Weiterleitungen
 
 Überspringe nervige Seiten automatisch.
