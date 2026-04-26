@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Trackless Links — Safari Extension for Privacy & URL Cleaning</title>
-<meta name="description" content="Remove tracking codes, block redirects, restore website functionality, and get Source Credibility warnings with optional CRED-1 auto-updates. Safari extension for iPhone, iPad & Mac. 100% on-device, zero data collection.">
+<meta name="description" content="Remove tracking codes, watch YouTube in Picture-in-Picture, force links to open in Safari instead of installed apps, and get Source Credibility warnings. Safari extension for iPhone, iPad & Mac. 100% on-device, zero data collection.">
 <meta property="og:title" content="Trackless Links — Break the Tracking Chain">
 <meta property="og:description" content="Safari extension that removes trackers, cleans URLs, and blocks annoying site behaviors.">
 <meta property="og:image" content="https://raw.githubusercontent.com/aloth/trackless-links/main/assets/images/trackless-links-url-tracker-removal-privacy-hero.png">
@@ -49,6 +49,8 @@ body{font-family:'Inter',system-ui,-apple-system,sans-serif;color:var(--text);ov
 .feature-icon{font-size:40px;margin-bottom:16px}
 .feature-card h3{font-size:1.1rem;font-weight:700;margin-bottom:8px}
 .feature-card p{color:var(--muted);font-size:0.95rem;line-height:1.5}
+.new-badge{display:inline-block;background:linear-gradient(135deg,#10b981,#059669);color:#fff;font-size:0.65rem;font-weight:700;letter-spacing:0.5px;padding:2px 8px;border-radius:10px;vertical-align:middle;margin-left:6px;box-shadow:0 2px 8px rgba(16,185,129,0.3)}
+.hero-tagline{font-size:0.95rem!important;color:rgba(255,255,255,0.85)!important;font-weight:600!important;margin-top:-12px!important;margin-bottom:32px!important}
 
 /* Screenshots */
 .screenshots{padding:80px 24px;background:#fff}
@@ -82,7 +84,8 @@ footer a{color:rgba(255,255,255,0.5);text-decoration:none}
 <section class="hero">
   <div class="hero-badge">🛡️ Safari Extension for iPhone, iPad & Mac</div>
   <h1>Break the<br><span>tracking chain.</span></h1>
-  <p>Trackless Links removes tracking codes, cleans URLs, blocks annoying site behaviors, and warns you about low-credibility sources. Optional CRED-1 auto-updates keep the bundled dataset current. All on-device.</p>
+  <p>Strip tracking from every link you tap. Watch YouTube in Picture-in-Picture. Force links to open in Safari instead of jumping into installed apps. Quietly powerful, 100% on-device.</p>
+  <p class="hero-tagline">✨ New in 4.1: Open in Safari &middot; YouTube Picture-in-Picture</p>
   <a href="https://apps.apple.com/us/app/trackless-links-pro/id6754613166" class="app-store-btn">
     <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store">
   </a>
@@ -105,12 +108,22 @@ footer a{color:rgba(255,255,255,0.5);text-decoration:none}
 
 <section class="features">
   <h2>More than a URL cleaner</h2>
-  <p class="subtitle">Six tools that make browsing better, built into one lightweight extension.</p>
+  <p class="subtitle">Eight tools that make browsing better, built into one lightweight extension.</p>
   <div class="feature-grid">
     <div class="feature-card">
       <div class="feature-icon">🧹</div>
       <h3>Tracker Removal</h3>
       <p>Strips utm_*, fbclid, gclid, and dozens more tracking parameters automatically from every URL.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">🌐</div>
+      <h3>Open in Safari <span class="new-badge">NEW</span></h3>
+      <p>Keep links inside Safari instead of jumping into installed apps. Per-domain toggles for Instagram, X, YouTube, TikTok, Reddit, LinkedIn, Pinterest, Spotify, plus custom domains.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">📺</div>
+      <h3>YouTube Picture-in-Picture <span class="new-badge">NEW</span></h3>
+      <p>Watch any YouTube video in PiP without leaving the page. Swipe up or lock your device to start automatically, or long-press the video.</p>
     </div>
     <div class="feature-card">
       <div class="feature-icon">🔀</div>
