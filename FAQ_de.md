@@ -162,6 +162,24 @@ Viele beliebte Websites sammeln umfangreiche Daten über ihre Nutzer. Weiterleit
 
 Du kannst exakte Übereinstimmungen oder reguläre Ausdrücke (Regex) für erweiterte Muster verwenden.
 
+### Kann ich Regex-Capture-Gruppen und Variablen verwenden?
+
+Ja. Setze den Teil des Musters, den du behalten willst, in runde Klammern `()` und referenziere ihn in der Ersetzung mit `$1`, `$2` usw.
+
+**Beispiel: Arbeitslinks in Microsoft Edge öffnen**
+
+- Muster: `(https?://.*meinarbeitsdomain.*)`
+- Ersetzung: `microsoft-edge:$1`
+
+Das erfasst die komplette übereinstimmende URL in Gruppe 1 und fügt sie nach `microsoft-edge:` ein, damit der Link in Edge statt in Safari öffnet.
+
+**Beispiel: deutsche Amazon-Domain erzwingen**
+
+- Muster: `https://www\.amazon\.com/(.*)`
+- Ersetzung: `https://www.amazon.de/$1`
+
+Du kannst mehrere Capture-Gruppen in einer Regel verwenden (`$1`, `$2`, ...). So funktioniert Trackless Links wie Velja für domainspezifisches Browser-/App-Routing.
+
 ### Kann ich die Reihenfolge meiner Weiterleitungsregeln ändern?
 
 Ja. Die Reihenfolge ist wichtig, da die erste passende Regel gewinnt. So änderst du die Reihenfolge:

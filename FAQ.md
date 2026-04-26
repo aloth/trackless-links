@@ -162,6 +162,24 @@ Many popular websites collect extensive data about their users. Redirects let yo
 
 You can use exact matches or regular expressions (regex) for advanced patterns.
 
+### Can I use regex capture groups and variables?
+
+Yes. Wrap any part of the pattern you want to keep in parentheses `()` and reference it in the replacement with `$1`, `$2`, etc.
+
+**Example: open work links in Microsoft Edge**
+
+- Pattern: `(https?://.*myworkdomain.*)`
+- Replacement: `microsoft-edge:$1`
+
+This captures the entire matched URL into group 1 and pastes it after `microsoft-edge:`, so the link opens in Edge instead of Safari.
+
+**Example: force the German Amazon domain**
+
+- Pattern: `https://www\.amazon\.com/(.*)`
+- Replacement: `https://www.amazon.de/$1`
+
+You can use multiple capture groups in the same rule (`$1`, `$2`, ...). This makes Trackless Links work like Velja for per-domain browser/app routing.
+
 ### Can I reorder my redirect rules?
 
 Yes. Order matters because the first matching rule wins. To reorder:
