@@ -209,13 +209,13 @@ Trackless Links is fully localized in:
 
 ---
 
-## �️ Keywords
+## 🏷️ Keywords
 
 Safari extension, tracker blocker, URL cleaner, privacy extension, remove utm parameters, block fbclid, Safari privacy, iOS privacy app, Mac privacy tool, URL redirect, content blocker, anti-tracking, clean links, share clean URLs, Wayback Machine, web archive search, block autoplay, force dark mode, Picture-in-Picture, text selection, right-click menu
 
 ---
 
-## Related Projects
+## 🔗 Related Projects
 
 - [**Mindful Coffee**](https://github.com/aloth/mindful-coffee) — Smart caffeine tracking with sleep prediction & cortisol rhythm modeling
 - [**Mindful Body**](https://github.com/aloth/mindful-body) — Body composition tracker with HealthKit, iCloud sync & progress photos

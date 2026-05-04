@@ -215,7 +215,7 @@ Extension Safari, bloqueur de traqueurs, nettoyeur d'URL, extension de confident
 
 ---
 
-## Projets liés
+## 🔗 Projets liés
 
 - [**Mindful Coffee**](https://github.com/aloth/mindful-coffee) — Suivi intelligent de la caféine avec prédiction du sommeil et modélisation du rythme du cortisol
 - [**Mindful Body**](https://github.com/aloth/mindful-body) — Suivi de la composition corporelle avec HealthKit, synchronisation iCloud et photos de progression

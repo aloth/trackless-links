@@ -213,6 +213,13 @@ Safari-Erweiterung, Tracker-Blocker, URL-Bereinigung, Datenschutz-Erweiterung, u
 
 ---
 
+## 🔗 Verwandte Projekte
+
+- [**Mindful Coffee**](https://github.com/aloth/mindful-coffee) — Intelligentes Koffein-Tracking mit Schlafvorhersage und Cortisol-Rhythmus-Modellierung
+- [**Mindful Body**](https://github.com/aloth/mindful-body) — Körperzusammensetzungs-Tracker mit HealthKit, iCloud-Synchronisation und Fortschrittsfotos
+
+---
+
 **Schluss mit Tracking-Links. Surfe privat.**
 
 **[Trackless Links Pro holen](https://apps.apple.com/us/app/trackless-links-pro/id6754613166)** (iPhone, iPad, Mac) oder **[Trackless Links](https://apps.apple.com/us/app/trackless-links-extension/id6749830894)** (iPhone, iPad)
