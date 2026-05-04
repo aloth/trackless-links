@@ -1,4 +1,4 @@
-🇺🇸 **English** | 🇩🇪 [Deutsch](README_de.md) | 🇯🇵 [日本語](README_ja.md) | 🇨🇳 [中文](README_zh-Hans.md)
+🇺🇸 **English** | 🇩🇪 [Deutsch](README_de.md) | 🇪🇸 [Español](README_es.md) | 🇫🇷 [Français](README_fr.md) | 🇯🇵 [日本語](README_ja.md) | 🇨🇳 [中文](README_zh-Hans.md)
 
 # Trackless Links – Safari Extension for Privacy, URL Cleaning & Tracker Blocking
 
@@ -189,6 +189,8 @@ New to URL tracking? Want to understand how privacy protection works? Check out 
 
 - [FAQ (English)](FAQ.md)
 - [FAQ (Deutsch)](FAQ_de.md)
+- [FAQ (Español)](FAQ_es.md)
+- [FAQ (Français)](FAQ_fr.md)
 - [FAQ (日本語)](FAQ_ja.md)
 - [FAQ (简体中文)](FAQ_zh-Hans.md)
 
@@ -200,6 +202,8 @@ Trackless Links is fully localized in:
 
 - 🇺🇸 English
 - 🇩🇪 [Deutsch (German)](README_de.md)
+- 🇪🇸 [Español (Spanish)](README_es.md)
+- 🇫🇷 [Français (French)](README_fr.md)
 - 🇯🇵 [日本語 (Japanese)](README_ja.md)
 - 🇨🇳 [简体中文 (Chinese Simplified)](README_zh-Hans.md)
 

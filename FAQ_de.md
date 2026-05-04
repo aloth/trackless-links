@@ -1,4 +1,4 @@
-🇺🇸 [English](FAQ.md) | 🇩🇪 **Deutsch** | 🇯🇵 [日本語](FAQ_ja.md) | 🇨🇳 [中文](FAQ_zh-Hans.md)
+🇺🇸 [English](FAQ.md) | 🇩🇪 **Deutsch** | 🇪🇸 [Español](FAQ_es.md) | 🇫🇷 [Français](FAQ_fr.md) | 🇯🇵 [日本語](FAQ_ja.md) | 🇨🇳 [中文](FAQ_zh-Hans.md)
 
 # Trackless Links FAQ
 

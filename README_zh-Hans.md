@@ -1,4 +1,4 @@
-🇺🇸 [English](README.md) | 🇩🇪 [Deutsch](README_de.md) | 🇯🇵 [日本語](README_ja.md) | 🇨🇳 **中文**
+🇺🇸 [English](README.md) | 🇩🇪 [Deutsch](README_de.md) | 🇪🇸 [Español](README_es.md) | 🇫🇷 [Français](README_fr.md) | 🇯🇵 [日本語](README_ja.md) | 🇨🇳 **中文**
 
 # Trackless Links – 隐私保护、URL清理与追踪器拦截的Safari扩展
 
@@ -187,6 +187,8 @@ URL追踪新手？想了解隐私保护如何工作？查看完整的FAQ：
 
 - [FAQ (English)](FAQ.md)
 - [FAQ (Deutsch)](FAQ_de.md)
+- [FAQ (Español)](FAQ_es.md)
+- [FAQ (Français)](FAQ_fr.md)
 - [FAQ (日本語)](FAQ_ja.md)
 - [FAQ (简体中文)](FAQ_zh-Hans.md)
 
@@ -198,6 +200,8 @@ Trackless Links完整支持以下语言：
 
 - 🇺🇸 [English](README.md)
 - 🇩🇪 [Deutsch（德语）](README_de.md)
+- 🇪🇸 [Español（西班牙语）](README_es.md)
+- 🇫🇷 [Français（法语）](README_fr.md)
 - 🇯🇵 [日本語（日语）](README_ja.md)
 - 🇨🇳 简体中文
 
