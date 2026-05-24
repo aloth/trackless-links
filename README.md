@@ -14,6 +14,8 @@
 
 **The Safari extension that removes tracking codes, redirects annoying sites, and restores website functionality you've been missing.**
 
+> 🎓 **WebSci 2026: Free codes available.** Trackless Links is the first production integration of [CRED-1](https://github.com/aloth/cred-1), presented at ACM WebSci 2026 in Braunschweig. [Claim a free code](https://gutscheinhub.de/ratgeber/trackless-links-cred-1-acm-websci-2026) while supplies last.
+
 Tired of sharing messy URLs full of `?utm_source=...` tracking garbage? Frustrated by websites that block text selection or force autoplay videos? Trackless Links fixes all of this automatically – and it runs 100% on your device with zero data collection.
 
 Built with a clean, modern design, Trackless Links feels light and powerful on iPhone, iPad, and Mac.
