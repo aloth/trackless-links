@@ -221,17 +221,9 @@ All tweaks are opt-in, so you control which ones to enable.
 | **Ignore text fragments** | Removes Chrome-style #:~:text= fragments from URLs so pages do not auto-scroll to highlighted text. |
 | **Allow drag & drop** | Restores default text dragging and drag-and-drop behavior on sites that block it. |
 
-#### Cookie Banner Handling (Experimental)
+#### Cookie & Consent Banner Blocking
 
-Trackless Links offers intelligent cookie consent management with three modes:
-
-| Mode | Behavior |
-|------|----------|
-| **Off** | No cookie banner interference |
-| **Hide only** | Visually hides cookie banners without clicking anything |
-| **Auto-reject** | Automatically clicks "reject" or "essential only" buttons, then hides any remaining banners |
-
-The auto-reject feature supports multiple languages and works with Google, common consent frameworks, and many popular websites.
+See the dedicated [Cookie & Consent Banner Blocking](#cookie--consent-banner-blocking) section below for full details on modes, how it works, and troubleshooting.
 
 #### Media Controls
 
@@ -250,7 +242,7 @@ The auto-reject feature supports multiple languages and works with Google, commo
 |-------|--------------|
 | **Clean URLs you copy** | Automatically strips tracking parameters from any link you copy to the clipboard. |
 | **Bypass common redirectors** | Unwraps shortened URLs (like t.co, bit.ly links) and goes directly to the destination. |
-| **Open in Safari** *(new in 4.1)* | Forces links from the configured domains to open inside Safari instead of jumping into the installed app. Includes a per-domain list with Instagram, X (Twitter), YouTube, TikTok, Reddit, LinkedIn, Pinterest, and Spotify. All entries are off by default. You can also add custom domains. |
+| **Open in Safari** | Forces links from the configured domains to open inside Safari instead of jumping into the installed app. Includes a per-domain list with Instagram, X (Twitter), YouTube, TikTok, Reddit, LinkedIn, Pinterest, and Spotify. All entries are off by default. You can also add custom domains. |
 
 #### Extra Tweaks
 
@@ -353,6 +345,78 @@ Yes. You can add custom archive services:
 ### Should I enable "Strip Query Parameters"?
 
 Recommended: Yes. This option removes tracking codes and other parameters before searching archives, which often leads to better matches. Disable it only if you need to search for a URL with specific parameters intact.
+
+---
+
+## Siri Shortcuts & Action Button
+
+### What Siri Shortcuts are available?
+
+Trackless Links includes five ready-to-use Shortcuts actions:
+
+| Action | What it does |
+|--------|--------------|
+| **Clean URL** | Strips tracking parameters from a URL |
+| **Check Credibility** | Looks up a domain in the CRED-1 dataset |
+| **Clean & Check** | Cleans the URL and checks credibility in one step |
+| **Batch Clean** | Cleans multiple URLs at once |
+| **Open in Archive** | Searches the current page in a web archive service |
+
+All actions work with Siri voice commands, the Shortcuts app, and the Share Sheet.
+
+### How do I set up the Action Button?
+
+On iPhone 15 Pro or later:
+
+1. Open **Settings → Action Button**
+2. Scroll to **Shortcut**
+3. Select any Trackless Links action (e.g., "Clean URL")
+4. Press the Action Button to trigger it instantly
+
+### Can I build custom workflows with Shortcuts?
+
+Yes. All five actions are available in Apple's Shortcuts app. You can combine them with other apps to create automations — for example, clean a URL and then send it via Messages, or batch-clean your clipboard every morning.
+
+### Do Shortcuts work without opening the app?
+
+Yes. Once configured, Shortcuts run in the background. You can trigger them from the Lock Screen, via Siri, from the Action Button, or through automation triggers — without ever opening Trackless Links.
+
+---
+
+## Cookie & Consent Banner Blocking
+
+### How does cookie banner blocking work?
+
+Trackless Links uses a dual-layer approach:
+
+1. **Native Content Blocker** — Safari hides banners at the rendering layer before the page finishes loading. No JavaScript overhead.
+2. **JavaScript fallback** — For banners the Content Blocker misses, a lightweight script detects and removes them after page load.
+
+This combination covers hundreds of cookie and consent banners across the web.
+
+### What are the three modes?
+
+| Mode | Behavior |
+|------|----------|
+| **Off** | No cookie banner interference |
+| **Hide only** | Visually hides cookie banners without clicking anything |
+| **Auto-reject** | Automatically clicks "Reject All" or "Essential only" buttons, then hides any remaining banners |
+
+### Does this slow down page loading?
+
+No. The native Content Blocker works at Safari's rendering layer — it is faster than JavaScript-based solutions because banners are hidden before they appear. There is no performance penalty.
+
+### A cookie banner is not being blocked. What can I do?
+
+Some banners use unusual implementations. You can:
+
+- Make sure Cookie Banner Handling is **enabled** (check the Tweaks tab)
+- Try switching to **Auto-reject** mode if you are using "Hide only"
+- Report the site on GitHub — we regularly update the blocking rules
+
+### Is this the same as "Experimental" cookie blocking from older versions?
+
+This feature was labeled "Experimental" in earlier releases. It has since been significantly improved with a native Content Blocker engine and is now a stable, fully supported feature.
 
 ---
 

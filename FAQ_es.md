@@ -221,17 +221,9 @@ Todos los tweaks son opcionales, así que tú decides cuáles activar.
 | **Ignorar fragmentos de texto** | Elimina los fragmentos #:~:text= estilo Chrome de las URLs para que las páginas no salten automáticamente al texto resaltado. |
 | **Permitir arrastrar y soltar** | Restaura el comportamiento por defecto de arrastrar texto y archivos en sitios que lo bloquean. |
 
-#### Gestión de banners de cookies (Experimental)
+#### Bloqueo de banners de cookies y consentimiento
 
-Trackless Links ofrece una gestión inteligente del consentimiento de cookies con tres modos:
-
-| Modo | Comportamiento |
-|------|---------------|
-| **Off** | Sin intervención sobre los banners de cookies |
-| **Solo ocultar** | Oculta visualmente los banners sin pulsar nada |
-| **Rechazar automáticamente** | Pulsa automáticamente botones de "rechazar" o "solo esenciales" y oculta los banners restantes |
-
-La función de rechazo automático admite varios idiomas y funciona con Google, los frameworks de consentimiento más comunes y muchas webs populares.
+Consulta la sección dedicada [Bloqueo de banners de cookies y consentimiento](#bloqueo-de-banners-de-cookies-y-consentimiento) más abajo para conocer los modos disponibles, cómo funciona y cómo solucionar problemas.
 
 #### Controles de medios
 
@@ -250,7 +242,7 @@ La función de rechazo automático admite varios idiomas y funciona con Google, 
 |-------|----------|
 | **Limpiar URLs al copiar** | Elimina automáticamente los parámetros de seguimiento de cualquier enlace que copies al portapapeles. |
 | **Saltar redirectores comunes** | Desempaqueta URLs acortadas (como t.co o bit.ly) y va directo al destino. |
-| **Abrir en Safari** *(novedad en 4.1)* | Fuerza que los enlaces de los dominios configurados se abran en Safari en lugar de saltar a la app instalada. Incluye una lista por dominio con Instagram, X (Twitter), YouTube, TikTok, Reddit, LinkedIn, Pinterest y Spotify. Todas las entradas están desactivadas por defecto. También puedes añadir dominios personalizados. |
+| **Abrir en Safari** | Fuerza que los enlaces de los dominios configurados se abran en Safari en lugar de saltar a la app instalada. Incluye una lista por dominio con Instagram, X (Twitter), YouTube, TikTok, Reddit, LinkedIn, Pinterest y Spotify. Todas las entradas están desactivadas por defecto. También puedes añadir dominios personalizados. |
 
 #### Tweaks adicionales
 
@@ -353,6 +345,78 @@ Sí. Puedes añadir servicios personalizados:
 ### ¿Debería activar "Quitar parámetros de consulta"?
 
 Recomendado: Sí. Esta opción elimina los códigos de seguimiento y otros parámetros antes de buscar en los archivos, lo que suele dar mejores coincidencias. Desactívala solo si necesitas buscar una URL con parámetros específicos intactos.
+
+---
+
+## Atajos de Siri y botón de acción
+
+### ¿Qué atajos de Siri están disponibles?
+
+Trackless Links incluye cinco acciones listas para usar en Atajos:
+
+| Acción | Qué hace |
+|--------|----------|
+| **Limpiar URL** | Elimina los parámetros de seguimiento de una URL |
+| **Verificar credibilidad** | Consulta un dominio en el conjunto de datos CRED-1 |
+| **Limpiar y verificar** | Limpia la URL y comprueba su credibilidad en un solo paso |
+| **Limpiar varias URL** | Limpia múltiples URL a la vez |
+| **Abrir en archivo** | Busca la página actual en un servicio de archivo web |
+
+Todas las acciones funcionan con comandos de voz de Siri, la app Atajos y la hoja para compartir.
+
+### ¿Cómo configuro el botón de acción?
+
+En iPhone 15 Pro o posterior:
+
+1. Abre **Ajustes → Botón de acción**
+2. Desplázate hasta **Atajo**
+3. Selecciona cualquier acción de Trackless Links (p. ej., “Limpiar URL”)
+4. Pulsa el botón de acción para ejecutarla al instante
+
+### ¿Puedo crear flujos de trabajo personalizados con Atajos?
+
+Sí. Las cinco acciones están disponibles en la app Atajos de Apple. Puedes combinarlas con otras apps para crear automatizaciones: por ejemplo, limpiar una URL y enviarla por Mensajes, o limpiar el portapapeles cada mañana.
+
+### ¿Funcionan los atajos sin abrir la app?
+
+Sí. Una vez configurados, los atajos se ejecutan en segundo plano. Puedes activarlos desde la pantalla de bloqueo, mediante Siri, desde el botón de acción o con activadores de automatización, sin abrir Trackless Links en ningún momento.
+
+---
+
+## Bloqueo de banners de cookies y consentimiento
+
+### ¿Cómo funciona el bloqueo de banners de cookies?
+
+Trackless Links usa un enfoque de doble capa:
+
+1. **Bloqueador de contenido nativo** — Safari oculta los banners en la capa de renderizado antes de que la página termine de cargarse. Sin sobrecarga de JavaScript.
+2. **Respaldo con JavaScript** — Para los banners que el bloqueador de contenido no detecta, un script ligero los identifica y elimina tras cargar la página.
+
+Esta combinación cubre cientos de banners de cookies y consentimiento en toda la web.
+
+### ¿Cuáles son los tres modos?
+
+| Modo | Comportamiento |
+|------|----------------|
+| **Off** | Sin intervención sobre los banners de cookies |
+| **Solo ocultar** | Oculta visualmente los banners sin pulsar nada |
+| **Rechazar automáticamente** | Pulsa automáticamente “Rechazar todo” o “Solo esenciales” y oculta los banners restantes |
+
+### ¿Esto ralentiza la carga de las páginas?
+
+No. El bloqueador de contenido nativo actúa en la capa de renderizado de Safari: es más rápido que las soluciones basadas en JavaScript porque los banners se ocultan antes de aparecer. No hay penalización de rendimiento.
+
+### Un banner de cookies no está siendo bloqueado. ¿Qué puedo hacer?
+
+Algunos banners tienen implementaciones poco habituales. Puedes:
+
+- Asegurarte de que la gestión de banners esté **activada** (revisa la pestaña Tweaks)
+- Cambiar al modo **Rechazar automáticamente** si estás usando “Solo ocultar”
+- Reportar el sitio en GitHub: actualizamos las reglas de bloqueo regularmente
+
+### ¿Es lo mismo que el bloqueo de cookies “Experimental” de versiones anteriores?
+
+Esta función estaba etiquetada como “Experimental” en versiones anteriores. Desde entonces se ha mejorado significativamente con un motor de bloqueador de contenido nativo y ahora es una función estable y totalmente soportada.
 
 ---
 

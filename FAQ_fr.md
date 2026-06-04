@@ -221,17 +221,9 @@ Tous les tweaks sont opt-in : c'est vous qui choisissez ceux à activer.
 | **Ignorer les fragments de texte** | Supprime les fragments #:~:text= de style Chrome dans les URL afin que les pages ne défilent pas automatiquement vers le texte surligné. |
 | **Autoriser le glisser-déposer** | Restaure le glisser de texte et le glisser-déposer par défaut sur les sites qui les bloquent. |
 
-#### Gestion des bandeaux de cookies (expérimental)
+#### Blocage des bannières de cookies et de consentement
 
-Trackless Links propose une gestion intelligente du consentement aux cookies avec trois modes :
-
-| Mode | Comportement |
-|------|-------------|
-| **Off** | Aucune intervention sur les bandeaux de cookies |
-| **Masquer uniquement** | Masque visuellement les bandeaux sans cliquer sur quoi que ce soit |
-| **Refus automatique** | Clique automatiquement sur les boutons « refuser » ou « essentiels uniquement », puis masque les bandeaux restants |
-
-La fonction de refus automatique gère plusieurs langues et fonctionne avec Google, les principaux frameworks de consentement et de nombreux sites populaires.
+Consultez la section dédiée [Blocage des bannières de cookies et de consentement](#blocage-des-banni%C3%A8res-de-cookies-et-de-consentement) ci-dessous pour tous les détails sur les modes disponibles, le fonctionnement et le dépannage.
 
 #### Contrôles des médias
 
@@ -250,7 +242,7 @@ La fonction de refus automatique gère plusieurs langues et fonctionne avec Goog
 |-------|--------------|
 | **Nettoyer les URL copiées** | Supprime automatiquement les paramètres de suivi de tout lien que vous copiez dans le presse-papiers. |
 | **Contourner les redirecteurs courants** | Déballe les URL raccourcies (comme t.co, bit.ly) et va directement à la destination. |
-| **Ouvrir dans Safari** *(nouveau en 4.1)* | Force les liens des domaines configurés à s'ouvrir dans Safari plutôt que dans l'application installée. Inclut une liste par domaine avec Instagram, X (Twitter), YouTube, TikTok, Reddit, LinkedIn, Pinterest et Spotify. Toutes les entrées sont désactivées par défaut. Vous pouvez aussi ajouter vos propres domaines. |
+| **Ouvrir dans Safari** | Force les liens des domaines configurés à s'ouvrir dans Safari plutôt que dans l'application installée. Inclut une liste par domaine avec Instagram, X (Twitter), YouTube, TikTok, Reddit, LinkedIn, Pinterest et Spotify. Toutes les entrées sont désactivées par défaut. Vous pouvez aussi ajouter vos propres domaines. |
 
 #### Tweaks supplémentaires
 
@@ -353,6 +345,78 @@ Oui. Vous pouvez ajouter des services personnalisés :
 ### Faut-il activer « Supprimer les paramètres de requête » ?
 
 Recommandé : Oui. Cette option supprime les codes de suivi et autres paramètres avant la recherche dans les archives, ce qui améliore souvent les correspondances. Désactivez-la uniquement si vous devez chercher une URL avec des paramètres spécifiques intacts.
+
+---
+
+## Raccourcis Siri et bouton Action
+
+### Quels raccourcis Siri sont disponibles ?
+
+Trackless Links inclut cinq actions prêtes à l’emploi dans l’app Raccourcis :
+
+| Action | Ce qu’elle fait |
+|--------|------------------|
+| **Nettoyer l’URL** | Supprime les paramètres de suivi d’une URL |
+| **Vérifier la crédibilité** | Consulte un domaine dans le jeu de données CRED-1 |
+| **Nettoyer et vérifier** | Nettoie l’URL et vérifie sa crédibilité en une seule étape |
+| **Nettoyage groupé** | Nettoie plusieurs URL à la fois |
+| **Ouvrir dans l’archive** | Recherche la page actuelle dans un service d’archives web |
+
+Toutes les actions fonctionnent avec les commandes vocales Siri, l’app Raccourcis et la feuille de partage.
+
+### Comment configurer le bouton Action ?
+
+Sur iPhone 15 Pro ou ultérieur :
+
+1. Ouvrez **Réglages → Bouton Action**
+2. Faites défiler jusqu’à **Raccourci**
+3. Sélectionnez n’importe quelle action Trackless Links (par exemple « Nettoyer l’URL »)
+4. Appuyez sur le bouton Action pour la déclencher instantanément
+
+### Puis-je créer des workflows personnalisés avec Raccourcis ?
+
+Oui. Les cinq actions sont disponibles dans l’app Raccourcis d’Apple. Vous pouvez les combiner avec d’autres apps pour créer des automatisations — par exemple, nettoyer une URL puis l’envoyer par Messages, ou nettoyer votre presse-papiers chaque matin.
+
+### Les raccourcis fonctionnent-ils sans ouvrir l’app ?
+
+Oui. Une fois configurés, les raccourcis s’exécutent en arrière-plan. Vous pouvez les déclencher depuis l’écran verrouillé, via Siri, depuis le bouton Action ou grâce à des déclencheurs d’automatisation — sans jamais ouvrir Trackless Links.
+
+---
+
+## Blocage des bannières de cookies et de consentement
+
+### Comment fonctionne le blocage des bannières de cookies ?
+
+Trackless Links adopte une approche en deux couches :
+
+1. **Bloqueur de contenu natif** — Safari masque les bannières au niveau du rendu avant que la page ne finisse de se charger. Aucune surcharge JavaScript.
+2. **Alternative JavaScript** — Pour les bannières que le bloqueur de contenu ne détecte pas, un script léger les identifie et les supprime après le chargement.
+
+Cette combinaison couvre des centaines de bannières de cookies et de consentement sur le web.
+
+### Quels sont les trois modes ?
+
+| Mode | Comportement |
+|------|-------------|
+| **Off** | Aucune intervention sur les bannières de cookies |
+| **Masquer uniquement** | Masque visuellement les bannières sans cliquer sur quoi que ce soit |
+| **Refus automatique** | Clique automatiquement sur « Tout refuser » ou « Essentiels uniquement », puis masque les bannières restantes |
+
+### Cela ralentit-il le chargement des pages ?
+
+Non. Le bloqueur de contenu natif agit au niveau du rendu de Safari — il est plus rapide que les solutions basées sur JavaScript car les bannières sont masquées avant d’apparaître. Aucune pénalité de performance.
+
+### Une bannière de cookies n’est pas bloquée. Que puis-je faire ?
+
+Certaines bannières ont des implémentations inhabituelles. Vous pouvez :
+
+- Vérifier que la gestion des bannières est **activée** (consultez l’onglet Tweaks)
+- Passer en mode **Refus automatique** si vous utilisez « Masquer uniquement »
+- Signaler le site sur GitHub — nous mettons régulièrement à jour les règles de blocage
+
+### Est-ce la même chose que le blocage « Expérimental » des versions antérieures ?
+
+Cette fonctionnalité était labellisée « Expérimental » dans les versions antérieures. Elle a depuis été considérablement améliorée avec un moteur de bloqueur de contenu natif et constitue désormais une fonctionnalité stable et entièrement prise en charge.
 
 ---
 

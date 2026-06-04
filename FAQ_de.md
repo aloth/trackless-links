@@ -221,17 +221,9 @@ Alle Tweaks sind optional, du entscheidest also, welche du aktivierst.
 | **Text-Fragmente ignorieren** | Entfernt Chrome-artige #:~:text=-Fragmente aus URLs, damit Seiten nicht automatisch zu markiertem Text scrollen. |
 | **Drag & Drop erlauben** | Stellt Standard-Textziehen und Drag-and-Drop-Verhalten auf Seiten wieder her, die es blockieren. |
 
-#### Cookie-Banner-Behandlung (Experimentell)
+#### Cookie- & Consent-Banner-Blockierung
 
-Trackless Links bietet intelligentes Cookie-Consent-Management mit drei Modi:
-
-| Modus | Verhalten |
-|-------|-----------|
-| **Aus** | Keine Einmischung bei Cookie-Bannern |
-| **Nur ausblenden** | Blendet Cookie-Banner visuell aus, ohne etwas anzuklicken |
-| **Automatisch ablehnen** | Klickt automatisch auf "Ablehnen" oder "Nur essenzielle"-Buttons, blendet dann verbleibende Banner aus |
-
-Die Auto-Ablehnen-Funktion unterstützt mehrere Sprachen und funktioniert mit Google, gängigen Consent-Frameworks und vielen beliebten Websites.
+Ausführliche Informationen zu den Modi, der Funktionsweise und Fehlerbehebung findest du im eigenen Abschnitt [Cookie- & Consent-Banner-Blockierung](#cookie---consent-banner-blockierung) weiter unten.
 
 #### Mediensteuerung
 
@@ -250,7 +242,7 @@ Die Auto-Ablehnen-Funktion unterstützt mehrere Sprachen und funktioniert mit Go
 |-------|----------------|
 | **Kopierte URLs bereinigen** | Entfernt automatisch Tracking-Parameter aus jedem Link, den du in die Zwischenablage kopierst. |
 | **Gängige Redirectors umgehen** | Entpackt verkürzte URLs (wie t.co, bit.ly-Links) und geht direkt zum Ziel. |
-| **In Safari öffnen** *(neu in 4.1)* | Erzwingt, dass Links von den konfigurierten Domains in Safari geöffnet werden, statt in die installierte App zu springen. Enthält eine Domain-Liste mit Instagram, X (Twitter), YouTube, TikTok, Reddit, LinkedIn, Pinterest und Spotify. Alle Einträge sind standardmäßig deaktiviert. Eigene Domains lassen sich hinzufügen. |
+| **In Safari öffnen** | Erzwingt, dass Links von den konfigurierten Domains in Safari geöffnet werden, statt in die installierte App zu springen. Enthält eine Domain-Liste mit Instagram, X (Twitter), YouTube, TikTok, Reddit, LinkedIn, Pinterest und Spotify. Alle Einträge sind standardmäßig deaktiviert. Eigene Domains lassen sich hinzufügen. |
 
 #### Zusätzliche Tweaks
 
@@ -353,6 +345,78 @@ Ja. Du kannst eigene Archivdienste hinzufügen:
 ### Sollte ich "Query-Parameter entfernen" aktivieren?
 
 Empfohlen: Ja. Diese Option entfernt Tracking-Codes und andere Parameter vor der Archivsuche, was oft zu besseren Treffern führt. Deaktiviere sie nur, wenn du nach einer URL mit bestimmten Parametern suchen musst.
+
+---
+
+## Siri-Kurzbefehle & Aktionstaste
+
+### Welche Siri-Kurzbefehle gibt es?
+
+Trackless Links enthält fünf sofort einsatzbereite Kurzbefehl-Aktionen:
+
+| Aktion | Was sie tut |
+|--------|-------------|
+| **URL bereinigen** | Entfernt Tracking-Parameter aus einer URL |
+| **Glaubwürdigkeit prüfen** | Schlägt eine Domain im CRED-1-Datensatz nach |
+| **Bereinigen & Prüfen** | Bereinigt die URL und prüft die Glaubwürdigkeit in einem Schritt |
+| **Mehrere URLs bereinigen** | Bereinigt mehrere URLs auf einmal |
+| **Im Archiv öffnen** | Sucht die aktuelle Seite in einem Webarchiv-Dienst |
+
+Alle Aktionen funktionieren mit Siri-Sprachbefehlen, der Kurzbefehle-App und dem Teilen-Menü.
+
+### Wie richte ich die Aktionstaste ein?
+
+Auf iPhone 15 Pro oder neuer:
+
+1. Öffne **Einstellungen → Aktionstaste**
+2. Scrolle zu **Kurzbefehl**
+3. Wähle eine beliebige Trackless Links-Aktion (z. B. „URL bereinigen“)
+4. Drücke die Aktionstaste, um sie sofort auszulösen
+
+### Kann ich eigene Workflows mit Kurzbefehlen erstellen?
+
+Ja. Alle fünf Aktionen sind in Apples Kurzbefehle-App verfügbar. Du kannst sie mit anderen Apps kombinieren, um Automatisierungen zu erstellen – zum Beispiel eine URL bereinigen und dann per Nachrichten verschicken oder jeden Morgen die Zwischenablage automatisch bereinigen.
+
+### Funktionieren Kurzbefehle ohne die App zu öffnen?
+
+Ja. Einmal konfiguriert, laufen Kurzbefehle im Hintergrund. Du kannst sie vom Sperrbildschirm aus, über Siri, über die Aktionstaste oder durch Automations-Trigger ausführen – ohne Trackless Links je zu öffnen.
+
+---
+
+## Cookie- & Consent-Banner-Blockierung
+
+### Wie funktioniert die Cookie-Banner-Blockierung?
+
+Trackless Links verwendet einen zweischichtigen Ansatz:
+
+1. **Nativer Content Blocker** — Safari blendet Banner auf der Rendering-Ebene aus, bevor die Seite fertig geladen ist. Kein JavaScript-Overhead.
+2. **JavaScript-Fallback** — Für Banner, die der Content Blocker übersieht, erkennt ein leichtgewichtiges Skript diese nach dem Laden der Seite und entfernt sie.
+
+Diese Kombination deckt Hunderte von Cookie- und Consent-Bannern im Web ab.
+
+### Welche drei Modi gibt es?
+
+| Modus | Verhalten |
+|-------|----------|
+| **Aus** | Keine Einmischung bei Cookie-Bannern |
+| **Nur ausblenden** | Blendet Cookie-Banner visuell aus, ohne etwas anzuklicken |
+| **Automatisch ablehnen** | Klickt automatisch auf „Alle ablehnen“ oder „Nur essenzielle“, dann werden verbleibende Banner ausgeblendet |
+
+### Verlangsamt das den Seitenaufbau?
+
+Nein. Der native Content Blocker arbeitet auf der Rendering-Ebene von Safari – er ist schneller als JavaScript-basierte Lösungen, weil Banner ausgeblendet werden, bevor sie erscheinen. Es gibt keinen Leistungsverlust.
+
+### Ein Cookie-Banner wird nicht blockiert. Was kann ich tun?
+
+Manche Banner haben ungewöhnliche Implementierungen. Du kannst:
+
+- Sicherstellen, dass die Cookie-Banner-Behandlung **aktiviert** ist (Tweaks-Tab prüfen)
+- Auf den Modus **Automatisch ablehnen** wechseln, wenn du „Nur ausblenden“ verwendest
+- Die Seite auf GitHub melden – wir aktualisieren die Blockierregeln regelmäßig
+
+### Ist das dasselbe wie die „Experimentelle“ Cookie-Blockierung aus älteren Versionen?
+
+Diese Funktion war in früheren Versionen als „Experimentell“ gekennzeichnet. Seitdem wurde sie mit einem nativen Content-Blocker-Engine deutlich verbessert und ist nun eine stabile, vollständig unterstützte Funktion.
 
 ---
 
