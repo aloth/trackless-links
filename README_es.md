@@ -47,7 +47,7 @@ Deja de compartir enlaces que delatan tu actividad.
 - **Añade tus propias reglas** para personalizarlo todo
 - **Estadísticas en tiempo real** que muestran exactamente cuántos rastreadores has bloqueado
 
-### 🌐 Abrir en Safari (Novedad en 4.1)
+### 🌐 Abrir en Safari
 
 Mantén los enlaces **dentro de Safari** en vez de saltar a la app instalada cada vez que tocas uno.
 
@@ -56,13 +56,31 @@ Mantén los enlaces **dentro de Safari** en vez de saltar a la app instalada cad
 - **Desactivado por defecto** — actívalo solo para las apps que te molestan
 - Se acabaron los saltos constantes entre apps al compartir o seguir enlaces
 
-### 📺 Picture-in-Picture en YouTube (Novedad en 4.1)
+### 📺 Picture-in-Picture en YouTube
 
 Por fin disponible en la versión gratuita. Mira cualquier vídeo de YouTube en PiP sin salir de la página.
 
 - **Auto-PiP**: desliza al inicio o bloquea el dispositivo mientras se reproduce un vídeo de YouTube — el PiP se activa solo
 - **Pulsación larga**: mantén pulsado el vídeo durante medio segundo para iniciar PiP cuando quieras
 - **Desactivado por defecto** — actívalo en **Ajustes → Tweaks → Activar Picture-in-Picture**
+
+### 🎙️ Atajos de Siri y Botón de Acción
+
+Limpia enlaces sin tocar la pantalla — desde la pantalla de bloqueo, el Botón de Acción o simplemente preguntando a Siri.
+
+- **Cinco acciones listas para usar** — Limpiar URL, Verificar credibilidad, Ambas, Limpieza por lotes, Abrir en archivo
+- **Botón de Acción** — asigna cualquier acción al Botón de Acción de tu iPhone
+- **Integración con Atajos** — combina con otras apps en flujos de automatización
+- **Menú Compartir** — limpia enlaces directamente desde cualquier app
+
+### 🍪 Bloqueo de banners de cookies y consentimiento
+
+Los banners desaparecen antes de renderizarse. Se acabó el cansancio de "Aceptar todo".
+
+- **Content Blocker nativo** — funciona en la capa de renderizado de Safari para bloqueo instantáneo
+- **Cientos de banners de cookies cubiertos** — los popups de consentimiento desaparecen automáticamente
+- **Modo auto-rechazo** — hace clic en "Rechazar todo" donde sea posible
+- **Sin impacto en la carga** — más rápido que los bloqueadores basados en JavaScript
 
 ### 🔀 Redirecciones inteligentes de URL
 

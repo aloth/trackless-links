@@ -45,7 +45,7 @@ Schluss mit Links, die dein Surfverhalten verraten.
 - **Eigene Regeln hinzufügen** für vollständige Anpassung
 - **Echtzeit-Statistiken** zeigen genau, wie viele Tracker blockiert wurden
 
-### 🌐 In Safari öffnen (Neu in 4.1)
+### 🌐 In Safari öffnen
 
 Links bleiben **in Safari**, statt jedes Mal in die installierte App zu springen.
 
@@ -54,13 +54,31 @@ Links bleiben **in Safari**, statt jedes Mal in die installierte App zu springen
 - **Standardmäßig aus** — nur für die Apps aktivieren, die dich nerven
 - Schluss mit dem ständigen App-Wechsel beim Teilen oder Browsen von Links
 
-### 📺 Bild-in-Bild auf YouTube (Neu in 4.1)
+### 📺 Bild-in-Bild auf YouTube
 
 Endlich auch in der Standardversion. Jedes YouTube-Video im PiP weiterschauen, ohne die Seite zu verlassen.
 
 - **Auto-PiP**: Während ein Video läuft, zum Home-Bildschirm wischen oder das Gerät sperren — PiP startet automatisch
 - **Lange drücken**: Video etwa eine halbe Sekunde gedrückt halten, um PiP manuell zu starten
 - **Standardmäßig aus** — aktivieren unter **Einstellungen → Tweaks → Bild-in-Bild aktivieren**
+
+### 🎙️ Siri Kurzbefehle & Aktionstaste
+
+Links bereinigen ohne Tippen — vom Sperrbildschirm, per Aktionstaste oder einfach per Siri.
+
+- **Fünf fertige Aktionen** — URL bereinigen, Glaubwürdigkeit prüfen, Beides, Stapelverarbeitung, Im Archiv öffnen
+- **Aktionstaste** — jede Aktion direkt auf die Aktionstaste legen
+- **Kurzbefehle-Integration** — mit anderen Apps in Automationen kombinieren
+- **Teilen-Menü** — Links direkt aus jeder App bereinigen
+
+### 🍪 Cookie- & Consent-Banner blockieren
+
+Banner verschwinden, bevor sie überhaupt gerendert werden. Schluss mit "Alle akzeptieren".
+
+- **Nativer Content Blocker** — arbeitet auf Safaris Rendering-Ebene für sofortiges Blockieren
+- **Hunderte Cookie-Banner abgedeckt** — Consent-Popups verschwinden automatisch
+- **Auto-Reject-Modus** — klickt "Alle ablehnen" wo möglich
+- **Kein Einfluss auf Ladezeiten** — schneller als JavaScript-basierte Blocker
 
 ### 🔀 Intelligente URL-Weiterleitungen
 

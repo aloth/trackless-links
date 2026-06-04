@@ -49,7 +49,7 @@ Stop sharing links that expose your browsing habits.
 - **Add your own rules** for complete customization
 - **Real-time statistics** show exactly how many trackers you've blocked
 
-### 🌐 Open in Safari (New in 4.1)
+### 🌐 Open in Safari
 
 Keep links **inside Safari** instead of jumping into the installed app every time you tap one.
 
@@ -58,13 +58,31 @@ Keep links **inside Safari** instead of jumping into the installed app every tim
 - **Off by default** — opt in only for the apps that bug you
 - Stops the constant context-switch when sharing or browsing links
 
-### 📺 YouTube Picture-in-Picture (New in 4.1)
+### 📺 YouTube Picture-in-Picture
 
 Finally on the free tier. Watch any YouTube video in PiP without leaving the page.
 
 - **Auto-PiP**: swipe up to the home screen or lock your device while a YouTube video plays — PiP starts automatically
 - **Long-press**: hold a video for about half a second to start PiP on demand
 - **Off by default** — enable in **Settings → Tweaks → Enable Picture-in-Picture**
+
+### 🎙️ Siri Shortcuts & Action Button
+
+Clean links hands-free — from the Lock Screen, Action Button, or just by asking Siri.
+
+- **Five ready-to-use actions** — Clean URL, Check Credibility, Clean & Check, Batch Clean, Open in Archive
+- **Action Button support** — assign any action to your iPhone's Action Button
+- **Shortcuts integration** — combine with other apps in automation workflows
+- **Share Sheet** — clean links directly from any app's share menu
+
+### 🍪 Cookie & Consent Banner Blocking
+
+Banners hidden before they even render. No more "Accept All" fatigue.
+
+- **Native Content Blocker** — works at Safari's rendering layer for instant blocking
+- **Hundreds of cookie banners covered** — consent popups disappear automatically
+- **Auto-reject mode** — clicks "Reject All" where possible
+- **Zero page load impact** — faster than JavaScript-based blockers
 
 ### 🔀 Smart URL Redirects
 

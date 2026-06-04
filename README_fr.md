@@ -47,7 +47,7 @@ Arrêtez de partager des liens qui révèlent vos habitudes de navigation.
 - **Ajoutez vos propres règles** pour une personnalisation totale
 - **Statistiques en temps réel** qui montrent précisément combien de traqueurs ont été bloqués
 
-### 🌐 Ouvrir dans Safari (Nouveauté 4.1)
+### 🌐 Ouvrir dans Safari
 
 Gardez les liens **dans Safari** au lieu de basculer dans l'application installée à chaque fois.
 
@@ -56,13 +56,31 @@ Gardez les liens **dans Safari** au lieu de basculer dans l'application install�
 - **Désactivé par défaut** — n'activez que pour les applications qui vous dérangent
 - Fini les changements d'application incessants lorsque vous partagez ou suivez des liens
 
-### 📺 Picture-in-Picture sur YouTube (Nouveauté 4.1)
+### 📺 Picture-in-Picture sur YouTube
 
 Enfin disponible dans la version gratuite. Regardez n'importe quelle vidéo YouTube en PiP sans quitter la page.
 
 - **Auto-PiP** : balayez vers l'écran d'accueil ou verrouillez votre appareil pendant la lecture — le PiP se lance automatiquement
 - **Appui long** : maintenez la vidéo enfoncée environ une demi-seconde pour démarrer le PiP à la demande
 - **Désactivé par défaut** — à activer dans **Réglages → Tweaks → Activer Picture-in-Picture**
+
+### 🎙️ Raccourcis Siri et bouton Action
+
+Nettoyez vos liens sans les mains — depuis l'écran verrouillé, le bouton Action ou simplement en demandant à Siri.
+
+- **Cinq actions prêtes à l'emploi** — Nettoyer l'URL, Vérifier la crédibilité, Les deux, Nettoyage par lot, Ouvrir dans l'archive
+- **Bouton Action** — assignez n'importe quelle action au bouton Action de votre iPhone
+- **Intégration Raccourcis** — combinez avec d'autres apps dans des automatisations
+- **Menu Partager** — nettoyez les liens directement depuis n'importe quelle app
+
+### 🍪 Blocage des bannières cookies et de consentement
+
+Les bannières disparaissent avant même d'être affichées. Fini la fatigue du "Tout accepter".
+
+- **Content Blocker natif** — agit au niveau du rendu de Safari pour un blocage instantané
+- **Des centaines de bannières cookies couvertes** — les popups de consentement disparaissent automatiquement
+- **Mode auto-rejet** — clique sur "Tout refuser" là où c'est possible
+- **Aucun impact sur le chargement** — plus rapide que les bloqueurs basés sur JavaScript
 
 ### 🔀 Redirections d'URL intelligentes
 
