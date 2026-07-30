@@ -7,12 +7,15 @@
 [![Platform](https://img.shields.io/badge/Platform-iOS_17+_|_macOS_14+-lightgrey?logo=apple)](https://developer.apple.com/safari/extensions/)
 [![Powered by CRED-1](https://img.shields.io/badge/Powered%20by-CRED--1-green?style=flat)](https://github.com/aloth/cred-1)
 [![GitHub stars](https://img.shields.io/github/stars/aloth/trackless-links?style=social)](https://github.com/aloth/trackless-links/stargazers)
+[![Reviewed in Mac & i 4/2026](https://img.shields.io/badge/Reviewed%20in-Mac%20%26%20i%204%2F2026-c00?style=flat)](https://www.heise.de/select/mac-and-i/2026/4/2609012234834091131)
 
 <p align="center">
   <img src="assets/images/trackless-links-url-tracker-removal-privacy-hero.png" alt="Trackless Links — break the tracking chain and browse with clean, private URLs" width="700">
 </p>
 
 **La extensión de Safari que elimina códigos de seguimiento, redirige sitios molestos y devuelve a las webs la funcionalidad que echabas de menos.**
+
+> 📰 **Analizada en Mac & i 4/2026 (heise).** "Trackless Links es práctica para borrar tus huellas digitales y sortear las molestas restricciones de las webs" y, frente a su competidor StopTheMadness Pro, resulta "notablemente más barata y más fácil de usar". (Traducido del alemán. Original: "praktisch, um digitale Spuren zu verwischen und lästige Einschränkungen von Websites zu umgehen" / "deutlich günstiger und einfacher zu bedienen".) [Leer el análisis](https://www.heise.de/select/mac-and-i/2026/4/2609012234834091131) (de pago, en alemán).
 
 ¿Cansado de compartir URLs llenas de basura tipo `?utm_source=...`? ¿Harto de webs que bloquean la selección de texto o reproducen vídeos sin pedir permiso? Trackless Links lo arregla todo automáticamente — y funciona al 100% en tu dispositivo, sin enviar datos a ningún servidor.
 

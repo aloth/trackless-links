@@ -8,9 +8,12 @@
 
 <p align="center">
   <a href="https://github.com/aloth/cred-1"><img src="https://img.shields.io/badge/Powered%20by-CRED--1-green?style=flat" alt="Powered by CRED-1"></a>
+  <a href="https://www.heise.de/select/mac-and-i/2026/4/2609012234834091131"><img src="https://img.shields.io/badge/Reviewed%20in-Mac%20%26%20i%204%2F2026-c00?style=flat" alt="Reviewed in Mac & i 4/2026"></a>
 </p>
 
 **トラッキングコードを削除し、煩わしいサイトをリダイレクトし、失われたウェブサイト機能を復元するSafari拡張機能。**
+
+> 📰 **Mac & i 4/2026 (heise) でレビュー。** 「Trackless Links はデジタルの足跡を消し、煩わしいウェブサイトの制限を回避するのに便利だ」、また競合の StopTheMadness Pro と比べて「明らかに安く、使いやすい」と評価されました。（ドイツ語からの翻訳。原文: "praktisch, um digitale Spuren zu verwischen und lästige Einschränkungen von Websites zu umgehen" / "deutlich günstiger und einfacher zu bedienen"）[レビューを読む](https://www.heise.de/select/mac-and-i/2026/4/2609012234834091131)（有料・ドイツ語）
 
 `?utm_source=...`だらけの汚いURLを共有するのにうんざりしていませんか？テキスト選択をブロックしたり、動画を自動再生するサイトにイライラしていませんか？Trackless Linksがすべて自動で解決します。しかもデータ収集ゼロ、100%デバイス上で動作します。
 

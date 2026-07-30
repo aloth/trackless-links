@@ -8,9 +8,12 @@
 
 <p align="center">
   <a href="https://github.com/aloth/cred-1"><img src="https://img.shields.io/badge/Powered%20by-CRED--1-green?style=flat" alt="Powered by CRED-1"></a>
+  <a href="https://www.heise.de/select/mac-and-i/2026/4/2609012234834091131"><img src="https://img.shields.io/badge/Reviewed%20in-Mac%20%26%20i%204%2F2026-c00?style=flat" alt="Reviewed in Mac & i 4/2026"></a>
 </p>
 
 **Die Safari-Erweiterung, die Tracking-Codes entfernt, nervige Seiten umleitet und Website-Funktionen wiederherstellt, die du vermisst hast.**
+
+> 📰 **Test in Mac & i 4/2026 (heise).** "Trackless Links ist praktisch, um digitale Spuren zu verwischen und lästige Einschränkungen von Websites zu umgehen." Laut Test außerdem "deutlich günstiger und einfacher zu bedienen" als der Mitbewerber StopTheMadness Pro. [Zum Test](https://www.heise.de/select/mac-and-i/2026/4/2609012234834091131) (kostenpflichtig).
 
 Genug von hässlichen URLs voller `?utm_source=...` Tracking-Müll? Frustriert von Websites, die Textauswahl blockieren oder Videos automatisch abspielen? Trackless Links behebt all das automatisch – und läuft zu 100% auf deinem Gerät, ohne Datensammlung.
 

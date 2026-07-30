@@ -8,9 +8,12 @@
 
 <p align="center">
   <a href="https://github.com/aloth/cred-1"><img src="https://img.shields.io/badge/Powered%20by-CRED--1-green?style=flat" alt="Powered by CRED-1"></a>
+  <a href="https://www.heise.de/select/mac-and-i/2026/4/2609012234834091131"><img src="https://img.shields.io/badge/Reviewed%20in-Mac%20%26%20i%204%2F2026-c00?style=flat" alt="Reviewed in Mac & i 4/2026"></a>
 </p>
 
 **删除追踪代码、重定向烦人网站、恢复被禁用的网站功能的Safari扩展。**
+
+> 📰 **《Mac & i》2026年第4期（heise）评测。** "Trackless Links 非常实用，可以抹去数字足迹并绕开网站恼人的限制"，与竞品 StopTheMadness Pro 相比"明显更便宜、更易用"。（译自德语。原文："praktisch, um digitale Spuren zu verwischen und lästige Einschränkungen von Websites zu umgehen" / "deutlich günstiger und einfacher zu bedienen"。）[阅读评测](https://www.heise.de/select/mac-and-i/2026/4/2609012234834091131)（付费，德语）
 
 受够了分享满是`?utm_source=...`追踪垃圾的网址？被那些阻止文字选择或强制自动播放视频的网站搞得很烦？Trackless Links自动解决这一切——而且100%在设备上运行，零数据收集。
 

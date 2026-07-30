@@ -7,6 +7,7 @@
 [![Platform](https://img.shields.io/badge/Platform-iOS_17+_|_macOS_14+-lightgrey?logo=apple)](https://developer.apple.com/safari/extensions/)
 [![Powered by CRED-1](https://img.shields.io/badge/Powered%20by-CRED--1-green?style=flat)](https://github.com/aloth/cred-1)
 [![GitHub stars](https://img.shields.io/github/stars/aloth/trackless-links?style=social)](https://github.com/aloth/trackless-links/stargazers)
+[![Reviewed in Mac & i 4/2026](https://img.shields.io/badge/Reviewed%20in-Mac%20%26%20i%204%2F2026-c00?style=flat)](https://www.heise.de/select/mac-and-i/2026/4/2609012234834091131)
 
 <p align="center">
   <img src="assets/images/trackless-links-url-tracker-removal-privacy-hero.png" alt="Trackless Links — break the tracking chain and browse with clean, private URLs" width="700">
@@ -14,7 +15,7 @@
 
 **The Safari extension that removes tracking codes, redirects annoying sites, and restores website functionality you've been missing.**
 
-> 🎓 **WebSci 2026: Free codes available.** Trackless Links is the first production integration of [CRED-1](https://github.com/aloth/cred-1), presented at ACM WebSci 2026 in Braunschweig. [Claim a free code](https://gutscheinhub.de/ratgeber/trackless-links-cred-1-acm-websci-2026) while supplies last.
+> 📰 **Reviewed in Mac & i 4/2026 (heise).** "Trackless Links is useful for covering your digital tracks and getting around annoying website restrictions" - and, compared to competitor StopTheMadness Pro, "significantly cheaper and easier to use." (Translated from German. Original: "praktisch, um digitale Spuren zu verwischen und lästige Einschränkungen von Websites zu umgehen" / "deutlich günstiger und einfacher zu bedienen".) [Read the review](https://www.heise.de/select/mac-and-i/2026/4/2609012234834091131) (paywalled, German).
 
 Tired of sharing messy URLs full of `?utm_source=...` tracking garbage? Frustrated by websites that block text selection or force autoplay videos? Trackless Links fixes all of this automatically – and it runs 100% on your device with zero data collection.
 
