@@ -28,8 +28,10 @@
 
 [![在App Store下载](https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg)](https://apps.apple.com/us/app/trackless-links-pro/id6754613166)
 
+已经购买了 Trackless Links？[升级捆绑包](https://apps.apple.com/app-bundle/id1850924833)只收取差价，而不是再次收取全价。
+
 ### Trackless Links — iPhone & iPad首选
-iOS完整的隐私保护和浏览控制。
+iOS完整的隐私保护和浏览控制。**仅支持 iOS — Mac 用户需要 Pro。**
 
 [![在App Store下载](https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg)](https://apps.apple.com/us/app/trackless-links-extension/id6749830894?platform=iphone)
 

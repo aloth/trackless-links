@@ -28,8 +28,10 @@
 
 [![App Storeでダウンロード](https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg)](https://apps.apple.com/us/app/trackless-links-pro/id6754613166)
 
+すでにTrackless Linksをお持ちですか？[アップグレードバンドル](https://apps.apple.com/app-bundle/id1850924833)なら差額のみで、全額を再度支払う必要はありません。
+
 ### Trackless Links — iPhone & iPadに最適
-iOS向けの完全なプライバシー保護とブラウジングコントロール。
+iOS向けの完全なプライバシー保護とブラウジングコントロール。**iOS専用 — MacではProが必要です。**
 
 [![App Storeでダウンロード](https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg)](https://apps.apple.com/us/app/trackless-links-extension/id6749830894?platform=iphone)
 

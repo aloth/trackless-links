@@ -72,6 +72,14 @@ Trackless Links 在 URL 加载之前拦截它们，并剥离追踪参数。清�
 
 ## 入门
 
+### 我需要哪个版本？
+
+**Trackless Links Pro** 可在 iPhone、iPad 和 Mac 上运行，一次购买覆盖全部三种设备。
+
+**Trackless Links** 仅支持 iOS，没有 Mac 版本。如果你使用 Mac，需要的是 Pro。
+
+你永远不需要同时拥有两者。如果你已经购买了 Trackless Links 并想添加 Mac，App Store 的[升级捆绑包](https://apps.apple.com/app-bundle/id1850924833)只收取差价，而不是再次收取全价。它不是第三个独立产品。安装 Pro 后，你可以从 iPhone 和 iPad 上删除非 Pro 版本；设置和存档会自动迁移。
+
 ### 如何启用 Safari 扩展？
 
 安装应用后：

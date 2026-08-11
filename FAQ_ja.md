@@ -72,6 +72,14 @@ Trackless Linksは、URLが読み込まれる前にインターセプトし、�
 
 ## はじめに
 
+### どのバージョンが必要？
+
+**Trackless Links Pro** はiPhone、iPad、Macで動作します。1回の購入で3つすべてをカバーします。
+
+**Trackless Links** はiOS専用で、Mac版は存在しません。Macを使うなら、必要なのはProです。
+
+両方を持つ必要はありません。すでにTrackless Linksをお持ちでMacを追加したい場合、App Storeの[アップグレードバンドル](https://apps.apple.com/app-bundle/id1850924833)では差額のみが請求され、全額を再度支払う必要はありません。3つ目の別製品ではありません。Proをインストールしたら、iPhoneとiPadから非Pro版を削除できます。設定とアーカイブは自動的に引き継がれます。
+
 ### Safari拡張機能を有効にするには？
 
 アプリをインストールした後：

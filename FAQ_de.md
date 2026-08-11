@@ -72,6 +72,14 @@ Das passiert automatisch für jeden Link in Safari und stellt URLs wieder so her
 
 ## Erste Schritte
 
+### Welche Version brauche ich?
+
+**Trackless Links Pro** läuft auf iPhone, iPad und Mac. Ein Kauf deckt alle drei ab.
+
+**Trackless Links** gibt es nur für iOS - eine Mac-Version davon existiert nicht. Wer einen Mac nutzt, braucht Pro.
+
+Beide zusammen braucht man nie. Wenn du Trackless Links bereits besitzt und deinen Mac ergänzen möchtest, berechnet dir das [Upgrade-Bundle](https://apps.apple.com/app-bundle/id1850924833) im App Store nur die Preisdifferenz, nicht noch einmal den vollen Preis. Es ist kein separates drittes Produkt. Sobald Pro installiert ist, kannst du die Nicht-Pro-App von iPhone und iPad löschen; Einstellungen und Archiv wandern automatisch mit.
+
 ### Wie aktiviere ich die Safari-Erweiterung?
 
 Nach der Installation der App:

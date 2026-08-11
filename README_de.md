@@ -28,8 +28,10 @@ Mit einem klaren, modernen Design fühlt sich Trackless Links leicht und leistun
 
 [![Im App Store laden](https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg)](https://apps.apple.com/us/app/trackless-links-pro/id6754613166)
 
+Du besitzt Trackless Links bereits? Das [Upgrade-Bundle](https://apps.apple.com/app-bundle/id1850924833) berechnet nur die Preisdifferenz, nicht noch einmal den vollen Preis.
+
 ### Trackless Links — Ideal für iPhone & iPad
-Vollständiger Datenschutz und Browsing-Kontrolle für iOS.
+Vollständiger Datenschutz und Browsing-Kontrolle für iOS. **Nur für iOS — für den Mac brauchst du Pro.**
 
 [![Im App Store laden](https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg)](https://apps.apple.com/us/app/trackless-links-extension/id6749830894?platform=iphone)
 

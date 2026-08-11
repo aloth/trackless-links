@@ -3,6 +3,8 @@
 # Trackless Links – Safari Extension for Privacy, URL Cleaning & Tracker Blocking
 
 [![App Store](https://img.shields.io/badge/App_Store-Download-blue?logo=apple&logoColor=white)](https://apps.apple.com/us/app/trackless-links-pro/id6754613166)
+
+Already own Trackless Links? The [Upgrade Bundle](https://apps.apple.com/app-bundle/id1850924833) charges only the price difference, not the full price again.
 [![Swift](https://img.shields.io/badge/Swift-6.0-orange?logo=swift&logoColor=white)](https://swift.org)
 [![Platform](https://img.shields.io/badge/Platform-iOS_17+_|_macOS_14+-lightgrey?logo=apple)](https://developer.apple.com/safari/extensions/)
 [![Powered by CRED-1](https://img.shields.io/badge/Powered%20by-CRED--1-green?style=flat)](https://github.com/aloth/cred-1)
@@ -31,7 +33,7 @@ Built with a clean, modern design, Trackless Links feels light and powerful on i
 [![Download on the App Store](https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg)](https://apps.apple.com/us/app/trackless-links-pro/id6754613166)
 
 ### Trackless Links — Best for iPhone & iPad
-Complete privacy protection and browsing control for iOS.
+Complete privacy protection and browsing control for iOS. **iOS only — Mac users need Pro.**
 
 [![Download on the App Store](https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg)](https://apps.apple.com/us/app/trackless-links-extension/id6749830894?platform=iphone)
 
