@@ -249,7 +249,7 @@ Tweaksはあなたにコントロールを取り戻します。Trackless Links�
 | Tweak | 機能 |
 |-------|------|
 | **コピーしたURLをクリーン** | クリップボードにコピーしたリンクからトラッキングパラメータを自動的に削除。 |
-| **一般的なリダイレクターをバイパス** | 短縮URL（t.co、bit.lyリンクなど）を展開し、直接目的地へ移動。 |
+| **一般的なリダイレクターをバイパス** | URL内に転送先を含むリンク（Facebook、Reddit、Google、Outlook Safe Links、AWSクリック追跡）を解決し、直接そこへ移動します。t.coやbit.lyのような不透明な短縮URLは、短縮サービスへの事前接続が必要になるため解決しません。 |
 | **Safariで開く** | 設定したドメインのリンクを、インストール済みアプリではなくSafariの中で開くように強制します。Instagram、X (Twitter)、YouTube、TikTok、Reddit、LinkedIn、Pinterest、Spotifyを含むドメインリスト付き。すべての項目は初期状態でオフ。カスタムドメインも追加できます。 |
 
 #### 追加Tweaks

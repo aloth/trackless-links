@@ -249,7 +249,7 @@ Consultez la section dédiée [Blocage des bannières de cookies et de consentem
 | Tweak | Ce qu'il fait |
 |-------|--------------|
 | **Nettoyer les URL copiées** | Supprime automatiquement les paramètres de suivi de tout lien que vous copiez dans le presse-papiers. |
-| **Contourner les redirecteurs courants** | Déballe les URL raccourcies (comme t.co, bit.ly) et va directement à la destination. |
+| **Contourner les redirecteurs courants** | Résout les liens qui contiennent leur destination dans l'URL (Facebook, Reddit, Google, Outlook Safe Links, suivi de clics AWS) et y accède directement. Les raccourcisseurs opaques comme t.co ou bit.ly ne sont pas résolus, car cela obligerait à contacter le service avant vous. |
 | **Ouvrir dans Safari** | Force les liens des domaines configurés à s'ouvrir dans Safari plutôt que dans l'application installée. Inclut une liste par domaine avec Instagram, X (Twitter), YouTube, TikTok, Reddit, LinkedIn, Pinterest et Spotify. Toutes les entrées sont désactivées par défaut. Vous pouvez aussi ajouter vos propres domaines. |
 
 #### Tweaks supplémentaires

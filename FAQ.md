@@ -249,7 +249,7 @@ See the dedicated [Cookie & Consent Banner Blocking](#cookie--consent-banner-blo
 | Tweak | What it does |
 |-------|--------------|
 | **Clean URLs you copy** | Automatically strips tracking parameters from any link you copy to the clipboard. |
-| **Bypass common redirectors** | Unwraps shortened URLs (like t.co, bit.ly links) and goes directly to the destination. |
+| **Bypass common redirectors** | Resolves links that carry their destination inside the URL (Facebook, Reddit, Google, Outlook Safe Links, AWS click tracking) and goes straight there. Opaque shorteners like t.co or bit.ly are not resolved, because that would require contacting the shortener before you do. |
 | **Open in Safari** | Forces links from the configured domains to open inside Safari instead of jumping into the installed app. Includes a per-domain list with Instagram, X (Twitter), YouTube, TikTok, Reddit, LinkedIn, Pinterest, and Spotify. All entries are off by default. You can also add custom domains. |
 
 #### Extra Tweaks

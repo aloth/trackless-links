@@ -249,7 +249,7 @@ Consulta la sección dedicada [Bloqueo de banners de cookies y consentimiento](#
 | Tweak | Qué hace |
 |-------|----------|
 | **Limpiar URLs al copiar** | Elimina automáticamente los parámetros de seguimiento de cualquier enlace que copies al portapapeles. |
-| **Saltar redirectores comunes** | Desempaqueta URLs acortadas (como t.co o bit.ly) y va directo al destino. |
+| **Saltar redirectores comunes** | Resuelve enlaces que llevan el destino dentro de la propia URL (Facebook, Reddit, Google, Outlook Safe Links, seguimiento de clics de AWS) y va directo allí. Los acortadores opacos como t.co o bit.ly no se resuelven, porque haría falta contactar con el servicio antes que tú. |
 | **Abrir en Safari** | Fuerza que los enlaces de los dominios configurados se abran en Safari en lugar de saltar a la app instalada. Incluye una lista por dominio con Instagram, X (Twitter), YouTube, TikTok, Reddit, LinkedIn, Pinterest y Spotify. Todas las entradas están desactivadas por defecto. También puedes añadir dominios personalizados. |
 
 #### Tweaks adicionales

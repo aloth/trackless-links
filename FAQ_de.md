@@ -249,7 +249,7 @@ Ausführliche Informationen zu den Modi, der Funktionsweise und Fehlerbehebung f
 | Tweak | Was er bewirkt |
 |-------|----------------|
 | **Kopierte URLs bereinigen** | Entfernt automatisch Tracking-Parameter aus jedem Link, den du in die Zwischenablage kopierst. |
-| **Gängige Redirectors umgehen** | Entpackt verkürzte URLs (wie t.co, bit.ly-Links) und geht direkt zum Ziel. |
+| **Gängige Redirectors umgehen** | Löst Links auf, die ihr Ziel in der URL mitführen (Facebook, Reddit, Google, Outlook Safe Links, AWS-Klicktracking), und geht direkt dorthin. Undurchsichtige Kurzlinks wie t.co oder bit.ly werden nicht aufgelöst, denn dafür müsste der Kurzlink-Dienst vor dir kontaktiert werden. |
 | **In Safari öffnen** | Erzwingt, dass Links von den konfigurierten Domains in Safari geöffnet werden, statt in die installierte App zu springen. Enthält eine Domain-Liste mit Instagram, X (Twitter), YouTube, TikTok, Reddit, LinkedIn, Pinterest und Spotify. Alle Einträge sind standardmäßig deaktiviert. Eigene Domains lassen sich hinzufügen. |
 
 #### Zusätzliche Tweaks

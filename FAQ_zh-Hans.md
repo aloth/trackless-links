@@ -249,7 +249,7 @@ Trackless Links 删除常见的追踪代码，如：
 | 调整 | 功能说明 |
 |------|----------|
 | **清理复制的 URL** | 自动从你复制到剪贴板的任何链接中删除跟踪参数。 |
-| **绕过常见重定向器** | 展开短链接（如 t.co、bit.ly 链接）并直接转到目标。 |
+| **绕过常见重定向器** | 解析在网址中携带目标地址的链接（Facebook、Reddit、Google、Outlook Safe Links、AWS 点击追踪），直接前往目标。t.co、bit.ly 等不透明短链接不会被解析，因为那需要先于你联系短链接服务。 |
 | **在 Safari 中打开** | 强制让来自所配置域名的链接在 Safari 中打开，而不是跳转到已安装的 App。包含 Instagram、X (Twitter)、YouTube、TikTok、Reddit、LinkedIn、Pinterest 与 Spotify 的域名列表，所有项目默认关闭。也可以添加自定义域名。 |
 
 #### 额外调整
