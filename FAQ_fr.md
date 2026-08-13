@@ -297,7 +297,7 @@ Vous pouvez les utiliser ensemble pour un contrôle maximal.
 
 La crédibilité des sources est un système d'avertissement optionnel qui vous aide à identifier les sites connus pour leur désinformation, leurs fake news ou leurs théories du complot avant d'y perdre votre temps.
 
-Trackless Links s'appuie sur **CRED-1**, un jeu de données ouvert et évalué par des pairs recensant les domaines signalés. Lorsqu'il est activé, Safari peut afficher un bandeau d'avertissement avant ou pendant votre visite sur ces sites.
+Trackless Links s'appuie sur **[CRED-1](https://github.com/aloth/cred-1)**, un jeu de données de recherche ouvert recensant les domaines signalés, issu de travaux académiques sur la désinformation ([article](https://doi.org/10.2139/ssrn.6448466)). Lorsqu'il est activé, Safari peut afficher un bandeau d'avertissement avant ou pendant votre visite sur ces sites.
 
 ### La crédibilité des sources est-elle activée par défaut ?
 

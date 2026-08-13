@@ -8,6 +8,7 @@ Already own Trackless Links? The [Upgrade Bundle](https://apps.apple.com/app-bun
 [![Swift](https://img.shields.io/badge/Swift-6.0-orange?logo=swift&logoColor=white)](https://swift.org)
 [![Platform](https://img.shields.io/badge/Platform-iOS_17+_|_macOS_14+-lightgrey?logo=apple)](https://developer.apple.com/safari/extensions/)
 [![Powered by CRED-1](https://img.shields.io/badge/Powered%20by-CRED--1-green?style=flat)](https://github.com/aloth/cred-1)
+[![CRED-1 Paper](https://img.shields.io/badge/Paper-doi%3A10.2139%2Fssrn.6448466-b31b1b?style=flat)](https://doi.org/10.2139/ssrn.6448466)
 [![GitHub stars](https://img.shields.io/github/stars/aloth/trackless-links?style=social)](https://github.com/aloth/trackless-links/stargazers)
 [![Reviewed in Mac & i 4/2026](https://img.shields.io/badge/Reviewed%20in-Mac%20%26%20i%204%2F2026-c00?style=flat)](https://www.heise.de/select/mac-and-i/2026/4/2609012234834091131)
 
@@ -116,7 +117,7 @@ Restore the web functionality that sites try to break.
 
 Get warned when visiting sites known for misinformation, fake news, or conspiracy theories.
 
-- **Powered by [CRED-1](https://github.com/aloth/cred-1)** – Open, peer-reviewed dataset of 2,672 flagged domains
+- **Powered by [CRED-1](https://github.com/aloth/cred-1)** – Open research dataset of 2,600+ flagged domains, presented at ACM WebSci 2026 ([paper](https://doi.org/10.2139/ssrn.6448466))
 - **Tiered warning banners** – High risk (red), elevated (orange), moderate (yellow)
 - **Dismiss or go back** – One tap to ignore per site or navigate to safety
 - **Optional auto-updates** – Keep the bundled CRED-1 dataset aligned with the latest published release

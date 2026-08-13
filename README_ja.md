@@ -8,6 +8,7 @@
 
 <p align="center">
   <a href="https://github.com/aloth/cred-1"><img src="https://img.shields.io/badge/Powered%20by-CRED--1-green?style=flat" alt="Powered by CRED-1"></a>
+  <a href="https://doi.org/10.2139/ssrn.6448466"><img src="https://img.shields.io/badge/Paper-doi%3A10.2139%2Fssrn.6448466-b31b1b?style=flat" alt="CRED-1 Paper"></a>
   <a href="https://www.heise.de/select/mac-and-i/2026/4/2609012234834091131"><img src="https://img.shields.io/badge/Reviewed%20in-Mac%20%26%20i%204%2F2026-c00?style=flat" alt="Reviewed in Mac & i 4/2026"></a>
 </p>
 
@@ -114,7 +115,7 @@ Free版でもついに実現。ページを離れずにYouTube動画をPiPで視
 
 誤情報やフェイクニュースで知られるサイトを訪問する際に警告します。
 
-- **[CRED-1](https://github.com/aloth/cred-1) 搭載** – 2,672ドメインのオープンでピアレビュー済みデータセット
+- **[CRED-1](https://github.com/aloth/cred-1) 搭載** – 2,600以上のドメインを収録したオープンな研究データセット。ACM WebSci 2026 で発表（[論文](https://doi.org/10.2139/ssrn.6448466)）
 - **段階的警告バナー** – 高リスク（赤）、注意（オレンジ）、中程度（黄）
 - **非表示または戻る** – サイトごとにワンタップで無視または安全に戻る
 - **オプションの自動更新** – 同梱されたCRED-1データセットを最新の公開リリースに合わせて維持

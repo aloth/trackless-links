@@ -8,6 +8,7 @@
 
 <p align="center">
   <a href="https://github.com/aloth/cred-1"><img src="https://img.shields.io/badge/Powered%20by-CRED--1-green?style=flat" alt="Powered by CRED-1"></a>
+  <a href="https://doi.org/10.2139/ssrn.6448466"><img src="https://img.shields.io/badge/Paper-doi%3A10.2139%2Fssrn.6448466-b31b1b?style=flat" alt="CRED-1 Paper"></a>
   <a href="https://www.heise.de/select/mac-and-i/2026/4/2609012234834091131"><img src="https://img.shields.io/badge/Reviewed%20in-Mac%20%26%20i%204%2F2026-c00?style=flat" alt="Reviewed in Mac & i 4/2026"></a>
 </p>
 
@@ -114,7 +115,7 @@ Stelle die Web-Funktionen wieder her, die Seiten gerne kaputt machen.
 
 Werde gewarnt, wenn du Seiten besuchst, die für Falschinformationen, Fake News oder Verschwörungstheorien bekannt sind.
 
-- **Basierend auf [CRED-1](https://github.com/aloth/cred-1)** – Offener, peer-reviewter Datensatz mit 2.672 markierten Domains
+- **Basierend auf [CRED-1](https://github.com/aloth/cred-1)** – Offener Forschungsdatensatz mit über 2.600 markierten Domains, vorgestellt auf der ACM WebSci 2026 ([Paper](https://doi.org/10.2139/ssrn.6448466))
 - **Abgestufte Warnbanner** – Hohes Risiko (rot), erhöht (orange), moderat (gelb)
 - **Ausblenden oder zurück** – Mit einem Tipp pro Seite ignorieren oder zur Sicherheit zurückkehren
 - **Optionale Auto-Updates** – Halten den gebündelten CRED-1-Datensatz auf dem neuesten veröffentlichten Stand

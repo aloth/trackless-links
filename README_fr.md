@@ -8,6 +8,7 @@ Vous possédez déjà Trackless Links ? Le [pack de mise à niveau](https://apps
 [![Swift](https://img.shields.io/badge/Swift-6.0-orange?logo=swift&logoColor=white)](https://swift.org)
 [![Platform](https://img.shields.io/badge/Platform-iOS_17+_|_macOS_14+-lightgrey?logo=apple)](https://developer.apple.com/safari/extensions/)
 [![Powered by CRED-1](https://img.shields.io/badge/Powered%20by-CRED--1-green?style=flat)](https://github.com/aloth/cred-1)
+[![CRED-1 Paper](https://img.shields.io/badge/Paper-doi%3A10.2139%2Fssrn.6448466-b31b1b?style=flat)](https://doi.org/10.2139/ssrn.6448466)
 [![GitHub stars](https://img.shields.io/github/stars/aloth/trackless-links?style=social)](https://github.com/aloth/trackless-links/stargazers)
 [![Reviewed in Mac & i 4/2026](https://img.shields.io/badge/Reviewed%20in-Mac%20%26%20i%204%2F2026-c00?style=flat)](https://www.heise.de/select/mac-and-i/2026/4/2609012234834091131)
 
@@ -116,7 +117,7 @@ Restaurez les fonctionnalités du web que les sites tentent de désactiver.
 
 Soyez averti lorsque vous visitez des sites connus pour leur désinformation, leurs fake news ou leurs théories du complot.
 
-- **Propulsé par [CRED-1](https://github.com/aloth/cred-1)** – Jeu de données ouvert et évalué par des pairs, recensant 2 672 domaines signalés
+- **Propulsé par [CRED-1](https://github.com/aloth/cred-1)** – Jeu de données de recherche ouvert recensant plus de 2 600 domaines signalés, présenté à ACM WebSci 2026 ([article](https://doi.org/10.2139/ssrn.6448466))
 - **Bannières d'avertissement à plusieurs niveaux** – Risque élevé (rouge), modéré-élevé (orange), modéré (jaune)
 - **Ignorer ou revenir en arrière** – Un seul appui pour ignorer l'avertissement sur ce site ou faire demi-tour
 - **Mises à jour automatiques optionnelles** – Maintenez le jeu de données CRED-1 aligné avec la dernière version publiée

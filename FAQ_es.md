@@ -297,7 +297,7 @@ Puedes usarlos juntos para máximo control.
 
 La credibilidad de la fuente es un sistema opcional de avisos que te ayuda a identificar webs conocidas por desinformación, fake news o teorías conspirativas antes de perder el tiempo en ellas.
 
-Trackless Links usa **CRED-1**, un conjunto de datos abierto y revisado por pares con dominios señalados. Cuando está activo, Safari puede mostrar un banner de aviso antes o durante tu visita a esos sitios.
+Trackless Links usa **[CRED-1](https://github.com/aloth/cred-1)**, un conjunto de datos de investigación abierto con dominios señalados, procedente del trabajo académico sobre desinformación ([artículo](https://doi.org/10.2139/ssrn.6448466)). Cuando está activo, Safari puede mostrar un banner de aviso antes o durante tu visita a esos sitios.
 
 ### ¿La credibilidad de la fuente está activa por defecto?
 

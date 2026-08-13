@@ -8,6 +8,7 @@
 [![Swift](https://img.shields.io/badge/Swift-6.0-orange?logo=swift&logoColor=white)](https://swift.org)
 [![Platform](https://img.shields.io/badge/Platform-iOS_17+_|_macOS_14+-lightgrey?logo=apple)](https://developer.apple.com/safari/extensions/)
 [![Powered by CRED-1](https://img.shields.io/badge/Powered%20by-CRED--1-green?style=flat)](https://github.com/aloth/cred-1)
+[![CRED-1 Paper](https://img.shields.io/badge/Paper-doi%3A10.2139%2Fssrn.6448466-b31b1b?style=flat)](https://doi.org/10.2139/ssrn.6448466)
 [![GitHub stars](https://img.shields.io/github/stars/aloth/trackless-links?style=social)](https://github.com/aloth/trackless-links/stargazers)
 [![Reviewed in Mac & i 4/2026](https://img.shields.io/badge/Reviewed%20in-Mac%20%26%20i%204%2F2026-c00?style=flat)](https://www.heise.de/select/mac-and-i/2026/4/2609012234834091131)
 
@@ -116,7 +117,7 @@ Recupera funciones de la web que los sitios intentan romper.
 
 Recibe avisos al visitar sitios conocidos por desinformación, fake news o teorías conspirativas.
 
-- **Basado en [CRED-1](https://github.com/aloth/cred-1)** – Conjunto de datos abierto y revisado por pares con 2.672 dominios señalados
+- **Basado en [CRED-1](https://github.com/aloth/cred-1)** – Conjunto de datos de investigación abierto con más de 2.600 dominios señalados, presentado en ACM WebSci 2026 ([artículo](https://doi.org/10.2139/ssrn.6448466))
 - **Avisos por niveles** – Riesgo alto (rojo), elevado (naranja), moderado (amarillo)
 - **Ignorar o volver atrás** – Un toque para ignorar el aviso en ese sitio o volver a un lugar seguro
 - **Actualizaciones automáticas opcionales** – Mantén el conjunto CRED-1 alineado con la última versión publicada

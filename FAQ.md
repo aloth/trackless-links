@@ -297,7 +297,7 @@ You can use them together for maximum control.
 
 Source Credibility is an optional warning system that helps you identify websites known for misinformation, fake news, or conspiracy theories before you spend time on them.
 
-Trackless Links uses **CRED-1**, an open and peer-reviewed dataset of flagged domains. When enabled, Safari can show a warning banner before or while you browse those sites.
+Trackless Links uses **[CRED-1](https://github.com/aloth/cred-1)**, an open research dataset of flagged domains from academic work on misinformation ([paper](https://doi.org/10.2139/ssrn.6448466)). When enabled, Safari can show a warning banner before or while you browse those sites.
 
 ### Is Source Credibility enabled by default?
 

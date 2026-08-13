@@ -8,6 +8,7 @@
 
 <p align="center">
   <a href="https://github.com/aloth/cred-1"><img src="https://img.shields.io/badge/Powered%20by-CRED--1-green?style=flat" alt="Powered by CRED-1"></a>
+  <a href="https://doi.org/10.2139/ssrn.6448466"><img src="https://img.shields.io/badge/Paper-doi%3A10.2139%2Fssrn.6448466-b31b1b?style=flat" alt="CRED-1 Paper"></a>
   <a href="https://www.heise.de/select/mac-and-i/2026/4/2609012234834091131"><img src="https://img.shields.io/badge/Reviewed%20in-Mac%20%26%20i%204%2F2026-c00?style=flat" alt="Reviewed in Mac & i 4/2026"></a>
 </p>
 
@@ -114,7 +115,7 @@ iOS完整的隐私保护和浏览控制。**仅支持 iOS — Mac 用户需要 P
 
 访问已知传播虚假信息或假新闻的网站时获得警告。
 
-- **基于 [CRED-1](https://github.com/aloth/cred-1)** – 涵盖 2,672 个域名的开放、经同行评审的数据集
+- **基于 [CRED-1](https://github.com/aloth/cred-1)** – 涵盖 2,600 多个域名的开放研究数据集，已在 ACM WebSci 2026 发表（[论文](https://doi.org/10.2139/ssrn.6448466)）
 - **分级警告横幅** – 高风险（红色）、较高（橙色）、中等（黄色）
 - **关闭或返回** – 按站点一键忽略或返回安全页面
 - **可选自动更新** – 让内置的 CRED-1 数据集与最新发布版本保持同步

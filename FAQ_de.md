@@ -297,7 +297,7 @@ Du kannst beide zusammen verwenden für maximale Kontrolle.
 
 Quellen-Glaubwürdigkeit ist ein optionales Warnsystem, das dir hilft, Websites zu erkennen, die für Falschinformationen, Fake News oder Verschwörungstheorien bekannt sind, bevor du Zeit auf ihnen verbringst.
 
-Trackless Links nutzt dafür **CRED-1**, einen offenen und peer-reviewten Datensatz markierter Domains. Wenn die Funktion aktiviert ist, kann Safari vor oder während des Besuchs solcher Seiten ein Warnbanner anzeigen.
+Trackless Links nutzt dafür **[CRED-1](https://github.com/aloth/cred-1)**, einen offenen Forschungsdatensatz markierter Domains aus der Forschung zu Desinformation ([Paper](https://doi.org/10.2139/ssrn.6448466)). Wenn die Funktion aktiviert ist, kann Safari vor oder während des Besuchs solcher Seiten ein Warnbanner anzeigen.
 
 ### Ist Quellen-Glaubwürdigkeit standardmäßig aktiviert?
 
