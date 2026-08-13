@@ -117,6 +117,8 @@ Recupera funciones de la web que los sitios intentan romper.
 
 Recibe avisos al visitar sitios conocidos por desinformación, fake news o teorías conspirativas.
 
+A diferencia de las listas de bloqueo comerciales, los datos detrás de estos avisos son públicos. [CRED-1](https://github.com/aloth/cred-1) es un conjunto de datos de investigación abierto ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)), construido a partir de fuentes con licencia abierta, reconstruido cada semana y documentado en un [artículo de investigación](https://doi.org/10.2139/ssrn.6448466): cualquiera puede revisar la puntuación, verificar un dominio o reutilizar el conjunto de datos. La consulta se ejecuta por completo en tu dispositivo; no se envía ningún dato de navegación.
+
 - **Basado en [CRED-1](https://github.com/aloth/cred-1)** – Conjunto de datos de investigación abierto con más de 2.600 dominios señalados, presentado en ACM WebSci 2026 ([artículo](https://doi.org/10.2139/ssrn.6448466))
 - **Avisos por niveles** – Riesgo alto (rojo), elevado (naranja), moderado (amarillo)
 - **Ignorar o volver atrás** – Un toque para ignorar el aviso en ese sitio o volver a un lugar seguro

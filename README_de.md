@@ -115,6 +115,8 @@ Stelle die Web-Funktionen wieder her, die Seiten gerne kaputt machen.
 
 Werde gewarnt, wenn du Seiten besuchst, die für Falschinformationen, Fake News oder Verschwörungstheorien bekannt sind.
 
+Anders als bei kommerziellen Sperrlisten sind die Daten hinter diesen Warnungen öffentlich. [CRED-1](https://github.com/aloth/cred-1) ist ein offener Forschungsdatensatz ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)), der aus frei lizenzierten Quellen aufgebaut, wöchentlich neu erzeugt und in einem [Forschungspaper](https://doi.org/10.2139/ssrn.6448466) dokumentiert ist - jede und jeder kann die Bewertung nachvollziehen, eine Domain überprüfen oder den Datensatz weiterverwenden. Die Abfrage selbst läuft vollständig auf deinem Gerät; es werden keinerlei Browsing-Daten übertragen.
+
 - **Basierend auf [CRED-1](https://github.com/aloth/cred-1)** – Offener Forschungsdatensatz mit über 2.600 markierten Domains, vorgestellt auf der ACM WebSci 2026 ([Paper](https://doi.org/10.2139/ssrn.6448466))
 - **Abgestufte Warnbanner** – Hohes Risiko (rot), erhöht (orange), moderat (gelb)
 - **Ausblenden oder zurück** – Mit einem Tipp pro Seite ignorieren oder zur Sicherheit zurückkehren

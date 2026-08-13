@@ -117,6 +117,8 @@ Restore the web functionality that sites try to break.
 
 Get warned when visiting sites known for misinformation, fake news, or conspiracy theories.
 
+Unlike commercial blocklists, the data behind these warnings is public. [CRED-1](https://github.com/aloth/cred-1) is an open research dataset ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)) built from openly licensed sources, rebuilt weekly, and documented in a [research paper](https://doi.org/10.2139/ssrn.6448466) - so anyone can inspect the scoring, verify a domain, or reuse the dataset. The lookup itself runs entirely on your device; no browsing data is ever sent anywhere.
+
 - **Powered by [CRED-1](https://github.com/aloth/cred-1)** – Open research dataset of 2,600+ flagged domains, presented at ACM WebSci 2026 ([paper](https://doi.org/10.2139/ssrn.6448466))
 - **Tiered warning banners** – High risk (red), elevated (orange), moderate (yellow)
 - **Dismiss or go back** – One tap to ignore per site or navigate to safety

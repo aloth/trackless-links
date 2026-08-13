@@ -117,6 +117,8 @@ Restaurez les fonctionnalités du web que les sites tentent de désactiver.
 
 Soyez averti lorsque vous visitez des sites connus pour leur désinformation, leurs fake news ou leurs théories du complot.
 
+Contrairement aux listes de blocage commerciales, les données derrière ces avertissements sont publiques. [CRED-1](https://github.com/aloth/cred-1) est un jeu de données de recherche ouvert ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)), constitué à partir de sources sous licence libre, reconstruit chaque semaine et documenté dans un [article de recherche](https://doi.org/10.2139/ssrn.6448466) : chacun peut examiner le calcul du score, vérifier un domaine ou réutiliser le jeu de données. La recherche s'effectue entièrement sur votre appareil ; aucune donnée de navigation n'est transmise.
+
 - **Propulsé par [CRED-1](https://github.com/aloth/cred-1)** – Jeu de données de recherche ouvert recensant plus de 2 600 domaines signalés, présenté à ACM WebSci 2026 ([article](https://doi.org/10.2139/ssrn.6448466))
 - **Bannières d'avertissement à plusieurs niveaux** – Risque élevé (rouge), modéré-élevé (orange), modéré (jaune)
 - **Ignorer ou revenir en arrière** – Un seul appui pour ignorer l'avertissement sur ce site ou faire demi-tour
