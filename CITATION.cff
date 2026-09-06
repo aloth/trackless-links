@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+title: "Trackless Links: Safari Extension for Tracking Parameter Removal"
+message: "If you use Trackless Links in your research, please cite it as below."
+type: software
+authors:
+  - family-names: Loth
+    given-names: Alexander
+    orcid: "https://orcid.org/0009-0003-9327-6865"
+version: "4.4.1"
+date-released: "2026-09-03"
+repository-code: "https://github.com/aloth/trackless-links"
+url: "https://apps.apple.com/app/id6749830894"
+abstract: >
+  A Safari extension for iOS, iPadOS and macOS that strips tracking parameters from
+  links, blocks cookie banners and warns about low-credibility domains using the CRED-1
+  dataset. Link rewriting happens on device; no browsing data leaves it.
+keywords:
+  - privacy
+  - safari extension
+  - url tracking
+  - cookie banners
+  - domain credibility
+  - ios
+  - macos
