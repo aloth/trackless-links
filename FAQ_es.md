@@ -137,6 +137,10 @@ La próxima vez que visites una URL con ese parámetro, se eliminará automátic
 
 Sí. En la pestaña **Filtros** puedes activar o desactivar filtros individuales. También puedes desactivar toda la limpieza desactivando todos los filtros.
 
+### ¿Por qué `si=` sigue en los enlaces de YouTube?
+
+Parámetros como `si` (YouTube, Spotify), `igsh` (Instagram) o `s` y `t` (X) son ID de compartir: la plataforma los añade cuando alguien comparte un enlace y así sabe de qué enlace compartido viene cada clic. Otras webs usan esos mismos nombres cortos para cosas distintas, por eso Trackless Links no los elimina en todas partes. En la app, activa **Ajustes** → **Privacidad y limpieza** → **Eliminar ID de compartir** para eliminarlos en YouTube, Spotify, Instagram, TikTok y X.
+
 ---
 
 ## Redirecciones
@@ -250,6 +254,7 @@ Consulta la sección dedicada [Bloqueo de banners de cookies y consentimiento](#
 |-------|----------|
 | **Limpiar URLs al copiar** | Elimina automáticamente los parámetros de seguimiento de cualquier enlace que copies al portapapeles. |
 | **Saltar redirectores comunes** | Resuelve enlaces que llevan el destino dentro de la propia URL (Facebook, Reddit, Google, Outlook Safe Links, seguimiento de clics de AWS) y va directo allí. Los acortadores opacos como t.co o bit.ly no se resuelven, porque haría falta contactar con el servicio antes que tú. |
+| **Eliminar ID de compartir** | Elimina los ID de compartir que YouTube, Spotify, Instagram, TikTok y X añaden a los enlaces al compartirlos, como `si` o `igsh`. Solo se aplica en esos sitios, porque los mismos nombres cortos significan otra cosa en otras webs. Desactivado por defecto. Funciona en Safari, en la hoja para compartir y en Atajos. |
 | **Abrir en Safari** | Fuerza que los enlaces de los dominios configurados se abran en Safari en lugar de saltar a la app instalada. Incluye una lista por dominio con Instagram, X (Twitter), YouTube, TikTok, Reddit, LinkedIn, Pinterest y Spotify. Todas las entradas están desactivadas por defecto. También puedes añadir dominios personalizados. |
 
 #### Tweaks adicionales
@@ -338,8 +343,8 @@ La búsqueda en archivos te da acceso instantáneo a esas versiones conservadas:
 
 **Desde cualquier app (Hoja para compartir):**
 1. Comparte un enlace desde cualquier app
-2. Elige **Buscar en archivo**
-3. Selecciona tu servicio de archivo preferido
+2. Toca **Trackless Links**
+3. Toca **Abrir en Wayback Machine** u otro servicio de archivo que tengas activado
 
 ### ¿Puedo añadir más servicios de archivo?
 
@@ -435,19 +440,21 @@ Esta función estaba etiquetada como “Experimental” en versiones anteriores.
 Cuando compartes enlaces desde otras apps, los parámetros de seguimiento van con ellos. La extensión para la hoja para compartir te permite limpiar los enlaces antes de compartirlos:
 
 1. En cualquier app (Safari, Reddit, X, etc.), toca el botón **Compartir**
-2. Desplázate y encuentra **Limpiar con Trackless Links**
-3. La URL limpia se copia al portapapeles
+2. Toca **Trackless Links** (o **Trackless Links Pro**) en la fila de apps. Si no aparece, toca **Más** y actívala
+3. Toca **Limpiar y copiar** para copiar el enlace limpio al portapapeles, o **Limpiar y abrir en Safari** para abrirlo sin rastreadores
 
-Ahora puedes compartir un enlace limpio que no revela dónde lo has encontrado ni rastrea a quien haga clic.
+Ahora puedes compartir un enlace limpio que no revela dónde lo has encontrado ni rastrea a quien haga clic. Si **Eliminar ID de compartir** está activado, también se eliminan ID como `si` o `igsh`.
+
+La extensión para la hoja para compartir está disponible en iPhone y iPad.
 
 ### ¿Puedo compartir a archivos desde otras apps?
 
 Sí. Usa la misma hoja para compartir:
 
 1. Toca **Compartir** en cualquier enlace
-2. Elige **Buscar en archivo**
-3. Selecciona tu servicio de archivo
-4. Safari se abrirá con los resultados de la búsqueda en el archivo
+2. Toca **Trackless Links**
+3. En **O abrir en**, toca **Abrir en Wayback Machine** u otro servicio de archivo que tengas activado
+4. Safari abrirá los resultados del archivo para ese enlace
 
 ---
 

@@ -6,8 +6,8 @@ authors:
   - family-names: Loth
     given-names: Alexander
     orcid: "https://orcid.org/0009-0003-9327-6865"
-version: "4.4.1"
-date-released: "2026-09-03"
+version: "4.5"
+date-released: "2026-10-15"
 repository-code: "https://github.com/aloth/trackless-links"
 url: "https://apps.apple.com/app/id6749830894"
 abstract: >

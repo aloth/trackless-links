@@ -49,6 +49,7 @@ Most "privacy" extensions just block ads. Trackless Links does more – it clean
 Stop sharing links that expose your browsing habits.
 
 - **Strips tracking parameters** like `utm_source`, `fbclid`, `gclid`, `mc_eid` from every URL
+- **Removes share IDs** like `si` and `igsh` that YouTube, Spotify, Instagram, TikTok, and X add to shared links (optional, off by default)
 - **Pre-loaded blocklist** with 50+ common tracking codes
 - **Add your own rules** for complete customization
 - **Real-time statistics** show exactly how many trackers you've blocked
@@ -137,7 +138,7 @@ Find deleted or changed content instantly.
 
 ### 📤 Works Everywhere You Browse
 
-- **Share Sheet integration** – Clean links from Reddit, Twitter, email, anywhere
+- **Share Sheet integration** – Tap **Clean & Copy** to get a tracker-free link on your clipboard, from Reddit, X, email, anywhere (iPhone & iPad)
 - **iCloud Sync** – Settings sync instantly across iPhone, iPad, and Mac
 - **Instant Safari integration** – Changes apply immediately
 

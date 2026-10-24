@@ -137,6 +137,10 @@ Beim nächsten Besuch einer URL mit diesem Parameter wird er automatisch entfern
 
 Ja. Im **Filter**-Tab kannst du einzelne Filter ein- oder ausschalten. Du kannst auch die gesamte Tracking-Entfernung deaktivieren, indem du alle Filter ausschaltest.
 
+### Warum bleibt `si=` in YouTube-Links stehen?
+
+Parameter wie `si` (YouTube, Spotify), `igsh` (Instagram) oder `s` und `t` (X) sind Teilen-IDs: Die Plattform hängt sie an, wenn jemand einen Link teilt, und sieht so, aus welchem Teilen ein Klick stammt. Andere Websites nutzen dieselben kurzen Namen für ganz andere Zwecke, deshalb entfernt Trackless Links sie nicht überall. Schalte in der App unter **Anpassungen** → **Datenschutz & Bereinigung** den Schalter **Teilen-IDs entfernen** ein, um sie auf YouTube, Spotify, Instagram, TikTok und X zu entfernen.
+
 ---
 
 ## Weiterleitungen
@@ -250,6 +254,7 @@ Ausführliche Informationen zu den Modi, der Funktionsweise und Fehlerbehebung f
 |-------|----------------|
 | **Kopierte URLs bereinigen** | Entfernt automatisch Tracking-Parameter aus jedem Link, den du in die Zwischenablage kopierst. |
 | **Gängige Redirectors umgehen** | Löst Links auf, die ihr Ziel in der URL mitführen (Facebook, Reddit, Google, Outlook Safe Links, AWS-Klicktracking), und geht direkt dorthin. Undurchsichtige Kurzlinks wie t.co oder bit.ly werden nicht aufgelöst, denn dafür müsste der Kurzlink-Dienst vor dir kontaktiert werden. |
+| **Teilen-IDs entfernen** | Entfernt die Teilen-IDs, die YouTube, Spotify, Instagram, TikTok und X beim Teilen an Links anhängen, etwa `si` oder `igsh`. Gilt nur für diese Seiten, weil dieselben kurzen Namen anderswo etwas anderes bedeuten. Standardmäßig aus. Wirkt in Safari, im Share Sheet und in Kurzbefehlen. |
 | **In Safari öffnen** | Erzwingt, dass Links von den konfigurierten Domains in Safari geöffnet werden, statt in die installierte App zu springen. Enthält eine Domain-Liste mit Instagram, X (Twitter), YouTube, TikTok, Reddit, LinkedIn, Pinterest und Spotify. Alle Einträge sind standardmäßig deaktiviert. Eigene Domains lassen sich hinzufügen. |
 
 #### Zusätzliche Tweaks
@@ -338,8 +343,8 @@ Die Archivsuche gibt dir sofortigen Zugang zu diesen gespeicherten Versionen:
 
 **Von jeder App aus (Share Sheet):**
 1. Teile einen Link aus einer beliebigen App
-2. Wähle **Im Archiv suchen**
-3. Wähle deinen bevorzugten Archivdienst
+2. Tippe auf **Trackless Links**
+3. Tippe auf **Mit Wayback Machine öffnen** oder einen anderen aktivierten Archivdienst
 
 ### Kann ich weitere Archivdienste hinzufügen?
 
@@ -435,19 +440,21 @@ Diese Funktion war in früheren Versionen als „Experimentell“ gekennzeichnet
 Wenn du Links aus anderen Apps teilst, sind Tracking-Parameter mit dabei. Die Share Sheet-Erweiterung ermöglicht es dir, Links vor dem Teilen zu bereinigen:
 
 1. Tippe in einer beliebigen App (Safari, Reddit, X usw.) auf den **Teilen**-Button
-2. Scrolle und finde **Mit Trackless Links bereinigen**
-3. Die bereinigte URL wird in deine Zwischenablage kopiert
+2. Tippe in der Reihe der Apps auf **Trackless Links** (oder **Trackless Links Pro**). Fehlt der Eintrag, tippe auf **Mehr** und aktiviere ihn
+3. Tippe auf **Bereinigen & kopieren**, um den bereinigten Link in die Zwischenablage zu legen, oder auf **Bereinigen & in Safari öffnen**, um ihn ohne Tracker zu öffnen
 
-Jetzt kannst du einen sauberen Link teilen, der nicht verrät, wo du ihn gefunden hast, und nicht jeden trackt, der ihn anklickt.
+Jetzt kannst du einen sauberen Link teilen, der nicht verrät, wo du ihn gefunden hast, und nicht jeden trackt, der ihn anklickt. Ist **Teilen-IDs entfernen** eingeschaltet, verschwinden auch IDs wie `si` oder `igsh`.
+
+Die Share Sheet-Erweiterung gibt es auf iPhone und iPad.
 
 ### Kann ich von anderen Apps aus in Archiven suchen?
 
 Ja. Verwende dasselbe Share Sheet:
 
 1. Tippe bei einem beliebigen Link auf **Teilen**
-2. Wähle **Im Archiv suchen**
-3. Wähle deinen Archivdienst
-4. Safari öffnet sich mit den Archiv-Suchergebnissen
+2. Tippe auf **Trackless Links**
+3. Tippe unter **Oder öffnen in** auf **Mit Wayback Machine öffnen** oder einen anderen aktivierten Archivdienst
+4. Safari öffnet die Ergebnisse des Archivs für diesen Link
 
 ---
 

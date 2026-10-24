@@ -137,6 +137,10 @@ La prochaine fois que vous visiterez une URL contenant ce paramètre, il sera au
 
 Oui. Dans l'onglet **Filtres**, vous pouvez activer ou désactiver chaque filtre individuellement. Vous pouvez aussi désactiver toute la suppression en désactivant tous les filtres.
 
+### Pourquoi `si=` reste-t-il dans les liens YouTube ?
+
+Des paramètres comme `si` (YouTube, Spotify), `igsh` (Instagram) ou `s` et `t` (X) sont des identifiants de partage : la plateforme les ajoute quand quelqu'un partage un lien, et sait ainsi de quel partage vient chaque clic. D'autres sites utilisent ces mêmes noms courts à d'autres fins, c'est pourquoi Trackless Links ne les supprime pas partout. Dans l'app, activez **Réglages** → **Confidentialité et nettoyage** → **Supprimer les identifiants de partage** pour les supprimer sur YouTube, Spotify, Instagram, TikTok et X.
+
 ---
 
 ## Redirections
@@ -250,6 +254,7 @@ Consultez la section dédiée [Blocage des bannières de cookies et de consentem
 |-------|--------------|
 | **Nettoyer les URL copiées** | Supprime automatiquement les paramètres de suivi de tout lien que vous copiez dans le presse-papiers. |
 | **Contourner les redirecteurs courants** | Résout les liens qui contiennent leur destination dans l'URL (Facebook, Reddit, Google, Outlook Safe Links, suivi de clics AWS) et y accède directement. Les raccourcisseurs opaques comme t.co ou bit.ly ne sont pas résolus, car cela obligerait à contacter le service avant vous. |
+| **Supprimer les identifiants de partage** | Supprime les identifiants de partage que YouTube, Spotify, Instagram, TikTok et X ajoutent aux liens quand vous les partagez, comme `si` ou `igsh`. Appliqué uniquement sur ces sites, car les mêmes noms courts signifient autre chose ailleurs. Désactivé par défaut. Fonctionne dans Safari, la feuille de partage et Raccourcis. |
 | **Ouvrir dans Safari** | Force les liens des domaines configurés à s'ouvrir dans Safari plutôt que dans l'application installée. Inclut une liste par domaine avec Instagram, X (Twitter), YouTube, TikTok, Reddit, LinkedIn, Pinterest et Spotify. Toutes les entrées sont désactivées par défaut. Vous pouvez aussi ajouter vos propres domaines. |
 
 #### Tweaks supplémentaires
@@ -338,8 +343,8 @@ La recherche dans les archives vous donne un accès instantané à ces versions 
 
 **Depuis n'importe quelle application (feuille de partage) :**
 1. Partagez un lien depuis n'importe quelle application
-2. Choisissez **Rechercher dans l'archive**
-3. Sélectionnez votre service d'archives préféré
+2. Touchez **Trackless Links**
+3. Touchez **Ouvrir dans Wayback Machine** ou un autre service d'archives activé
 
 ### Puis-je ajouter d'autres services d'archives ?
 
@@ -435,19 +440,21 @@ Cette fonctionnalité était labellisée « Expérimental » dans les versions a
 Quand vous partagez des liens depuis d'autres applications, les paramètres de suivi voyagent avec eux. L'extension feuille de partage vous permet de nettoyer les liens avant de les partager :
 
 1. Dans n'importe quelle application (Safari, Reddit, X, etc.), touchez le bouton **Partager**
-2. Faites défiler et trouvez **Nettoyer avec Trackless Links**
-3. L'URL nettoyée est copiée dans votre presse-papiers
+2. Touchez **Trackless Links** (ou **Trackless Links Pro**) dans la rangée d'apps. S'il n'apparaît pas, touchez **Plus** et activez-le
+3. Touchez **Nettoyer et copier** pour copier le lien nettoyé dans le presse-papiers, ou **Nettoyer et ouvrir dans Safari** pour l'ouvrir sans traqueurs
 
-Vous pouvez maintenant partager un lien propre qui ne révèle pas où vous l'avez trouvé et ne traque pas tous ceux qui cliqueront dessus.
+Vous pouvez maintenant partager un lien propre qui ne révèle pas où vous l'avez trouvé et ne traque pas tous ceux qui cliqueront dessus. Si **Supprimer les identifiants de partage** est activé, les identifiants comme `si` ou `igsh` disparaissent aussi.
+
+L'extension feuille de partage est disponible sur iPhone et iPad.
 
 ### Puis-je partager vers des archives depuis d'autres applications ?
 
 Oui. Utilisez la même feuille de partage :
 
 1. Touchez **Partager** sur n'importe quel lien
-2. Choisissez **Rechercher dans l'archive**
-3. Sélectionnez votre service d'archives
-4. Safari s'ouvrira avec les résultats de la recherche
+2. Touchez **Trackless Links**
+3. Sous **Ou ouvrir dans**, touchez **Ouvrir dans Wayback Machine** ou un autre service d'archives activé
+4. Safari s'ouvrira avec les résultats de l'archive pour ce lien
 
 ---
 

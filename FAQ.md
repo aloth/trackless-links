@@ -137,6 +137,10 @@ The next time you visit a URL with that parameter, it will be automatically remo
 
 Yes. In the **Filters** tab, you can toggle individual filters on or off. You can also disable all tracking removal by turning off all filters.
 
+### Why does `si=` stay in YouTube links?
+
+Parameters like `si` (YouTube, Spotify), `igsh` (Instagram), or `s` and `t` (X) are share IDs: the platform adds them when someone shares a link, so it can see which share a click came from. Other websites use the same short names for unrelated purposes, so Trackless Links does not remove them everywhere. In the app, turn on **Tweaks** → **Privacy & Clean-up** → **Remove share IDs** to remove them on YouTube, Spotify, Instagram, TikTok, and X.
+
 ---
 
 ## Redirects
@@ -250,6 +254,7 @@ See the dedicated [Cookie & Consent Banner Blocking](#cookie--consent-banner-blo
 |-------|--------------|
 | **Clean URLs you copy** | Automatically strips tracking parameters from any link you copy to the clipboard. |
 | **Bypass common redirectors** | Resolves links that carry their destination inside the URL (Facebook, Reddit, Google, Outlook Safe Links, AWS click tracking) and goes straight there. Opaque shorteners like t.co or bit.ly are not resolved, because that would require contacting the shortener before you do. |
+| **Remove share IDs** | Removes the share IDs that YouTube, Spotify, Instagram, TikTok, and X add to links when you share them, such as `si` or `igsh`. Only applied on those sites, because the same short names mean something else elsewhere. Off by default. Applies in Safari, the Share Sheet, and Shortcuts. |
 | **Open in Safari** | Forces links from the configured domains to open inside Safari instead of jumping into the installed app. Includes a per-domain list with Instagram, X (Twitter), YouTube, TikTok, Reddit, LinkedIn, Pinterest, and Spotify. All entries are off by default. You can also add custom domains. |
 
 #### Extra Tweaks
@@ -338,8 +343,8 @@ Archive Search gives you instant access to these preserved versions:
 
 **From any app (Share Sheet):**
 1. Share a link from any app
-2. Choose **Search in Archive**
-3. Select your preferred archive service
+2. Tap **Trackless Links**
+3. Tap **Open in Wayback Machine** or another archive service you have enabled
 
 ### Can I add more archive services?
 
@@ -435,19 +440,21 @@ This feature was labeled "Experimental" in earlier releases. It has since been s
 When you share links from other apps, tracking parameters come along for the ride. The Share Sheet extension lets you clean links before sharing them:
 
 1. In any app (Safari, Reddit, X, etc.), tap the **Share** button
-2. Scroll and find **Clean with Trackless Links**
-3. The cleaned URL is copied to your clipboard
+2. Tap **Trackless Links** (or **Trackless Links Pro**) in the row of apps. If it is not there, tap **More** and turn it on
+3. Tap **Clean & Copy** to put the cleaned link on your clipboard, or **Clean & Open in Safari** to open it without trackers
 
-Now you can share a clean link that does not reveal where you found it or track everyone who clicks it.
+Now you can share a clean link that does not reveal where you found it or track everyone who clicks it. If **Remove share IDs** is on, IDs like `si` or `igsh` are removed as well.
+
+The Share Sheet extension is available on iPhone and iPad.
 
 ### Can I share to archives from other apps?
 
 Yes. Use the same Share Sheet:
 
 1. Tap **Share** on any link
-2. Choose **Search in Archive**
-3. Select your archive service
-4. Safari will open with the archive search results
+2. Tap **Trackless Links**
+3. Under **Or open in**, tap **Open in Wayback Machine** or another archive service you have enabled
+4. Safari opens the archive's results for that link
 
 ---
 

@@ -49,6 +49,7 @@ La plupart des extensions « vie privée » se contentent de bloquer les publici
 Arrêtez de partager des liens qui révèlent vos habitudes de navigation.
 
 - **Supprime les paramètres de suivi** comme `utm_source`, `fbclid`, `gclid`, `mc_eid` de chaque URL
+- **Supprime les identifiants de partage** comme `si` et `igsh` que YouTube, Spotify, Instagram, TikTok et X ajoutent aux liens partagés (facultatif, désactivé par défaut)
 - **Liste de blocage préchargée** avec plus de 50 codes de suivi courants
 - **Ajoutez vos propres règles** pour une personnalisation totale
 - **Statistiques en temps réel** qui montrent précisément combien de traqueurs ont été bloqués
@@ -137,7 +138,7 @@ Retrouvez instantanément les contenus supprimés ou modifiés.
 
 ### 📤 Partout où vous naviguez
 
-- **Intégration à la feuille de partage** – Nettoyez les liens depuis Reddit, Twitter, vos e-mails, partout
+- **Intégration à la feuille de partage** – Touchez **Nettoyer et copier** pour obtenir un lien sans traqueurs dans le presse-papiers, depuis Reddit, X, vos e-mails, partout (iPhone et iPad)
 - **Synchronisation iCloud** – Les réglages se synchronisent instantanément entre iPhone, iPad et Mac
 - **Intégration Safari immédiate** – Les changements s'appliquent aussitôt
 

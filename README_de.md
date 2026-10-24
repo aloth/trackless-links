@@ -47,6 +47,7 @@ Die meisten „Datenschutz"-Erweiterungen blockieren nur Werbung. Trackless Link
 Schluss mit Links, die dein Surfverhalten verraten.
 
 - **Entfernt Tracking-Parameter** wie `utm_source`, `fbclid`, `gclid`, `mc_eid` aus jeder URL
+- **Entfernt Teilen-IDs** wie `si` und `igsh`, die YouTube, Spotify, Instagram, TikTok und X an geteilte Links hängen (optional, standardmäßig aus)
 - **Vorinstallierte Sperrliste** mit über 50 gängigen Tracking-Codes
 - **Eigene Regeln hinzufügen** für vollständige Anpassung
 - **Echtzeit-Statistiken** zeigen genau, wie viele Tracker blockiert wurden
@@ -135,7 +136,7 @@ Finde gelöschte oder geänderte Inhalte sofort.
 
 ### 📤 Funktioniert überall, wo du surfst
 
-- **Share Sheet-Integration** – Links säubern aus Reddit, Twitter, E-Mail, überall
+- **Share Sheet-Integration** – Mit **Bereinigen & kopieren** landet der Link ohne Tracker in der Zwischenablage, aus Reddit, X, E-Mail, überall (iPhone & iPad)
 - **iCloud-Synchronisierung** – Einstellungen synchronisieren sofort zwischen iPhone, iPad und Mac
 - **Sofortige Safari-Integration** – Änderungen greifen unmittelbar
 

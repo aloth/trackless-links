@@ -49,6 +49,7 @@ La mayoría de extensiones de "privacidad" se limitan a bloquear anuncios. Track
 Deja de compartir enlaces que delatan tu actividad.
 
 - **Elimina parámetros de seguimiento** como `utm_source`, `fbclid`, `gclid`, `mc_eid` de cada URL
+- **Elimina los ID de compartir** como `si` e `igsh` que YouTube, Spotify, Instagram, TikTok y X añaden a los enlaces compartidos (opcional, desactivado por defecto)
 - **Lista de bloqueo precargada** con más de 50 códigos de seguimiento habituales
 - **Añade tus propias reglas** para personalizarlo todo
 - **Estadísticas en tiempo real** que muestran exactamente cuántos rastreadores has bloqueado
@@ -137,7 +138,7 @@ Encuentra al instante contenido borrado o modificado.
 
 ### 📤 Funciona en cualquier sitio donde navegues
 
-- **Integración con la hoja para compartir** – Limpia enlaces desde Reddit, Twitter, correo, donde sea
+- **Integración con la hoja para compartir** – Toca **Limpiar y copiar** y el enlace sin rastreadores queda en el portapapeles, desde Reddit, X, correo, donde sea (iPhone y iPad)
 - **Sincronización con iCloud** – Tus ajustes se sincronizan al instante en iPhone, iPad y Mac
 - **Integración inmediata con Safari** – Los cambios se aplican al momento
 
