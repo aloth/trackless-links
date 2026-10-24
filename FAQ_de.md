@@ -80,6 +80,8 @@ Das passiert automatisch für jeden Link in Safari und stellt URLs wieder so her
 
 Beide zusammen braucht man nie. Wenn du Trackless Links bereits besitzt und deinen Mac ergänzen möchtest, berechnet dir das [Upgrade-Bundle](https://apps.apple.com/app-bundle/id1850924833) im App Store nur die Preisdifferenz, nicht noch einmal den vollen Preis. Es ist kein separates drittes Produkt. Sobald Pro installiert ist, kannst du die Nicht-Pro-App von iPhone und iPad löschen; Einstellungen und Archiv wandern automatisch mit.
 
+Sind beide installiert, öffnet **App öffnen** in der Safari-Erweiterung jeder App die jeweils eigene App.
+
 ### Wie aktiviere ich die Safari-Erweiterung?
 
 Nach der Installation der App:
@@ -136,6 +138,8 @@ Beim nächsten Besuch einer URL mit diesem Parameter wird er automatisch entfern
 ### Kann ich die Tracking-Entfernung vorübergehend deaktivieren?
 
 Ja. Im **Filter**-Tab kannst du einzelne Filter ein- oder ausschalten. Du kannst auch die gesamte Tracking-Entfernung deaktivieren, indem du alle Filter ausschaltest.
+
+Um Trackless Links nur für eine einzelne Website auszuschalten, siehe **Eine Website funktioniert mit Trackless Links nicht richtig**.
 
 ### Warum bleibt `si=` in YouTube-Links stehen?
 
@@ -227,57 +231,67 @@ Alle Tweaks sind optional, du entscheidest also, welche du aktivierst.
 
 | Tweak | Was er bewirkt |
 |-------|----------------|
-| **Textauswahl & Kopieren erlauben** | Aktiviert Auswahl, Kopieren, Einfügen und Kontextmenüs auf Seiten wieder, die versuchen, sie zu blockieren. Unverzichtbar für Recherche und Notizen. |
-| **Exit-Dialoge deaktivieren** | Verhindert nervige "Möchtest du diese Seite wirklich verlassen?"-Abfragen beim Navigieren oder Schließen eines Tabs. |
-| **Erzwungene neue Tabs deaktivieren** | Stoppt Seiten dabei, Links zwangsweise in neuen Tabs zu öffnen (target="_blank"). Links öffnen standardmäßig im selben Tab. |
-| **Text-Fragmente ignorieren** | Entfernt Chrome-artige #:~:text=-Fragmente aus URLs, damit Seiten nicht automatisch zu markiertem Text scrollen. |
-| **Drag & Drop erlauben** | Stellt Standard-Textziehen und Drag-and-Drop-Verhalten auf Seiten wieder her, die es blockieren. |
+| **"Möchten Sie diese Seite wirklich verlassen?"-Dialoge deaktivieren** | Verhindert nervige "Möchtest du diese Seite wirklich verlassen?"-Abfragen beim Navigieren oder Schließen eines Tabs. |
+| **Erzwungene neue Tabs deaktivieren (target=_blank)** | Stoppt Seiten dabei, Links zwangsweise in neuen Tabs zu öffnen (target="_blank"). Links öffnen standardmäßig im selben Tab. |
+| **#:~:text-Fragmente ignorieren** | Entfernt Chrome-artige #:~:text=-Fragmente aus URLs, damit Seiten nicht automatisch zu markiertem Text scrollen. |
 
 #### Cookie- & Consent-Banner-Blockierung
 
 Ausführliche Informationen zu den Modi, der Funktionsweise und Fehlerbehebung findest du im eigenen Abschnitt [Cookie- & Consent-Banner-Blockierung](#cookie---consent-banner-blockierung) weiter unten.
 
+| Tweak | Was er bewirkt |
+|-------|----------------|
+| **Browser- & App-Hinweise blockieren** | Blendet Banner wie „Chrome laden“, „Zu Edge wechseln“ und „In App öffnen“ aus. |
+
 #### Mediensteuerung
 
 | Tweak | Was er bewirkt |
 |-------|----------------|
-| **Immer Play/Pause-Steuerung anzeigen** | Erzwingt native Browser-Steuerelemente bei Audio- und Videoplayern, auch wenn Seiten sie verstecken. |
-| **Autoplay blockieren** | Stoppt Videos und Audio daran, beim Laden einer Seite automatisch abzuspielen. |
-| **Standard-Geschwindigkeit anwenden** | Setzt alle Medien auf deine bevorzugte Wiedergabegeschwindigkeit (0,5x bis 3,0x). |
-| **Wiedergabegeschwindigkeit sperren** | Verhindert, dass Seiten deine gewählte Geschwindigkeit zurücksetzen. |
-| **Alle Medien beim Laden pausieren** | Pausiert jedes Audio- und Videoelement, wenn eine Seite lädt. |
+| **Wiedergabe-/Pause-Steuerelemente immer anzeigen** | Erzwingt native Browser-Steuerelemente bei Audio- und Videoplayern, auch wenn Seiten sie verstecken. |
+| **Autoplay blockieren** | Stoppt Videos und Audio, die ohne dein Zutun starten, auch wenn eine Seite den Player per Skript startet. Was du selbst startest, läuft normal. |
+| **Standardgeschwindigkeit anwenden** | Setzt alle Medien auf deine bevorzugte Wiedergabegeschwindigkeit (0,5x bis 3,0x). |
+| **Geschwindigkeit während der Sitzung beibehalten** | Ändert die Seite oder der Player die Geschwindigkeit, setzt Trackless Links sie auf deinen Standard zurück. |
+| **Alle Medien beim Seitenladen pausieren** | Pausiert jedes Audio- und Videoelement, wenn eine Seite lädt. |
 | **Bild-in-Bild aktivieren** | Stellt PiP-Funktionalität auf Seiten wieder her, die versuchen, sie zu deaktivieren. Auf YouTube: zum Home-Bildschirm wischen oder das Gerät sperren startet PiP automatisch, oder das Video etwa eine halbe Sekunde lang drücken. |
 
 #### Datenschutz & Bereinigung
 
 | Tweak | Was er bewirkt |
 |-------|----------------|
-| **Kopierte URLs bereinigen** | Entfernt automatisch Tracking-Parameter aus jedem Link, den du in die Zwischenablage kopierst. |
-| **Gängige Redirectors umgehen** | Löst Links auf, die ihr Ziel in der URL mitführen (Facebook, Reddit, Google, Outlook Safe Links, AWS-Klicktracking), und geht direkt dorthin. Undurchsichtige Kurzlinks wie t.co oder bit.ly werden nicht aufgelöst, denn dafür müsste der Kurzlink-Dienst vor dir kontaktiert werden. |
+| **Kopierte URLs bereinigen** | Entfernt Tracking-Parameter aus Links in Text, den du auf einer Webseite markierst und kopierst. Safaris eigenes **Link kopieren** im Kontextmenü ist davon nicht erfasst, dafür gibt es **Bereinigen & kopieren** im Share Sheet. |
+| **Gängige Weiterleitungen umgehen** | Löst Links auf, die ihr Ziel in der URL mitführen (Facebook, Reddit, Google, Outlook Safe Links, AWS-Klicktracking), und geht direkt dorthin. Undurchsichtige Kurzlinks wie t.co oder bit.ly werden nicht aufgelöst, denn dafür müsste der Kurzlink-Dienst vor dir kontaktiert werden. |
 | **Teilen-IDs entfernen** | Entfernt die Teilen-IDs, die YouTube, Spotify, Instagram, TikTok und X beim Teilen an Links anhängen, etwa `si` oder `igsh`. Gilt nur für diese Seiten, weil dieselben kurzen Namen anderswo etwas anderes bedeuten. Standardmäßig aus. Wirkt in Safari, im Share Sheet und in Kurzbefehlen. |
-| **In Safari öffnen** | Erzwingt, dass Links von den konfigurierten Domains in Safari geöffnet werden, statt in die installierte App zu springen. Enthält eine Domain-Liste mit Instagram, X (Twitter), YouTube, TikTok, Reddit, LinkedIn, Pinterest und Spotify. Alle Einträge sind standardmäßig deaktiviert. Eigene Domains lassen sich hinzufügen. |
+| **Links in Safari behalten** | Erzwingt, dass Links von den konfigurierten Domains in Safari geöffnet werden, statt in die installierte App zu springen. Enthält eine Domain-Liste mit Instagram, X (Twitter), YouTube, TikTok, Reddit, LinkedIn, Pinterest und Spotify. Alle Einträge sind standardmäßig deaktiviert. Eigene Domains lassen sich hinzufügen. |
 
-#### Zusätzliche Tweaks
+#### Zusätzliche Anpassungen
 
 | Tweak | Was er bewirkt |
 |-------|----------------|
-| **Seiten-Zoom-Limits deaktivieren** | Entfernt Einschränkungen beim Hinein- und Herauszoomen auf mobilunfreundlichen Seiten. |
-| **Dark Mode erzwingen** | Wendet intelligente Farbinversion an, um dunkle Themes auf jeder Website zu erstellen. Bewahrt Bilder und Videos, während Text und Hintergründe transformiert werden. |
+| **Seitenzoom-Einschränkungen deaktivieren** | Entfernt Einschränkungen beim Hinein- und Herauszoomen auf mobilunfreundlichen Seiten. |
+| **Dunkelmodus erzwingen** | Wendet intelligente Farbinversion an, um dunkle Themes auf jeder Website zu erstellen. Bewahrt Bilder und Videos, während Text und Hintergründe transformiert werden. |
 | **Animationen deaktivieren** | Reduziert oder entfernt CSS-Animationen und Übergänge. Hilfreich für Barrierefreiheit und Fokus. |
 
-#### Erweitert (Kann einige Seiten beeinträchtigen)
+#### Erweitert (kann manche Websites beeinträchtigen)
+
+In der App ist dieser Bereich eingeklappt. Ist einer seiner Schalter an, zeigt er an, wie viele es sind.
 
 | Tweak | Was er bewirkt |
 |-------|----------------|
-| **Sichtbare Scrollbalken erzwingen** | Macht Scrollbalken immer sichtbar statt automatisch auszublenden. Kann mit einigen Layouts in Konflikt geraten. |
+| **Textauswahl & Kopieren erlauben (Website-Blockaden umgehen)** | Aktiviert Auswahl, Kopieren, Einfügen und das Kontextmenü auf Seiten wieder, die sie blockieren. Verhalten sich die Menüs einer Web-App damit seltsam, pausiere Trackless Links auf dieser Website. |
+| **Ziehen & Ablegen / Textziehen erlauben** | Stellt Standard-Textziehen und Drag-and-Drop-Verhalten auf Seiten wieder her, die es blockieren. |
+| **Scrollleisten sichtbar erzwingen** | Macht Scrollbalken immer sichtbar statt automatisch auszublenden. Kann mit einigen Layouts in Konflikt geraten. |
 | **window.close() blockieren** | Verhindert, dass Websites deinen Tab oder dein Fenster per JavaScript schließen. |
 
 ### Wie aktiviere ich Tweaks?
 
-1. Gehe zum **Tweaks**-Tab
+1. Gehe zum Tab **Anpassungen**
 2. Durchsuche die verfügbaren Optionen
 3. Schalte jeden Tweak ein oder aus
 4. Änderungen werden sofort wirksam
+
+### Wie setze ich alle Anpassungen zurück?
+
+Tippe ganz unten im Tab **Anpassungen** auf **Standards wiederherstellen** und bestätige. Damit werden alle Anpassungen ausgeschaltet, auch die Cookie-Banner-Behandlung, und die Standardgeschwindigkeit wird auf 1,0× gesetzt. Die Archivsuche wird wieder eingeschaltet. Filter, Weiterleitungen, Archivdienste und die Domains für „In Safari öffnen“ bleiben unverändert.
 
 ### Warum funktioniert ein Tweak auf einer bestimmten Seite nicht?
 
@@ -285,14 +299,24 @@ Einige Websites wehren sich aktiv gegen Modifikationen. Wenn ein Tweak nicht fun
 
 - Die Seite verwendet möglicherweise aggressive Anti-Modifikations-Techniken
 - Versuche, andere Erweiterungen zu deaktivieren, um Konflikte auszuschließen
+- Stört Trackless Links die Seite, pausiere es dort (siehe **Eine Website funktioniert mit Trackless Links nicht richtig** unter Problembehandlung)
 - Melde das Problem auf GitHub. Wir verbessern ständig die Kompatibilität.
 
-### Was ist der Unterschied zwischen "Mediensteuerung erzwingen" und "Autoplay blockieren"?
+### Was ist der Unterschied zwischen "Wiedergabe-/Pause-Steuerelemente immer anzeigen" und "Autoplay blockieren"?
 
-- **Mediensteuerung erzwingen**: Zeigt die Standard-Browser-Video-/Audio-Steuerelemente an, auch wenn die Seite sie versteckt
-- **Autoplay blockieren**: Verhindert, dass Videos/Audio automatisch abgespielt werden, wenn du eine Seite lädst
+- **Wiedergabe-/Pause-Steuerelemente immer anzeigen**: Zeigt die Standard-Steuerelemente für Video und Audio an, auch wenn die Seite sie versteckt
+- **Autoplay blockieren**: Stoppt Videos und Audio, die ohne dein Zutun starten
 
 Du kannst beide zusammen verwenden für maximale Kontrolle.
+
+### Wie nutze ich Bild-in-Bild auf YouTube?
+
+Der Player von YouTube blendet Safaris Standard-Steuerelement für Bild-in-Bild aus, deshalb reicht es dort nicht, das Steuerelement wiederherzustellen. Ist **Anpassungen** → **Mediensteuerung** → **Bild-in-Bild aktivieren** an, bietet Trackless Links auf YouTube zwei Wege:
+
+- **Beim Verlassen**: Während ein YouTube-Video in Safari läuft, wische zum Home-Bildschirm oder sperre das Gerät. Das Video läuft dann in Bild-in-Bild weiter.
+- **Langes Drücken**: Halte das Video etwa eine halbe Sekunde gedrückt, um Bild-in-Bild zu starten, ohne Safari zu verlassen.
+
+Die Bild-in-Bild-Schaltflächen im Player von YouTube selbst steuert YouTube, diese Anpassung ändert daran nichts.
 
 ---
 
@@ -443,6 +467,8 @@ Wenn du Links aus anderen Apps teilst, sind Tracking-Parameter mit dabei. Die Sh
 2. Tippe in der Reihe der Apps auf **Trackless Links** (oder **Trackless Links Pro**). Fehlt der Eintrag, tippe auf **Mehr** und aktiviere ihn
 3. Tippe auf **Bereinigen & kopieren**, um den bereinigten Link in die Zwischenablage zu legen, oder auf **Bereinigen & in Safari öffnen**, um ihn ohne Tracker zu öffnen
 
+Über den Buttons zeigt eine Zeile, was Trackless Links gefunden hat: welche Tracker entfernt werden, dass der Link schon sauber ist oder dass ein Kurzlink wie t.co oder bit.ly sein Ziel verbirgt. Kurzlinks werden nicht abgefragt, der Kurzlink-Dienst wird also nicht kontaktiert. Enthält der Link nur eine Teilen-ID und ist **Teilen-IDs entfernen** aus, steht auch das dort.
+
 Jetzt kannst du einen sauberen Link teilen, der nicht verrät, wo du ihn gefunden hast, und nicht jeden trackt, der ihn anklickt. Ist **Teilen-IDs entfernen** eingeschaltet, verschwinden auch IDs wie `si` oder `igsh`.
 
 Die Share Sheet-Erweiterung gibt es auf iPhone und iPad.
@@ -469,7 +495,7 @@ Deine Datenschutz-Einstellungen begleiten dich überall. Wenn du die iCloud-Sync
 - **Tweaks** (alle Einstellungen)
 - **Archivdienste** (deine konfigurierten Dienste)
 
-Datenschutz-Statistiken (wie die Anzahl blockierter Tracker) bleiben gerätespezifisch und werden nicht synchronisiert.
+Datenschutz-Statistiken (wie die Anzahl blockierter Tracker) bleiben gerätespezifisch und werden nicht synchronisiert. Pausierte Websites bleiben ebenfalls auf dem Gerät, auf dem du sie pausiert hast.
 
 ### Muss ich die iCloud-Synchronisierung aktivieren?
 
@@ -506,6 +532,8 @@ Ja. Die iCloud-Synchronisierung ist vollständig optional. Die App funktioniert 
 Schau dir die **Statistiken** auf dem Haupt-Dashboard an. Sie zeigen:
 - Insgesamt bereinigte URLs
 - Angewendete Weiterleitungen
+
+Wenn du einen Link mit Trackless Links teilst, nennt die Zeile über den Buttons die Tracker, die entfernt werden.
 
 ### Kann ich meine Einstellungen exportieren?
 
@@ -553,3 +581,17 @@ Stelle sicher:
 - Überprüfe die Mustersyntax (versuche zuerst eine exakte Übereinstimmung)
 - Stelle sicher, dass die Regel **aktiviert** ist
 - Überprüfe, ob keine andere Regel zuerst passt (Regelreihenfolge beachten)
+
+### Eine Website funktioniert mit Trackless Links nicht richtig
+
+Pausiere Trackless Links auf dieser Website:
+
+1. Öffne die Website in Safari
+2. Tippe auf das **AA**-Symbol oder den **Erweiterungen**-Button und wähle **Trackless Links**
+3. Tippe auf **Auf dieser Website pausieren**. Die Seite wird neu geladen
+
+Auf einer pausierten Website bereinigt Trackless Links keine Links, wendet keine Anpassungen an und blendet keine Banner aus. Die Pause gilt auch für die Subdomains der Website. Aufheben kannst du sie an derselben Stelle mit **Auf dieser Website fortsetzen** oder in der App unter **Einstellungen** → **Pausierte Websites** mit **Fortsetzen**.
+
+Pausierte Websites werden pro Gerät gespeichert und nicht über iCloud synchronisiert. Die Warnung zur Quellen-Glaubwürdigkeit erscheint auch auf pausierten Websites, weil sie nur warnt und die Seite nicht verändert.
+
+Weißt du, welche Anpassung das Problem verursacht, kannst du auch nur diese im Tab **Anpassungen** ausschalten.

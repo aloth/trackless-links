@@ -80,6 +80,8 @@ Esto sucede automáticamente para cada enlace en Safari, devolviendo a las URLs 
 
 Nunca hacen falta las dos. Si ya tienes Trackless Links y quieres añadir tu Mac, el [paquete de actualización](https://apps.apple.com/app-bundle/id1850924833) del App Store solo te cobra la diferencia de precio, no el precio completo otra vez. No es un tercer producto aparte. Una vez instalada Pro, puedes eliminar la app no Pro del iPhone y del iPad; tus ajustes y tu archivo se trasladan automáticamente.
 
+Si tienes las dos instaladas, **Abrir app** en la extensión de Safari de cada una abre su propia app.
+
 ### ¿Cómo activo la extensión de Safari?
 
 Después de instalar la app:
@@ -136,6 +138,8 @@ La próxima vez que visites una URL con ese parámetro, se eliminará automátic
 ### ¿Puedo desactivar temporalmente la eliminación de seguimiento?
 
 Sí. En la pestaña **Filtros** puedes activar o desactivar filtros individuales. También puedes desactivar toda la limpieza desactivando todos los filtros.
+
+Para desactivar Trackless Links solo en un sitio, consulta **Un sitio web no funciona bien con Trackless Links**.
 
 ### ¿Por qué `si=` sigue en los enlaces de YouTube?
 
@@ -227,57 +231,67 @@ Todos los tweaks son opcionales, así que tú decides cuáles activar.
 
 | Tweak | Qué hace |
 |-------|----------|
-| **Permitir selección y copia de texto** | Reactiva selección, copia, pegado y menús contextuales en sitios que intentan bloquearlos. Imprescindible para investigar y tomar notas. |
-| **Desactivar diálogos de salida** | Evita los molestos avisos "¿Seguro que quieres salir?" al navegar a otra página o cerrar una pestaña. |
-| **Desactivar nuevas pestañas forzadas** | Impide que los sitios fuercen los enlaces a abrirse en pestañas nuevas (target="_blank"). Los enlaces se abren por defecto en la misma pestaña. |
-| **Ignorar fragmentos de texto** | Elimina los fragmentos #:~:text= estilo Chrome de las URLs para que las páginas no salten automáticamente al texto resaltado. |
-| **Permitir arrastrar y soltar** | Restaura el comportamiento por defecto de arrastrar texto y archivos en sitios que lo bloquean. |
+| **Desactivar los diálogos «¿Seguro que quiere salir?»** | Evita los molestos avisos "¿Seguro que quieres salir?" al navegar a otra página o cerrar una pestaña. |
+| **Desactivar la apertura forzada en nuevas pestañas (target=_blank)** | Impide que los sitios fuercen los enlaces a abrirse en pestañas nuevas (target="_blank"). Los enlaces se abren por defecto en la misma pestaña. |
+| **Ignorar fragmentos #:~:text** | Elimina los fragmentos #:~:text= estilo Chrome de las URLs para que las páginas no salten automáticamente al texto resaltado. |
 
 #### Bloqueo de banners de cookies y consentimiento
 
 Consulta la sección dedicada [Bloqueo de banners de cookies y consentimiento](#bloqueo-de-banners-de-cookies-y-consentimiento) más abajo para conocer los modos disponibles, cómo funciona y cómo solucionar problemas.
 
-#### Controles de medios
+| Tweak | Qué hace |
+|-------|----------|
+| **Bloquear avisos del navegador y apps** | Oculta los banners de "Descargar Chrome", "Cambiar a Edge" y "Abrir en la app". |
+
+#### Controles multimedia
 
 | Tweak | Qué hace |
 |-------|----------|
-| **Mostrar siempre los controles de play/pause** | Fuerza los controles nativos del navegador en reproductores de audio y vídeo, aunque los sitios los oculten. |
-| **Bloquear autoplay** | Evita que vídeos y audios se reproduzcan automáticamente al cargar la página. |
-| **Aplicar velocidad por defecto** | Ajusta todos los medios a tu velocidad de reproducción preferida (de 0,5x a 3,0x). |
-| **Bloquear velocidad de reproducción** | Impide que los sitios reseteen la velocidad que has elegido. |
-| **Pausar todo al cargar la página** | Pausa cada elemento de audio y vídeo cuando se carga una página. |
-| **Activar Picture-in-Picture** | Restaura la funcionalidad PiP en sitios que intentan desactivarla. En YouTube, desliza al inicio o bloquea el dispositivo para iniciar PiP automáticamente, o mantén pulsado el vídeo durante medio segundo. |
+| **Mostrar siempre los controles de reproducción** | Fuerza los controles nativos del navegador en reproductores de audio y vídeo, aunque los sitios los oculten. |
+| **Bloquear reproducción automática** | Detiene los vídeos y el audio que empiezan sin tu intervención, también cuando una página inicia el reproductor por script. Lo que inicias tú se reproduce con normalidad. |
+| **Aplicar velocidad predeterminada** | Ajusta todos los medios a tu velocidad de reproducción preferida (de 0,5x a 3,0x). |
+| **Mantener la velocidad durante la sesión** | Si el sitio o el reproductor cambia la velocidad, Trackless Links la devuelve a tu valor predeterminado. |
+| **Pausar todo el contenido multimedia al cargar la página** | Pausa cada elemento de audio y vídeo cuando se carga una página. |
+| **Activar Imagen dentro de imagen** | Restaura la funcionalidad PiP en sitios que intentan desactivarla. En YouTube, desliza al inicio o bloquea el dispositivo para iniciar PiP automáticamente, o mantén pulsado el vídeo durante medio segundo. |
 
 #### Privacidad y limpieza
 
 | Tweak | Qué hace |
 |-------|----------|
-| **Limpiar URLs al copiar** | Elimina automáticamente los parámetros de seguimiento de cualquier enlace que copies al portapapeles. |
-| **Saltar redirectores comunes** | Resuelve enlaces que llevan el destino dentro de la propia URL (Facebook, Reddit, Google, Outlook Safe Links, seguimiento de clics de AWS) y va directo allí. Los acortadores opacos como t.co o bit.ly no se resuelven, porque haría falta contactar con el servicio antes que tú. |
+| **Limpiar las URL que copia** | Elimina los parámetros de seguimiento de los enlaces del texto que seleccionas y copias en una página web. **Copiar enlace** del menú contextual de Safari no está incluido; para eso usa **Limpiar y copiar** en la hoja para compartir. |
+| **Evitar redirectores habituales** | Resuelve enlaces que llevan el destino dentro de la propia URL (Facebook, Reddit, Google, Outlook Safe Links, seguimiento de clics de AWS) y va directo allí. Los acortadores opacos como t.co o bit.ly no se resuelven, porque haría falta contactar con el servicio antes que tú. |
 | **Eliminar ID de compartir** | Elimina los ID de compartir que YouTube, Spotify, Instagram, TikTok y X añaden a los enlaces al compartirlos, como `si` o `igsh`. Solo se aplica en esos sitios, porque los mismos nombres cortos significan otra cosa en otras webs. Desactivado por defecto. Funciona en Safari, en la hoja para compartir y en Atajos. |
-| **Abrir en Safari** | Fuerza que los enlaces de los dominios configurados se abran en Safari en lugar de saltar a la app instalada. Incluye una lista por dominio con Instagram, X (Twitter), YouTube, TikTok, Reddit, LinkedIn, Pinterest y Spotify. Todas las entradas están desactivadas por defecto. También puedes añadir dominios personalizados. |
+| **Mantener los enlaces en Safari** | Fuerza que los enlaces de los dominios configurados se abran en Safari en lugar de saltar a la app instalada. Incluye una lista por dominio con Instagram, X (Twitter), YouTube, TikTok, Reddit, LinkedIn, Pinterest y Spotify. Todas las entradas están desactivadas por defecto. También puedes añadir dominios personalizados. |
 
-#### Tweaks adicionales
+#### Ajustes adicionales
 
 | Tweak | Qué hace |
 |-------|----------|
-| **Desactivar límites de zoom** | Quita las restricciones de zoom en sitios poco amigables con el móvil. |
+| **Desactivar los límites de zoom de la página** | Quita las restricciones de zoom en sitios poco amigables con el móvil. |
 | **Forzar modo oscuro** | Aplica una inversión inteligente de colores para crear temas oscuros en cualquier web. Conserva imágenes y vídeos mientras transforma textos y fondos. |
 | **Desactivar animaciones** | Reduce o elimina las animaciones y transiciones CSS. Útil para accesibilidad y concentración. |
 
-#### Avanzado (puede romper algunos sitios)
+#### Avanzado (puede afectar a algunos sitios)
+
+En la app, esta sección aparece plegada. Si alguno de sus interruptores está activado, muestra cuántos.
 
 | Tweak | Qué hace |
 |-------|----------|
+| **Permitir selección y copia de texto (evitar bloqueos del sitio)** | Reactiva la selección, la copia, el pegado y el menú contextual en los sitios que intentan bloquearlos. Si los menús de una app web fallan con esta opción activada, pausa Trackless Links en ese sitio. |
+| **Permitir arrastrar y soltar / arrastre de texto** | Restaura el comportamiento por defecto de arrastrar texto y archivos en sitios que lo bloquean. |
 | **Forzar barras de desplazamiento visibles** | Hace que las barras de scroll estén siempre visibles en lugar de ocultarse. Puede entrar en conflicto con algunos diseños. |
 | **Bloquear window.close()** | Impide que las webs cierren tu pestaña o ventana mediante JavaScript. |
 
 ### ¿Cómo activo los tweaks?
 
-1. Ve a la pestaña **Tweaks**
+1. Ve a la pestaña **Ajustes**
 2. Explora las opciones disponibles
 3. Activa o desactiva cada tweak
 4. Los cambios se aplican al instante
+
+### ¿Cómo restablezco todos los ajustes?
+
+Al final de la pestaña **Ajustes**, toca **Restaurar valores predeterminados** y confirma. Se desactivan todos los ajustes, incluida la gestión de avisos de cookies, y la velocidad predeterminada vuelve a 1,0×. La búsqueda en archivos se vuelve a activar. Los filtros, las redirecciones, los servicios de archivo y los dominios de «Abrir en Safari» no cambian.
 
 ### ¿Por qué un tweak no funciona en una web concreta?
 
@@ -285,14 +299,24 @@ Algunas webs combaten activamente las modificaciones. Si un tweak no funciona:
 
 - Puede que el sitio use técnicas anti-modificación agresivas
 - Prueba a desactivar otras extensiones para descartar conflictos
+- Si Trackless Links hace que el sitio deje de funcionar, ponlo en pausa allí (consulta **Un sitio web no funciona bien con Trackless Links** en Solución de problemas)
 - Reporta el problema en GitHub. Mejoramos la compatibilidad continuamente.
 
-### ¿Cuál es la diferencia entre "Forzar controles de medios" y "Bloquear autoplay"?
+### ¿Cuál es la diferencia entre "Mostrar siempre los controles de reproducción" y "Bloquear reproducción automática"?
 
-- **Forzar controles de medios**: Muestra los controles estándar de vídeo/audio del navegador aunque la web los oculte
-- **Bloquear autoplay**: Impide que vídeos y audios se reproduzcan automáticamente al cargar una página
+- **Mostrar siempre los controles de reproducción**: Muestra los controles estándar de vídeo y audio aunque la web los oculte
+- **Bloquear reproducción automática**: Detiene los vídeos y el audio que empiezan sin tu intervención
 
 Puedes usarlos juntos para máximo control.
+
+### ¿Cómo uso Imagen dentro de imagen en YouTube?
+
+El reproductor de YouTube oculta el control estándar de Imagen dentro de imagen de Safari, así que allí no basta con restaurarlo. Con **Ajustes** → **Controles multimedia** → **Activar Imagen dentro de imagen** activado, Trackless Links ofrece dos formas de iniciarlo en YouTube:
+
+- **Al salir**: mientras un vídeo de YouTube se reproduce en Safari, desliza hacia la pantalla de inicio o bloquea el dispositivo, y el vídeo sigue en Imagen dentro de imagen.
+- **Pulsación larga**: mantén pulsado el vídeo durante medio segundo para iniciar Imagen dentro de imagen sin salir de Safari.
+
+Los botones de Imagen dentro de imagen del propio reproductor de YouTube los controla YouTube, y este ajuste no los cambia.
 
 ---
 
@@ -443,6 +467,8 @@ Cuando compartes enlaces desde otras apps, los parámetros de seguimiento van co
 2. Toca **Trackless Links** (o **Trackless Links Pro**) en la fila de apps. Si no aparece, toca **Más** y actívala
 3. Toca **Limpiar y copiar** para copiar el enlace limpio al portapapeles, o **Limpiar y abrir en Safari** para abrirlo sin rastreadores
 
+Encima de los botones, una línea te indica lo que ha encontrado Trackless Links: los rastreadores que elimina, que el enlace ya está limpio o que un enlace corto como t.co o bit.ly oculta su destino. Los enlaces cortos no se consultan, así que no se contacta con el acortador. Si el enlace solo lleva un ID de compartir y **Eliminar ID de compartir** está desactivado, la línea también lo indica.
+
 Ahora puedes compartir un enlace limpio que no revela dónde lo has encontrado ni rastrea a quien haga clic. Si **Eliminar ID de compartir** está activado, también se eliminan ID como `si` o `igsh`.
 
 La extensión para la hoja para compartir está disponible en iPhone y iPad.
@@ -469,7 +495,7 @@ Tus ajustes de privacidad viajan contigo. Al activar la sincronización con iClo
 - **Tweaks** (todos los ajustes)
 - **Servicios de archivo** (los que has configurado)
 
-Las estadísticas de privacidad (como el número de rastreadores bloqueados) se mantienen específicas de cada dispositivo y no se sincronizan.
+Las estadísticas de privacidad (como el número de rastreadores bloqueados) se mantienen específicas de cada dispositivo y no se sincronizan. Los sitios en pausa también se quedan en el dispositivo en el que los pausaste.
 
 ### ¿Tengo que activar la sincronización con iCloud?
 
@@ -506,6 +532,8 @@ Sí. La sincronización con iCloud es totalmente opcional. La app funciona perfe
 Consulta las **Estadísticas** del panel principal. Allí verás:
 - Total de URLs limpiadas
 - Redirecciones aplicadas
+
+Al compartir un enlace con Trackless Links, la línea encima de los botones indica los rastreadores que se eliminarán.
 
 ### ¿Puedo exportar mis ajustes?
 
@@ -553,3 +581,17 @@ Comprueba:
 - Revisa la sintaxis del patrón (prueba primero con una coincidencia exacta)
 - Asegúrate de que la regla está **activa**
 - Comprueba que ninguna otra regla coincide antes (el orden importa)
+
+### Un sitio web no funciona bien con Trackless Links
+
+Pon Trackless Links en pausa en ese sitio:
+
+1. Abre el sitio en Safari
+2. Toca el icono **AA** o el botón **Extensiones** y selecciona **Trackless Links**
+3. Toca **Pausar en este sitio**. La página se vuelve a cargar
+
+En un sitio en pausa, Trackless Links no limpia enlaces, no aplica ajustes ni oculta avisos. La pausa también cubre los subdominios del sitio. Para deshacerla, toca **Reanudar en este sitio** en el mismo lugar, o en la configuración de la app, en **Sitios en pausa**, toca **Reanudar**.
+
+Los sitios en pausa se guardan en cada dispositivo y no se sincronizan con iCloud. El aviso de credibilidad de la fuente sigue apareciendo en los sitios en pausa, porque solo avisa y no cambia la página.
+
+Si sabes qué ajuste causa el problema, también puedes desactivar solo ese ajuste en la pestaña **Ajustes**.

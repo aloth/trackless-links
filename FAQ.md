@@ -80,6 +80,8 @@ This happens automatically for every link in Safari, restoring URLs to what they
 
 You never need both. If you already own Trackless Links and want to add your Mac, the App Store's [Upgrade Bundle](https://apps.apple.com/app-bundle/id1850924833) charges you only the price difference, not the full price again. It is not a separate third product. Once Pro is installed you can delete the non-Pro app from your iPhone and iPad; your settings and archive move over automatically.
 
+If both are installed, **Open app** in each app's Safari extension opens that app.
+
 ### How do I enable the Safari extension?
 
 After installing the app:
@@ -136,6 +138,8 @@ The next time you visit a URL with that parameter, it will be automatically remo
 ### Can I temporarily disable tracking removal?
 
 Yes. In the **Filters** tab, you can toggle individual filters on or off. You can also disable all tracking removal by turning off all filters.
+
+To switch Trackless Links off for a single site, see **A website does not work properly with Trackless Links**.
 
 ### Why does `si=` stay in YouTube links?
 
@@ -227,24 +231,26 @@ All tweaks are opt-in, so you control which ones to enable.
 
 | Tweak | What it does |
 |-------|--------------|
-| **Allow text selection & copy** | Re-enables selection, copy, paste, and context menus on sites that try to block them. Essential for research and note-taking. |
-| **Disable exit dialogs** | Prevents annoying "Are you sure you want to leave?" prompts when you navigate away or close a tab. |
-| **Disable forced new tabs** | Stops sites from forcing links to open in new tabs (target="_blank"). Links open in the same tab by default. |
-| **Ignore text fragments** | Removes Chrome-style #:~:text= fragments from URLs so pages do not auto-scroll to highlighted text. |
-| **Allow drag & drop** | Restores default text dragging and drag-and-drop behavior on sites that block it. |
+| **Disable "Are you sure you want to leave?" dialogs** | Prevents annoying "Are you sure you want to leave?" prompts when you navigate away or close a tab. |
+| **Disable forced new tabs (target=_blank)** | Stops sites from forcing links to open in new tabs (target="_blank"). Links open in the same tab by default. |
+| **Ignore #:~:text fragments** | Removes Chrome-style #:~:text= fragments from URLs so pages do not auto-scroll to highlighted text. |
 
 #### Cookie & Consent Banner Blocking
 
 See the dedicated [Cookie & Consent Banner Blocking](#cookie--consent-banner-blocking) section below for full details on modes, how it works, and troubleshooting.
+
+| Tweak | What it does |
+|-------|--------------|
+| **Block browser & app nags** | Hides "Get Chrome", "Switch to Edge", and "Open in App" banners. |
 
 #### Media Controls
 
 | Tweak | What it does |
 |-------|--------------|
 | **Always show play/pause controls** | Forces native browser controls on audio and video players, even when sites hide them. |
-| **Block autoplay** | Stops videos and audio from playing automatically when you load a page. |
+| **Block autoplay** | Stops video and audio that start without your interaction, including players that a page starts from a script. Media you start yourself plays normally. |
 | **Apply default speed** | Sets all media to your preferred playback speed (0.5x to 3.0x). |
-| **Lock playback speed** | Prevents sites from resetting your chosen speed. |
+| **Keep speed during session** | If the site or player changes the speed, Trackless Links sets it back to your default. |
 | **Pause all media on page load** | Pauses every audio and video element when a page loads. |
 | **Enable Picture-in-Picture** | Restores PiP functionality on sites that try to disable it. On YouTube, swipe up to the home screen or lock your device to start PiP automatically, or long-press the video for about half a second. |
 
@@ -252,10 +258,10 @@ See the dedicated [Cookie & Consent Banner Blocking](#cookie--consent-banner-blo
 
 | Tweak | What it does |
 |-------|--------------|
-| **Clean URLs you copy** | Automatically strips tracking parameters from any link you copy to the clipboard. |
+| **Clean URLs you copy** | Removes tracking parameters from links in text you select and copy on a web page. Safari's own **Copy Link** in the context menu is not covered; use **Clean & Copy** in the Share Sheet for that. |
 | **Bypass common redirectors** | Resolves links that carry their destination inside the URL (Facebook, Reddit, Google, Outlook Safe Links, AWS click tracking) and goes straight there. Opaque shorteners like t.co or bit.ly are not resolved, because that would require contacting the shortener before you do. |
 | **Remove share IDs** | Removes the share IDs that YouTube, Spotify, Instagram, TikTok, and X add to links when you share them, such as `si` or `igsh`. Only applied on those sites, because the same short names mean something else elsewhere. Off by default. Applies in Safari, the Share Sheet, and Shortcuts. |
-| **Open in Safari** | Forces links from the configured domains to open inside Safari instead of jumping into the installed app. Includes a per-domain list with Instagram, X (Twitter), YouTube, TikTok, Reddit, LinkedIn, Pinterest, and Spotify. All entries are off by default. You can also add custom domains. |
+| **Keep links in Safari** | Forces links from the configured domains to open inside Safari instead of jumping into the installed app. Includes a per-domain list with Instagram, X (Twitter), YouTube, TikTok, Reddit, LinkedIn, Pinterest, and Spotify. All entries are off by default. You can also add custom domains. |
 
 #### Extra Tweaks
 
@@ -265,10 +271,14 @@ See the dedicated [Cookie & Consent Banner Blocking](#cookie--consent-banner-blo
 | **Force dark mode** | Applies intelligent color inversion to create dark themes on any website. Preserves images and videos while transforming text and backgrounds. |
 | **Disable animations** | Reduces or removes CSS animations and transitions. Helpful for accessibility and focus. |
 
-#### Advanced (May Break Some Sites)
+#### Advanced (may break some sites)
+
+In the app, this section is collapsed. When any of its switches is on, it shows how many.
 
 | Tweak | What it does |
 |-------|--------------|
+| **Allow text selection & copy (bypass site blocks)** | Re-enables selection, copy, paste, and the context menu on sites that try to block them. If a web app's menus misbehave with it on, pause Trackless Links on that site. |
+| **Allow drag & drop / text dragging** | Restores default text dragging and drag-and-drop behavior on sites that block it. |
 | **Force visible scrollbars** | Makes scrollbars always visible instead of auto-hiding. May conflict with some layouts. |
 | **Block window.close()** | Prevents websites from closing your tab or window via JavaScript. |
 
@@ -279,20 +289,34 @@ See the dedicated [Cookie & Consent Banner Blocking](#cookie--consent-banner-blo
 3. Toggle any tweak on or off
 4. Changes apply immediately
 
+### How do I reset all tweaks?
+
+At the bottom of the **Tweaks** tab, tap **Restore Defaults** and confirm. Every tweak is turned off, including cookie banner handling, and the default speed goes back to 1.0×. Archive Search is turned back on. Filters, redirects, archive services, and Open in Safari domains are not changed.
+
 ### Why doesn't a tweak work on a specific site?
 
 Some websites actively fight against modifications. If a tweak does not work:
 
 - The site may be using aggressive anti-modification techniques
 - Try disabling other extensions to rule out conflicts
+- If Trackless Links breaks the site, pause it there (see **A website does not work properly with Trackless Links** under Troubleshooting)
 - Report the issue on GitHub. We are always improving compatibility.
 
-### What is the difference between "Force Media Controls" and "Block Autoplay"?
+### What is the difference between "Always show play/pause controls" and "Block autoplay"?
 
-- **Force Media Controls**: Shows the standard browser video/audio controls even if the site hides them
-- **Block Autoplay**: Prevents videos/audio from playing automatically when you load a page
+- **Always show play/pause controls**: Shows the standard video and audio controls even if the site hides them
+- **Block autoplay**: Stops video and audio that start without your interaction
 
 You can use them together for maximum control.
+
+### How do I use Picture-in-Picture on YouTube?
+
+YouTube's player hides Safari's standard Picture-in-Picture control, so restoring the control is not enough there. With **Tweaks** → **Media Controls** → **Enable Picture-in-Picture** turned on, Trackless Links adds two ways to start it on YouTube:
+
+- **When you leave**: while a YouTube video is playing in Safari, swipe up to the Home Screen or lock the device, and the video continues in Picture-in-Picture.
+- **Long press**: touch and hold the video for about half a second to start Picture-in-Picture without leaving Safari.
+
+The Picture-in-Picture buttons inside YouTube's own player are controlled by YouTube and are not affected by this tweak.
 
 ---
 
@@ -443,6 +467,8 @@ When you share links from other apps, tracking parameters come along for the rid
 2. Tap **Trackless Links** (or **Trackless Links Pro**) in the row of apps. If it is not there, tap **More** and turn it on
 3. Tap **Clean & Copy** to put the cleaned link on your clipboard, or **Clean & Open in Safari** to open it without trackers
 
+Above the buttons, one line tells you what Trackless Links found: the trackers it removes, that the link is already clean, or that a short link such as t.co or bit.ly hides its destination. Short links are not looked up, so the shortener is not contacted. If the link only carries a share ID and **Remove share IDs** is off, the line says so.
+
 Now you can share a clean link that does not reveal where you found it or track everyone who clicks it. If **Remove share IDs** is on, IDs like `si` or `igsh` are removed as well.
 
 The Share Sheet extension is available on iPhone and iPad.
@@ -469,7 +495,7 @@ Your privacy settings travel with you. When you enable iCloud sync, your configu
 - **Tweaks** (all settings)
 - **Archive services** (your configured services)
 
-Privacy statistics (like your blocked tracker count) remain device-specific and do not sync.
+Privacy statistics (like your blocked tracker count) remain device-specific and do not sync. Paused sites also stay on the device where you paused them.
 
 ### Do I need to enable iCloud sync?
 
@@ -506,6 +532,8 @@ Yes. iCloud sync is completely optional. The app works perfectly fine storing al
 Check the **Statistics** on the main dashboard. It shows:
 - Total URLs cleaned
 - Redirects applied
+
+When you share a link to Trackless Links, the line above the buttons names the trackers it removes.
 
 ### Can I export my settings?
 
@@ -553,3 +581,17 @@ Check:
 - Double-check the pattern syntax (try an exact match first)
 - Make sure the rule is **enabled**
 - Check that no other rule is matching first (rule order matters)
+
+### A website does not work properly with Trackless Links
+
+Pause Trackless Links on that site:
+
+1. Open the site in Safari
+2. Tap the **AA** icon or **Extensions** button and select **Trackless Links**
+3. Tap **Pause on this site**. The page reloads
+
+On a paused site, Trackless Links does not clean links, apply tweaks, or hide banners. The pause also covers the site's subdomains. To undo it, tap **Resume on this site** in the same place, or in the app go to **Settings** → **Paused Sites** and tap **Resume**.
+
+Paused sites are kept on each device and are not synced through iCloud. The source credibility warning still appears on paused sites, because it only warns and does not change the page.
+
+If you know which tweak causes the problem, you can also turn off just that tweak in the **Tweaks** tab.
