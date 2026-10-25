@@ -1,6 +1,6 @@
 # Privacy Policy for Trackless Links
 
-**Effective Date:** August 10, 2025
+**Effective Date:** November 9, 2026
 
 At Trackless Links ("we," "us," or "our"), operated by Alexander Loth, we are committed to protecting your privacy. This Privacy Policy explains our practices regarding the collection, use, and disclosure of information when you use our mobile application, Trackless Links ("App"). Our policy is simple because our App is designed from the ground up to protect your privacy.
 
@@ -19,6 +19,15 @@ Any custom tracking parameters you add to the App's blocklist are **stored local
 
 ### 2.2. URL Processing
 The Trackless Links Safari Extension processes URLs as you browse **entirely on your device**. The content of these URLs is never logged, stored, or transmitted off your device by us. The processing is ephemeral and happens in real-time within the secure, sandboxed environment provided by Apple for Safari Web Extensions.
+
+### 2.3. Network Access
+Cleaning links never needs a network connection. The App connects to the internet only in the following cases. None of these requests contain personal data, and we do not receive or store anything from them.
+
+- **Short links:** When you tap Resolve on a short link (such as t.co or bit.ly) in the Share Sheet, or turn on automatic resolving there, the App sends one request for that short link to the service that created it, without cookies, to learn where it points. The destination website is not contacted. The Safari Extension never resolves short links.
+- **Credibility dataset updates:** If you turn on automatic updates in the Credibility tab, or pull to refresh there, the App downloads the latest version of the CRED-1 dataset from GitHub. Nothing about your browsing is sent.
+- **Archive buttons:** When you tap an archive button in the Safari Extension, the address of the current page is sent to the archive service you chose (for example, the Internet Archive's Wayback Machine) to find a saved copy.
+- **App offers:** When you open Settings on iPhone or iPad, the App asks an offer service for a current offer on related apps. The request contains only the app name, its version and edition, and nothing about you or your browsing.
+- **iCloud sync:** If you turn on iCloud sync, your settings are stored in your personal iCloud account by Apple. We have no access to them.
 
 ## 3. How We Use Information
 
