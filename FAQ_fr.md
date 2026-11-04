@@ -139,7 +139,7 @@ La prochaine fois que vous visiterez une URL contenant ce paramètre, il sera au
 
 Oui. Dans l'onglet **Filtres**, vous pouvez activer ou désactiver chaque filtre individuellement. Vous pouvez aussi désactiver toute la suppression en désactivant tous les filtres.
 
-Pour désactiver Trackless Links sur un seul site, consultez **Un site web ne fonctionne pas correctement avec Trackless Links**.
+Le moyen le plus rapide de désactiver Trackless Links sur un seul site est **Mettre en pause sur ce site** dans le menu Trackless Links de Safari. Consultez **Un site web ne fonctionne pas correctement avec Trackless Links**.
 
 ### Pourquoi `si=` reste-t-il dans les liens YouTube ?
 
@@ -288,6 +288,8 @@ Dans l'app, cette section est repliée. Lorsqu'un de ses interrupteurs est activ
 2. Parcourez les options disponibles
 3. Activez ou désactivez chaque tweak
 4. Les changements s'appliquent immédiatement
+
+Les interrupteurs qui peuvent affecter certains sites se trouvent dans la section **Avancé (peut affecter certains sites)**, vers le bas. Elle est repliée ; touchez-la pour la déplier. **Restaurer les valeurs par défaut**, tout en bas de l'onglet, réinitialise tous les réglages (consultez **Comment réinitialiser tous les réglages ?**).
 
 ### Comment réinitialiser tous les réglages ?
 
@@ -575,6 +577,7 @@ Vérifiez :
 - L'extension est-elle **activée** dans Safari ?
 - Avez-vous accordé les autorisations nécessaires ?
 - Y a-t-il des filtres **activés** dans l'onglet Filtres ?
+- Trackless Links est-il en pause sur ce site ? Ouvrez Trackless Links dans Safari et touchez **Reprendre sur ce site**, ou, dans les paramètres de l'app, touchez **Reprendre** sous **Sites en pause**
 
 ### Ma redirection personnalisée ne fonctionne pas
 

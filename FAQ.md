@@ -139,7 +139,7 @@ The next time you visit a URL with that parameter, it will be automatically remo
 
 Yes. In the **Filters** tab, you can toggle individual filters on or off. You can also disable all tracking removal by turning off all filters.
 
-To switch Trackless Links off for a single site, see **A website does not work properly with Trackless Links**.
+The quickest way to switch Trackless Links off for a single site is **Pause on this site** in the Trackless Links menu in Safari. See **A website does not work properly with Trackless Links**.
 
 ### Why does `si=` stay in YouTube links?
 
@@ -288,6 +288,8 @@ In the app, this section is collapsed. When any of its switches is on, it shows 
 2. Browse the available options
 3. Toggle any tweak on or off
 4. Changes apply immediately
+
+The switches that can break some sites are in the **Advanced (may break some sites)** section near the bottom. It is collapsed; tap it to show them. **Restore Defaults** at the very bottom resets all tweaks (see **How do I reset all tweaks?**).
 
 ### How do I reset all tweaks?
 
@@ -575,6 +577,7 @@ Check:
 - Is the extension **enabled** in Safari?
 - Did you grant the necessary permissions?
 - Are there any filters **enabled** in the Filters tab?
+- Is Trackless Links paused on this site? In Safari, open Trackless Links and tap **Resume on this site**, or in the app go to **Settings** → **Paused Sites** and tap **Resume**
 
 ### My custom redirect is not working
 

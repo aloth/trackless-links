@@ -113,6 +113,7 @@ Restore the web functionality that sites try to break.
 - **Remove "Are you sure you want to leave?" popups**
 - **Apply dark mode** to any website with smart color inversion
 - **Lock playback speed** so videos don't reset to 1x
+- **Pause on this site** when a site misbehaves: no cleaning, tweaks, or banner hiding there until you resume it (paused sites are listed in Settings)
 
 ### 🔍 Source Credibility — Know Before You Click
 
@@ -138,7 +139,7 @@ Find deleted or changed content instantly.
 
 ### 📤 Works Everywhere You Browse
 
-- **Share Sheet integration** – Tap **Clean & Copy** to get a tracker-free link on your clipboard, from Reddit, X, email, anywhere (iPhone & iPad)
+- **Share Sheet integration** – Tap **Clean & Copy** to get a tracker-free link on your clipboard, from Reddit, X, email, anywhere (iPhone & iPad). A line above the buttons shows which trackers it removes, that a link is already clean, or that a short link like t.co hides its destination
 - **iCloud Sync** – Settings sync instantly across iPhone, iPad, and Mac
 - **Instant Safari integration** – Changes apply immediately
 

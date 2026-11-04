@@ -139,7 +139,7 @@ Beim nächsten Besuch einer URL mit diesem Parameter wird er automatisch entfern
 
 Ja. Im **Filter**-Tab kannst du einzelne Filter ein- oder ausschalten. Du kannst auch die gesamte Tracking-Entfernung deaktivieren, indem du alle Filter ausschaltest.
 
-Um Trackless Links nur für eine einzelne Website auszuschalten, siehe **Eine Website funktioniert mit Trackless Links nicht richtig**.
+Am schnellsten schaltest du Trackless Links für eine einzelne Website mit **Auf dieser Website pausieren** im Trackless-Links-Menü in Safari aus. Siehe **Eine Website funktioniert mit Trackless Links nicht richtig**.
 
 ### Warum bleibt `si=` in YouTube-Links stehen?
 
@@ -288,6 +288,8 @@ In der App ist dieser Bereich eingeklappt. Ist einer seiner Schalter an, zeigt e
 2. Durchsuche die verfügbaren Optionen
 3. Schalte jeden Tweak ein oder aus
 4. Änderungen werden sofort wirksam
+
+Die Schalter, die manche Websites beeinträchtigen können, liegen weiter unten im Bereich **Erweitert (kann manche Websites beeinträchtigen)**. Er ist eingeklappt; tippe darauf, um ihn aufzuklappen. **Standards wiederherstellen** ganz unten setzt alle Anpassungen zurück (siehe **Wie setze ich alle Anpassungen zurück?**).
 
 ### Wie setze ich alle Anpassungen zurück?
 
@@ -575,6 +577,7 @@ Stelle sicher:
 - Ist die Erweiterung in Safari **aktiviert**?
 - Hast du die erforderlichen Berechtigungen erteilt?
 - Sind Filter im Filter-Tab **aktiviert**?
+- Ist Trackless Links auf dieser Website pausiert? Öffne Trackless Links in Safari und tippe auf **Auf dieser Website fortsetzen**, oder tippe in der App unter **Einstellungen** → **Pausierte Websites** auf **Fortsetzen**
 
 ### Meine eigene Weiterleitung funktioniert nicht
 

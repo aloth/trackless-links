@@ -113,6 +113,7 @@ Restaurez les fonctionnalités du web que les sites tentent de désactiver.
 - **Supprimer les pop-ups « Voulez-vous vraiment quitter cette page ? »**
 - **Appliquer le mode sombre** à n'importe quel site avec une inversion de couleurs intelligente
 - **Verrouiller la vitesse de lecture** pour que les vidéos ne reviennent plus à 1x
+- **Mettre en pause sur ce site** quand un site fonctionne mal : ni nettoyage, ni réglages, ni masquage de bannières sur ce site jusqu'à ce que vous le repreniez (les sites en pause sont listés dans les paramètres de l'app)
 
 ### 🔍 Crédibilité des sources — Sachez avant de cliquer
 
@@ -138,7 +139,7 @@ Retrouvez instantanément les contenus supprimés ou modifiés.
 
 ### 📤 Partout où vous naviguez
 
-- **Intégration à la feuille de partage** – Touchez **Nettoyer et copier** pour obtenir un lien sans traqueurs dans le presse-papiers, depuis Reddit, X, vos e-mails, partout (iPhone et iPad)
+- **Intégration à la feuille de partage** – Touchez **Nettoyer et copier** pour obtenir un lien sans traqueurs dans le presse-papiers, depuis Reddit, X, vos e-mails, partout (iPhone et iPad). Une ligne au-dessus des boutons indique les traqueurs supprimés, qu'un lien est déjà propre ou qu'un lien court comme t.co masque sa destination
 - **Synchronisation iCloud** – Les réglages se synchronisent instantanément entre iPhone, iPad et Mac
 - **Intégration Safari immédiate** – Les changements s'appliquent aussitôt
 

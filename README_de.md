@@ -111,6 +111,7 @@ Stelle die Web-Funktionen wieder her, die Seiten gerne kaputt machen.
 - **„Seite wirklich verlassen?"-Popups entfernen**
 - **Dark Mode anwenden** auf jede Website mit intelligenter Farbumkehrung
 - **Wiedergabegeschwindigkeit fixieren** damit Videos nicht auf 1x zurückspringen
+- **Auf dieser Website pausieren**, wenn eine Website nicht richtig funktioniert: Dort wird nichts bereinigt, angepasst oder ausgeblendet, bis du sie fortsetzt (pausierte Websites findest du in den Einstellungen)
 
 ### 🔍 Quellen-Glaubwürdigkeit — Wissen vor dem Klick
 
@@ -136,7 +137,7 @@ Finde gelöschte oder geänderte Inhalte sofort.
 
 ### 📤 Funktioniert überall, wo du surfst
 
-- **Share Sheet-Integration** – Mit **Bereinigen & kopieren** landet der Link ohne Tracker in der Zwischenablage, aus Reddit, X, E-Mail, überall (iPhone & iPad)
+- **Share Sheet-Integration** – Mit **Bereinigen & kopieren** landet der Link ohne Tracker in der Zwischenablage, aus Reddit, X, E-Mail, überall (iPhone & iPad). Eine Zeile über den Tasten zeigt, welche Tracker entfernt werden, dass ein Link schon sauber ist oder dass ein Kurzlink wie t.co sein Ziel verbirgt
 - **iCloud-Synchronisierung** – Einstellungen synchronisieren sofort zwischen iPhone, iPad und Mac
 - **Sofortige Safari-Integration** – Änderungen greifen unmittelbar
 

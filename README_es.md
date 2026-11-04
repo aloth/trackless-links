@@ -113,6 +113,7 @@ Recupera funciones de la web que los sitios intentan romper.
 - **Eliminar los popups de "¿Seguro que quieres salir?"**
 - **Aplicar modo oscuro** a cualquier web con inversión inteligente de colores
 - **Bloquear la velocidad de reproducción** para que los vídeos no vuelvan a 1x
+- **Pausar en este sitio** cuando un sitio no funciona bien: allí no se limpian enlaces, no se aplican ajustes ni se ocultan avisos hasta que lo reanudes (los sitios en pausa aparecen en la configuración de la app)
 
 ### 🔍 Credibilidad de la fuente — Sabe antes de hacer clic
 
@@ -138,7 +139,7 @@ Encuentra al instante contenido borrado o modificado.
 
 ### 📤 Funciona en cualquier sitio donde navegues
 
-- **Integración con la hoja para compartir** – Toca **Limpiar y copiar** y el enlace sin rastreadores queda en el portapapeles, desde Reddit, X, correo, donde sea (iPhone y iPad)
+- **Integración con la hoja para compartir** – Toca **Limpiar y copiar** y el enlace sin rastreadores queda en el portapapeles, desde Reddit, X, correo, donde sea (iPhone y iPad). Una línea sobre los botones indica qué rastreadores elimina, que el enlace ya está limpio o que un enlace corto como t.co oculta su destino
 - **Sincronización con iCloud** – Tus ajustes se sincronizan al instante en iPhone, iPad y Mac
 - **Integración inmediata con Safari** – Los cambios se aplican al momento
 
