@@ -469,11 +469,23 @@ When you share links from other apps, tracking parameters come along for the rid
 2. Tap **Trackless Links** (or **Trackless Links Pro**) in the row of apps. If it is not there, tap **More** and turn it on
 3. Tap **Clean & Copy** to put the cleaned link on your clipboard, or **Clean & Open in Safari** to open it without trackers
 
-Above the buttons, one line tells you what Trackless Links found: the trackers it removes, that the link is already clean, or that a short link such as t.co or bit.ly hides its destination. Short links are not looked up, so the shortener is not contacted. If the link only carries a share ID and **Remove share IDs** is off, the line says so.
+Above the buttons, one line tells you what Trackless Links found: the trackers it removes, that the link is already clean, or that a short link such as t.co or bit.ly hides its destination. If the link only carries a share ID and **Remove share IDs** is off, the line says so. For short links, see **Can Trackless Links show where a short link leads?**
+
+If you share text with several links, such as a message or a note, tap **Clean & Copy Text**. Every link in it is cleaned, and the text itself stays exactly as it was.
 
 Now you can share a clean link that does not reveal where you found it or track everyone who clicks it. If **Remove share IDs** is on, IDs like `si` or `igsh` are removed as well.
 
 The Share Sheet extension is available on iPhone and iPad.
+
+### Can Trackless Links show where a short link leads?
+
+Yes, in the Share Sheet on iPhone and iPad. Share a t.co, bit.ly, TikTok (vm.tiktok.com) or Reddit share link to Trackless Links and tap **Resolve**. Trackless Links asks the shortener once where the link leads, without cookies, and shows the destination with its trackers removed. The destination site is not contacted until you open it. **Clean & Copy** and **Clean & Open in Safari** then use the destination.
+
+If there is no connection, the short link stays as it is and you can tap **Try Again**.
+
+After the first time, Trackless Links asks whether to resolve short links automatically. You can change this later under **Tweaks** → **Advanced (may break some sites)** → **Resolve short links automatically**. It applies to the Share Sheet and Shortcuts only.
+
+The Safari extension never resolves short links. Looking up every short link on a page in advance would tell the shortener about links you never open.
 
 ### Can I share to archives from other apps?
 

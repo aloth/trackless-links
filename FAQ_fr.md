@@ -469,11 +469,23 @@ Quand vous partagez des liens depuis d'autres applications, les paramètres de s
 2. Touchez **Trackless Links** (ou **Trackless Links Pro**) dans la rangée d'apps. S'il n'apparaît pas, touchez **Plus** et activez-le
 3. Touchez **Nettoyer et copier** pour copier le lien nettoyé dans le presse-papiers, ou **Nettoyer et ouvrir dans Safari** pour l'ouvrir sans traqueurs
 
-Au-dessus des boutons, une ligne indique ce que Trackless Links a trouvé : les traqueurs qu'il supprime, que le lien est déjà propre, ou qu'un lien court comme t.co ou bit.ly masque sa destination. Les liens courts ne sont pas résolus, le raccourcisseur n'est donc pas contacté. Si le lien ne contient qu'un identifiant de partage et que **Supprimer les identifiants de partage** est désactivé, la ligne l'indique aussi.
+Au-dessus des boutons, une ligne indique ce que Trackless Links a trouvé : les traqueurs qu'il supprime, que le lien est déjà propre, ou qu'un lien court comme t.co ou bit.ly masque sa destination. Si le lien ne contient qu'un identifiant de partage et que **Supprimer les identifiants de partage** est désactivé, la ligne l'indique aussi. Pour les liens courts, voir **Trackless Links peut-il montrer où mène un lien court ?**
+
+Si vous partagez un texte contenant plusieurs liens, comme un message ou une note, touchez **Nettoyer et copier le texte**. Tous les liens sont nettoyés et le texte reste exactement tel quel.
 
 Vous pouvez maintenant partager un lien propre qui ne révèle pas où vous l'avez trouvé et ne traque pas tous ceux qui cliqueront dessus. Si **Supprimer les identifiants de partage** est activé, les identifiants comme `si` ou `igsh` disparaissent aussi.
 
 L'extension feuille de partage est disponible sur iPhone et iPad.
+
+### Trackless Links peut-il montrer où mène un lien court ?
+
+Oui, dans la feuille de partage sur iPhone et iPad. Partagez un lien t.co, bit.ly, TikTok (vm.tiktok.com) ou Reddit avec Trackless Links et touchez **Résoudre**. Trackless Links demande une seule fois au raccourcisseur où mène le lien, sans cookies, et affiche la destination sans traqueurs. Le site de destination n'est contacté que lorsque vous l'ouvrez. **Nettoyer et copier** et **Nettoyer et ouvrir dans Safari** utilisent ensuite la destination.
+
+Sans connexion, le lien court reste tel quel et vous pouvez toucher **Réessayer**.
+
+Après la première fois, Trackless Links vous demande s'il doit résoudre automatiquement les liens courts. Vous pouvez modifier ce choix plus tard dans **Réglages** → **Avancé (peut affecter certains sites)** → **Résoudre automatiquement les liens courts**. Cela ne s'applique qu'à la feuille de partage et à Raccourcis.
+
+L'extension Safari ne résout jamais les liens courts. Interroger à l'avance tous les liens courts d'une page informerait le raccourcisseur de liens que vous n'ouvrez jamais.
 
 ### Puis-je partager vers des archives depuis d'autres applications ?
 

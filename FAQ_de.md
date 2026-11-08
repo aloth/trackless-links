@@ -469,11 +469,23 @@ Wenn du Links aus anderen Apps teilst, sind Tracking-Parameter mit dabei. Die Sh
 2. Tippe in der Reihe der Apps auf **Trackless Links** (oder **Trackless Links Pro**). Fehlt der Eintrag, tippe auf **Mehr** und aktiviere ihn
 3. Tippe auf **Bereinigen & kopieren**, um den bereinigten Link in die Zwischenablage zu legen, oder auf **Bereinigen & in Safari öffnen**, um ihn ohne Tracker zu öffnen
 
-Über den Buttons zeigt eine Zeile, was Trackless Links gefunden hat: welche Tracker entfernt werden, dass der Link schon sauber ist oder dass ein Kurzlink wie t.co oder bit.ly sein Ziel verbirgt. Kurzlinks werden nicht abgefragt, der Kurzlink-Dienst wird also nicht kontaktiert. Enthält der Link nur eine Teilen-ID und ist **Teilen-IDs entfernen** aus, steht auch das dort.
+Über den Buttons zeigt eine Zeile, was Trackless Links gefunden hat: welche Tracker entfernt werden, dass der Link schon sauber ist oder dass ein Kurzlink wie t.co oder bit.ly sein Ziel verbirgt. Enthält der Link nur eine Teilen-ID und ist **Teilen-IDs entfernen** aus, steht auch das dort. Zu Kurzlinks siehe **Kann Trackless Links zeigen, wohin ein Kurzlink führt?**
+
+Teilst du Text mit mehreren Links, etwa eine Nachricht oder Notiz, tippe auf **Bereinigen & Text kopieren**. Alle Links darin werden bereinigt, der Text selbst bleibt genau so, wie er war.
 
 Jetzt kannst du einen sauberen Link teilen, der nicht verrät, wo du ihn gefunden hast, und nicht jeden trackt, der ihn anklickt. Ist **Teilen-IDs entfernen** eingeschaltet, verschwinden auch IDs wie `si` oder `igsh`.
 
 Die Share Sheet-Erweiterung gibt es auf iPhone und iPad.
+
+### Kann Trackless Links zeigen, wohin ein Kurzlink führt?
+
+Ja, im Share Sheet auf iPhone und iPad. Teile einen t.co-, bit.ly-, TikTok- (vm.tiktok.com) oder Reddit-Link mit Trackless Links und tippe auf **Auflösen**. Trackless Links fragt den Kurzlink-Dienst einmal, wohin der Link führt, ohne Cookies, und zeigt das Ziel ohne Tracker. Die Zielseite wird erst kontaktiert, wenn du sie öffnest. **Bereinigen & kopieren** und **Bereinigen & in Safari öffnen** verwenden danach das Ziel.
+
+Ohne Verbindung bleibt der Kurzlink, wie er ist, und du kannst auf **Erneut versuchen** tippen.
+
+Nach dem ersten Mal fragt Trackless Links, ob Kurzlinks künftig automatisch aufgelöst werden sollen. Das kannst du später unter **Anpassungen** → **Erweitert (kann manche Websites beeinträchtigen)** → **Kurzlinks automatisch auflösen** ändern. Es gilt nur im Share Sheet und in Kurzbefehlen.
+
+Die Safari-Erweiterung löst Kurzlinks nie auf. Würde sie alle Kurzlinks auf einer Seite im Voraus abfragen, erführe der Kurzlink-Dienst von Links, die du nie öffnest.
 
 ### Kann ich von anderen Apps aus in Archiven suchen?
 

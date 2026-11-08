@@ -469,11 +469,23 @@ Cuando compartes enlaces desde otras apps, los parámetros de seguimiento van co
 2. Toca **Trackless Links** (o **Trackless Links Pro**) en la fila de apps. Si no aparece, toca **Más** y actívala
 3. Toca **Limpiar y copiar** para copiar el enlace limpio al portapapeles, o **Limpiar y abrir en Safari** para abrirlo sin rastreadores
 
-Encima de los botones, una línea te indica lo que ha encontrado Trackless Links: los rastreadores que elimina, que el enlace ya está limpio o que un enlace corto como t.co o bit.ly oculta su destino. Los enlaces cortos no se consultan, así que no se contacta con el acortador. Si el enlace solo lleva un ID de compartir y **Eliminar ID de compartir** está desactivado, la línea también lo indica.
+Encima de los botones, una línea te indica lo que ha encontrado Trackless Links: los rastreadores que elimina, que el enlace ya está limpio o que un enlace corto como t.co o bit.ly oculta su destino. Si el enlace solo lleva un ID de compartir y **Eliminar ID de compartir** está desactivado, la línea también lo indica. Para enlaces cortos, consulta **¿Puede Trackless Links mostrar adónde lleva un enlace corto?**
+
+Si compartes un texto con varios enlaces, como un mensaje o una nota, toca **Limpiar y copiar texto**. Se limpian todos los enlaces y el texto queda exactamente igual.
 
 Ahora puedes compartir un enlace limpio que no revela dónde lo has encontrado ni rastrea a quien haga clic. Si **Eliminar ID de compartir** está activado, también se eliminan ID como `si` o `igsh`.
 
 La extensión para la hoja para compartir está disponible en iPhone y iPad.
+
+### ¿Puede Trackless Links mostrar adónde lleva un enlace corto?
+
+Sí, en la hoja para compartir en iPhone y iPad. Comparte un enlace de t.co, bit.ly, TikTok (vm.tiktok.com) o Reddit con Trackless Links y toca **Resolver**. Trackless Links pregunta una vez al acortador adónde lleva el enlace, sin cookies, y muestra el destino sin rastreadores. No se contacta con el sitio de destino hasta que lo abres. **Limpiar y copiar** y **Limpiar y abrir en Safari** usan después el destino.
+
+Si no hay conexión, el enlace corto queda como está y puedes tocar **Reintentar**.
+
+Después de la primera vez, Trackless Links te pregunta si quieres resolver los enlaces cortos automáticamente. Puedes cambiarlo más tarde en **Ajustes** → **Avanzado (puede afectar a algunos sitios)** → **Resolver enlaces acortados automáticamente**. Solo se aplica a la hoja para compartir y a Atajos.
+
+La extensión de Safari nunca resuelve enlaces cortos. Consultar de antemano todos los enlaces cortos de una página le diría al acortador qué enlaces hay, aunque nunca los abras.
 
 ### ¿Puedo compartir a archivos desde otras apps?
 
