@@ -143,7 +143,7 @@ Am schnellsten schaltest du Trackless Links für eine einzelne Website mit **Auf
 
 ### Warum bleibt `si=` in YouTube-Links stehen?
 
-Parameter wie `si` (YouTube, Spotify), `igsh` (Instagram) oder `s` und `t` (X) sind Teilen-IDs: Die Plattform hängt sie an, wenn jemand einen Link teilt, und sieht so, aus welchem Teilen ein Klick stammt. Andere Websites nutzen dieselben kurzen Namen für ganz andere Zwecke, deshalb entfernt Trackless Links sie nicht überall. Schalte in der App unter **Anpassungen** → **Datenschutz & Bereinigung** den Schalter **Teilen-IDs entfernen** ein, um sie auf YouTube, Spotify, Instagram, TikTok und X zu entfernen.
+Parameter wie `si` (YouTube, Spotify), `igsh` (Instagram) oder `s`, `t` und `a` (X) sind Teilen-IDs: Die Plattform hängt sie an, wenn jemand einen Link teilt, und sieht so, aus welchem Teilen ein Klick stammt. Andere Websites nutzen dieselben kurzen Namen für ganz andere Zwecke, deshalb entfernt Trackless Links sie nicht überall. Schalte in der App unter **Anpassungen** → **Datenschutz & Bereinigung** den Schalter **Teilen-IDs entfernen** ein, um sie auf YouTube, Spotify, Instagram, TikTok und X zu entfernen.
 
 ---
 
@@ -241,7 +241,7 @@ Ausführliche Informationen zu den Modi, der Funktionsweise und Fehlerbehebung f
 
 | Tweak | Was er bewirkt |
 |-------|----------------|
-| **Browser- & App-Hinweise blockieren** | Blendet Banner wie „Chrome laden“, „Zu Edge wechseln“ und „In App öffnen“ aus. |
+| **Browser- & App-Hinweise blockieren** | Blendet Banner wie „Chrome laden“, „Zu Edge wechseln“ und „In App öffnen“ aus, auch die „App öffnen“-Buttons auf Reddit, YouTube und Instagram. |
 
 #### Mediensteuerung
 
@@ -259,7 +259,7 @@ Ausführliche Informationen zu den Modi, der Funktionsweise und Fehlerbehebung f
 | Tweak | Was er bewirkt |
 |-------|----------------|
 | **Kopierte URLs bereinigen** | Entfernt Tracking-Parameter aus Links in Text, den du auf einer Webseite markierst und kopierst. Safaris eigenes **Link kopieren** im Kontextmenü ist davon nicht erfasst, dafür gibt es **Bereinigen & kopieren** im Share Sheet. |
-| **Gängige Weiterleitungen umgehen** | Löst Links auf, die ihr Ziel in der URL mitführen (Facebook, Reddit, Google, Outlook Safe Links, AWS-Klicktracking), und geht direkt dorthin. Undurchsichtige Kurzlinks wie t.co oder bit.ly werden nicht aufgelöst, denn dafür müsste der Kurzlink-Dienst vor dir kontaktiert werden. |
+| **Gängige Weiterleitungen umgehen** | Löst Links auf, die ihr Ziel in der URL mitführen (Facebook, Reddit, Google, Outlook Safe Links, AWS-Klicktracking), und geht direkt dorthin. Undurchsichtige Kurzlinks wie t.co oder bit.ly werden nicht aufgelöst, denn dafür müsste der Kurzlink-Dienst vor dir kontaktiert werden. Im Share Sheet kannst du sie mit **Auflösen** auflösen. |
 | **Teilen-IDs entfernen** | Entfernt die Teilen-IDs, die YouTube, Spotify, Instagram, TikTok und X beim Teilen an Links anhängen, etwa `si` oder `igsh`. Gilt nur für diese Seiten, weil dieselben kurzen Namen anderswo etwas anderes bedeuten. Standardmäßig aus. Wirkt in Safari, im Share Sheet und in Kurzbefehlen. |
 | **Links in Safari behalten** | Erzwingt, dass Links von den konfigurierten Domains in Safari geöffnet werden, statt in die installierte App zu springen. Enthält eine Domain-Liste mit Instagram, X (Twitter), YouTube, TikTok, Reddit, LinkedIn, Pinterest und Spotify. Alle Einträge sind standardmäßig deaktiviert. Eigene Domains lassen sich hinzufügen. |
 

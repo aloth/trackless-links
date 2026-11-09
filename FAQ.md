@@ -143,7 +143,7 @@ The quickest way to switch Trackless Links off for a single site is **Pause on t
 
 ### Why does `si=` stay in YouTube links?
 
-Parameters like `si` (YouTube, Spotify), `igsh` (Instagram), or `s` and `t` (X) are share IDs: the platform adds them when someone shares a link, so it can see which share a click came from. Other websites use the same short names for unrelated purposes, so Trackless Links does not remove them everywhere. In the app, turn on **Tweaks** → **Privacy & Clean-up** → **Remove share IDs** to remove them on YouTube, Spotify, Instagram, TikTok, and X.
+Parameters like `si` (YouTube, Spotify), `igsh` (Instagram), or `s`, `t`, and `a` (X) are share IDs: the platform adds them when someone shares a link, so it can see which share a click came from. Other websites use the same short names for unrelated purposes, so Trackless Links does not remove them everywhere. In the app, turn on **Tweaks** → **Privacy & Clean-up** → **Remove share IDs** to remove them on YouTube, Spotify, Instagram, TikTok, and X.
 
 ---
 
@@ -241,7 +241,7 @@ See the dedicated [Cookie & Consent Banner Blocking](#cookie--consent-banner-blo
 
 | Tweak | What it does |
 |-------|--------------|
-| **Block browser & app nags** | Hides "Get Chrome", "Switch to Edge", and "Open in App" banners. |
+| **Block browser & app nags** | Hides "Get Chrome", "Switch to Edge", and "Open in App" banners, including the "Open App" buttons on Reddit, YouTube, and Instagram. |
 
 #### Media Controls
 
@@ -259,7 +259,7 @@ See the dedicated [Cookie & Consent Banner Blocking](#cookie--consent-banner-blo
 | Tweak | What it does |
 |-------|--------------|
 | **Clean URLs you copy** | Removes tracking parameters from links in text you select and copy on a web page. Safari's own **Copy Link** in the context menu is not covered; use **Clean & Copy** in the Share Sheet for that. |
-| **Bypass common redirectors** | Resolves links that carry their destination inside the URL (Facebook, Reddit, Google, Outlook Safe Links, AWS click tracking) and goes straight there. Opaque shorteners like t.co or bit.ly are not resolved, because that would require contacting the shortener before you do. |
+| **Bypass common redirectors** | Resolves links that carry their destination inside the URL (Facebook, Reddit, Google, Outlook Safe Links, AWS click tracking) and goes straight there. Opaque shorteners like t.co or bit.ly are not resolved, because that would require contacting the shortener before you do. In the Share Sheet, you can resolve them with **Resolve**. |
 | **Remove share IDs** | Removes the share IDs that YouTube, Spotify, Instagram, TikTok, and X add to links when you share them, such as `si` or `igsh`. Only applied on those sites, because the same short names mean something else elsewhere. Off by default. Applies in Safari, the Share Sheet, and Shortcuts. |
 | **Keep links in Safari** | Forces links from the configured domains to open inside Safari instead of jumping into the installed app. Includes a per-domain list with Instagram, X (Twitter), YouTube, TikTok, Reddit, LinkedIn, Pinterest, and Spotify. All entries are off by default. You can also add custom domains. |
 

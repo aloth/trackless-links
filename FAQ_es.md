@@ -143,7 +143,7 @@ La forma más rápida de desactivar Trackless Links en un solo sitio es **Pausar
 
 ### ¿Por qué `si=` sigue en los enlaces de YouTube?
 
-Parámetros como `si` (YouTube, Spotify), `igsh` (Instagram) o `s` y `t` (X) son ID de compartir: la plataforma los añade cuando alguien comparte un enlace y así sabe de qué enlace compartido viene cada clic. Otras webs usan esos mismos nombres cortos para cosas distintas, por eso Trackless Links no los elimina en todas partes. En la app, activa **Ajustes** → **Privacidad y limpieza** → **Eliminar ID de compartir** para eliminarlos en YouTube, Spotify, Instagram, TikTok y X.
+Parámetros como `si` (YouTube, Spotify), `igsh` (Instagram) o `s`, `t` y `a` (X) son ID de compartir: la plataforma los añade cuando alguien comparte un enlace y así sabe de qué enlace compartido viene cada clic. Otras webs usan esos mismos nombres cortos para cosas distintas, por eso Trackless Links no los elimina en todas partes. En la app, activa **Ajustes** → **Privacidad y limpieza** → **Eliminar ID de compartir** para eliminarlos en YouTube, Spotify, Instagram, TikTok y X.
 
 ---
 
@@ -241,7 +241,7 @@ Consulta la sección dedicada [Bloqueo de banners de cookies y consentimiento](#
 
 | Tweak | Qué hace |
 |-------|----------|
-| **Bloquear avisos del navegador y apps** | Oculta los banners de "Descargar Chrome", "Cambiar a Edge" y "Abrir en la app". |
+| **Bloquear avisos del navegador y apps** | Oculta los banners de "Descargar Chrome", "Cambiar a Edge" y "Abrir en la app", incluidos los botones "Abrir app" de Reddit, YouTube e Instagram. |
 
 #### Controles multimedia
 
@@ -259,7 +259,7 @@ Consulta la sección dedicada [Bloqueo de banners de cookies y consentimiento](#
 | Tweak | Qué hace |
 |-------|----------|
 | **Limpiar las URL que copia** | Elimina los parámetros de seguimiento de los enlaces del texto que seleccionas y copias en una página web. **Copiar enlace** del menú contextual de Safari no está incluido; para eso usa **Limpiar y copiar** en la hoja para compartir. |
-| **Evitar redirectores habituales** | Resuelve enlaces que llevan el destino dentro de la propia URL (Facebook, Reddit, Google, Outlook Safe Links, seguimiento de clics de AWS) y va directo allí. Los acortadores opacos como t.co o bit.ly no se resuelven, porque haría falta contactar con el servicio antes que tú. |
+| **Evitar redirectores habituales** | Resuelve enlaces que llevan el destino dentro de la propia URL (Facebook, Reddit, Google, Outlook Safe Links, seguimiento de clics de AWS) y va directo allí. Los acortadores opacos como t.co o bit.ly no se resuelven, porque haría falta contactar con el servicio antes que tú. En la hoja para compartir puedes resolverlos con **Resolver**. |
 | **Eliminar ID de compartir** | Elimina los ID de compartir que YouTube, Spotify, Instagram, TikTok y X añaden a los enlaces al compartirlos, como `si` o `igsh`. Solo se aplica en esos sitios, porque los mismos nombres cortos significan otra cosa en otras webs. Desactivado por defecto. Funciona en Safari, en la hoja para compartir y en Atajos. |
 | **Mantener los enlaces en Safari** | Fuerza que los enlaces de los dominios configurados se abran en Safari en lugar de saltar a la app instalada. Incluye una lista por dominio con Instagram, X (Twitter), YouTube, TikTok, Reddit, LinkedIn, Pinterest y Spotify. Todas las entradas están desactivadas por defecto. También puedes añadir dominios personalizados. |
 

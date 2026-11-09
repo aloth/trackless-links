@@ -20,7 +20,7 @@ Vous possédez déjà Trackless Links ? Le [pack de mise à niveau](https://apps
 
 > 📰 **Testée dans Mac & i 4/2026 (heise).** "Trackless Links est pratique pour effacer ses traces numériques et contourner les restrictions pénibles des sites web" et, face à son concurrent StopTheMadness Pro, elle est "nettement moins chère et plus simple à utiliser". (Traduit de l'allemand. Original : "praktisch, um digitale Spuren zu verwischen und lästige Einschränkungen von Websites zu umgehen" / "deutlich günstiger und einfacher zu bedienen".) [Lire le test](https://www.heise.de/select/mac-and-i/2026/4/2609012234834091131) (payant, en allemand).
 
-Marre de partager des URL truffées de `?utm_source=...` et autres paramètres parasites ? Agacé par les sites qui bloquent la sélection de texte ou imposent la lecture automatique des vidéos ? Trackless Links règle tout cela automatiquement — et fonctionne à 100 % sur votre appareil, sans la moindre collecte de données.
+Marre de partager des URL truffées de `?utm_source=...` et autres paramètres parasites ? Agacé par les sites qui bloquent la sélection de texte ou imposent la lecture automatique des vidéos ? Trackless Links règle tout cela automatiquement — les liens sont nettoyés sur votre appareil, sans la moindre collecte de données.
 
 Avec un design épuré et moderne, Trackless Links se révèle léger et puissant sur iPhone, iPad et Mac.
 
@@ -42,7 +42,7 @@ Protection complète de la vie privée et contrôle total de la navigation sur i
 
 ## ✨ Qu'est-ce qui distingue Trackless Links ?
 
-La plupart des extensions « vie privée » se contentent de bloquer les publicités. Trackless Links va plus loin : elle nettoie vos URL, vous éloigne des sites les plus intrusifs et répare les comportements cassés des pages web. Le tout sans envoyer le moindre octet à un serveur.
+La plupart des extensions « vie privée » se contentent de bloquer les publicités. Trackless Links va plus loin : elle nettoie vos URL, vous éloigne des sites les plus intrusifs et répare les comportements cassés des pages web. Les liens sont nettoyés entièrement sur votre appareil, et l'app ne se connecte à Internet que lorsque vous le demandez.
 
 ### 🛡️ Suppression automatique des traqueurs
 
@@ -113,6 +113,7 @@ Restaurez les fonctionnalités du web que les sites tentent de désactiver.
 - **Supprimer les pop-ups « Voulez-vous vraiment quitter cette page ? »**
 - **Appliquer le mode sombre** à n'importe quel site avec une inversion de couleurs intelligente
 - **Verrouiller la vitesse de lecture** pour que les vidéos ne reviennent plus à 1x
+- **Masquer les invites « Ouvrir l'app »** sur Reddit, YouTube et Instagram, ainsi que les bannières « Télécharger Chrome » et « Passer à Edge »
 - **Mettre en pause sur ce site** quand un site fonctionne mal : ni nettoyage, ni réglages, ni masquage de bannières sur ce site jusqu'à ce que vous le repreniez (les sites en pause sont listés dans les paramètres de l'app)
 
 ### 🔍 Crédibilité des sources — Sachez avant de cliquer
@@ -139,7 +140,8 @@ Retrouvez instantanément les contenus supprimés ou modifiés.
 
 ### 📤 Partout où vous naviguez
 
-- **Intégration à la feuille de partage** – Touchez **Nettoyer et copier** pour obtenir un lien sans traqueurs dans le presse-papiers, depuis Reddit, X, vos e-mails, partout (iPhone et iPad). Une ligne au-dessus des boutons indique les traqueurs supprimés, qu'un lien est déjà propre ou qu'un lien court comme t.co masque sa destination
+- **Intégration à la feuille de partage** – Touchez **Nettoyer et copier** pour obtenir un lien sans traqueurs dans le presse-papiers, depuis Reddit, X, vos e-mails, partout (iPhone et iPad). Une ligne au-dessus des boutons indique les traqueurs supprimés, qu'un lien est déjà propre ou qu'un lien court comme t.co masque sa destination. Touchez **Résoudre** pour voir où mène un lien court t.co, bit.ly, TikTok ou Reddit, sans traqueurs : Trackless Links interroge le raccourcisseur une seule fois, sans cookies (l'extension Safari ne le fait jamais)
+- **Nettoyer tous les liens d'un texte partagé** – Partagez un message ou une note contenant plusieurs liens et touchez **Nettoyer et copier le texte** : tous les liens sont nettoyés et le texte reste exactement tel quel (iPhone et iPad)
 - **Synchronisation iCloud** – Les réglages se synchronisent instantanément entre iPhone, iPad et Mac
 - **Intégration Safari immédiate** – Les changements s'appliquent aussitôt
 
@@ -192,8 +194,10 @@ Restaurez les fonctionnalités désactivées par les sites. Activez la sélectio
 
 **Nous ne pouvons pas voir vos données, parce que nous ne les recevons jamais.**
 
-- ✅ **Traitement 100 % sur l'appareil** – Rien ne quitte votre iPhone, iPad ou Mac
-- ✅ **Zéro collecte de données** – Pas d'analyse, pas de suivi, pas de serveur
+- ✅ **Nettoyage sur l'appareil** – Les liens sont nettoyés sur votre iPhone, iPad ou Mac, jamais sur un serveur
+- ✅ **Zéro collecte de données** – Pas d'analyse, pas de suivi, nous ne recevons rien de votre navigation
+- ✅ **En ligne seulement si nécessaire** – Par exemple pour résoudre un lien court ; chaque connexion est listée dans la [politique de confidentialité](https://github.com/aloth/trackless-links/blob/main/privacy_policy.md#23-network-access) (en anglais)
+- ✅ **Compatible avec votre VPN** – Sans profil VPN ni réglage DNS
 - ✅ **Aucun compte requis** – Fonctionne immédiatement après l'installation
 - ✅ **Synchronisation iCloud optionnelle** – Utilise VOTRE iCloud, pas la nôtre (désactivée par défaut)
 - ✅ **Développement ouvert** – Rapports de bugs et demandes de fonctionnalités sur GitHub

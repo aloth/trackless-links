@@ -143,7 +143,7 @@ Trackless Links 删除常见的追踪代码，如：
 
 ### 为什么 YouTube 链接中的 `si=` 没有被移除？
 
-`si`（YouTube、Spotify）、`igsh`（Instagram）或 `s` 和 `t`（X）等参数是分享 ID：有人分享链接时平台会添加它们，从而知道每次点击来自哪次分享。其他网站会将相同的短名称用于完全不同的用途，因此 Trackless Links 不会在所有网站上移除它们。在 App 中开启**调整** → **隐私与清理** → **移除分享 ID**，即可在 YouTube、Spotify、Instagram、TikTok 和 X 上移除它们。
+`si`（YouTube、Spotify）、`igsh`（Instagram）或 `s`、`t` 和 `a`（X）等参数是分享 ID：有人分享链接时平台会添加它们，从而知道每次点击来自哪次分享。其他网站会将相同的短名称用于完全不同的用途，因此 Trackless Links 不会在所有网站上移除它们。在 App 中开启**调整** → **隐私与清理** → **移除分享 ID**，即可在 YouTube、Spotify、Instagram、TikTok 和 X 上移除它们。
 
 ---
 
@@ -241,7 +241,7 @@ Trackless Links 删除常见的追踪代码，如：
 
 | 调整 | 功能说明 |
 |------|----------|
-| **屏蔽浏览器和应用提示** | 隐藏“下载 Chrome”、“切换到 Edge”和“在 App 中打开”横幅。 |
+| **屏蔽浏览器和应用提示** | 隐藏“下载 Chrome”、“切换到 Edge”和“在 App 中打开”横幅，包括 Reddit、YouTube 和 Instagram 上的“打开 App”按钮。 |
 
 #### 媒体控制
 
@@ -259,7 +259,7 @@ Trackless Links 删除常见的追踪代码，如：
 | 调整 | 功能说明 |
 |------|----------|
 | **清理您复制的 URL** | 从你在网页上选择并复制的文本中的链接里清除跟踪参数。Safari 上下文菜单中的**拷贝链接**不在此范围内，请改用共享表单中的**清理并复制**。 |
-| **绕过常见重定向器** | 解析在网址中携带目标地址的链接（Facebook、Reddit、Google、Outlook Safe Links、AWS 点击追踪），直接前往目标。t.co、bit.ly 等不透明短链接不会被解析，因为那需要先于你联系短链接服务。 |
+| **绕过常见重定向器** | 解析在网址中携带目标地址的链接（Facebook、Reddit、Google、Outlook Safe Links、AWS 点击追踪），直接前往目标。t.co、bit.ly 等不透明短链接不会被解析，因为那需要先于你联系短链接服务。在共享表单中，你可以点击**展开**来解析。 |
 | **移除分享 ID** | 移除 YouTube、Spotify、Instagram、TikTok 和 X 在分享时添加到链接中的分享 ID，例如 `si` 或 `igsh`。由于相同的短名称在其他网站上有不同含义，仅对这些网站生效。默认关闭。适用于 Safari、共享表单和快捷指令。 |
 | **在 Safari 中保留链接** | 强制让来自所配置域名的链接在 Safari 中打开，而不是跳转到已安装的 App。包含 Instagram、X (Twitter)、YouTube、TikTok、Reddit、LinkedIn、Pinterest 与 Spotify 的域名列表，所有项目默认关闭。也可以添加自定义域名。 |
 

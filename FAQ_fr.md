@@ -143,7 +143,7 @@ Le moyen le plus rapide de désactiver Trackless Links sur un seul site est **Me
 
 ### Pourquoi `si=` reste-t-il dans les liens YouTube ?
 
-Des paramètres comme `si` (YouTube, Spotify), `igsh` (Instagram) ou `s` et `t` (X) sont des identifiants de partage : la plateforme les ajoute quand quelqu'un partage un lien, et sait ainsi de quel partage vient chaque clic. D'autres sites utilisent ces mêmes noms courts à d'autres fins, c'est pourquoi Trackless Links ne les supprime pas partout. Dans l'app, activez **Réglages** → **Confidentialité et nettoyage** → **Supprimer les identifiants de partage** pour les supprimer sur YouTube, Spotify, Instagram, TikTok et X.
+Des paramètres comme `si` (YouTube, Spotify), `igsh` (Instagram) ou `s`, `t` et `a` (X) sont des identifiants de partage : la plateforme les ajoute quand quelqu'un partage un lien, et sait ainsi de quel partage vient chaque clic. D'autres sites utilisent ces mêmes noms courts à d'autres fins, c'est pourquoi Trackless Links ne les supprime pas partout. Dans l'app, activez **Réglages** → **Confidentialité et nettoyage** → **Supprimer les identifiants de partage** pour les supprimer sur YouTube, Spotify, Instagram, TikTok et X.
 
 ---
 
@@ -241,7 +241,7 @@ Consultez la section dédiée [Blocage des bannières de cookies et de consentem
 
 | Tweak | Ce qu'il fait |
 |-------|--------------|
-| **Bloquer les invites navigateur et apps** | Masque les bannières « Télécharger Chrome », « Passer à Edge » et « Ouvrir dans l'app ». |
+| **Bloquer les invites navigateur et apps** | Masque les bannières « Télécharger Chrome », « Passer à Edge » et « Ouvrir dans l'app », y compris les boutons « Ouvrir l'app » sur Reddit, YouTube et Instagram. |
 
 #### Commandes multimédias
 
@@ -259,7 +259,7 @@ Consultez la section dédiée [Blocage des bannières de cookies et de consentem
 | Tweak | Ce qu'il fait |
 |-------|--------------|
 | **Nettoyer les URL que vous copiez** | Supprime les paramètres de suivi des liens contenus dans le texte que vous sélectionnez et copiez sur une page web. La commande **Copier le lien** du menu contextuel de Safari n'est pas concernée ; utilisez pour cela **Nettoyer et copier** dans la feuille de partage. |
-| **Contourner les redirecteurs courants** | Résout les liens qui contiennent leur destination dans l'URL (Facebook, Reddit, Google, Outlook Safe Links, suivi de clics AWS) et y accède directement. Les raccourcisseurs opaques comme t.co ou bit.ly ne sont pas résolus, car cela obligerait à contacter le service avant vous. |
+| **Contourner les redirecteurs courants** | Résout les liens qui contiennent leur destination dans l'URL (Facebook, Reddit, Google, Outlook Safe Links, suivi de clics AWS) et y accède directement. Les raccourcisseurs opaques comme t.co ou bit.ly ne sont pas résolus, car cela obligerait à contacter le service avant vous. Dans la feuille de partage, vous pouvez les résoudre avec **Résoudre**. |
 | **Supprimer les identifiants de partage** | Supprime les identifiants de partage que YouTube, Spotify, Instagram, TikTok et X ajoutent aux liens quand vous les partagez, comme `si` ou `igsh`. Appliqué uniquement sur ces sites, car les mêmes noms courts signifient autre chose ailleurs. Désactivé par défaut. Fonctionne dans Safari, la feuille de partage et Raccourcis. |
 | **Garder les liens dans Safari** | Force les liens des domaines configurés à s'ouvrir dans Safari plutôt que dans l'application installée. Inclut une liste par domaine avec Instagram, X (Twitter), YouTube, TikTok, Reddit, LinkedIn, Pinterest et Spotify. Toutes les entrées sont désactivées par défaut. Vous pouvez aussi ajouter vos propres domaines. |
 

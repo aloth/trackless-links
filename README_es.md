@@ -20,7 +20,7 @@
 
 > 📰 **Analizada en Mac & i 4/2026 (heise).** "Trackless Links es práctica para borrar tus huellas digitales y sortear las molestas restricciones de las webs" y, frente a su competidor StopTheMadness Pro, resulta "notablemente más barata y más fácil de usar". (Traducido del alemán. Original: "praktisch, um digitale Spuren zu verwischen und lästige Einschränkungen von Websites zu umgehen" / "deutlich günstiger und einfacher zu bedienen".) [Leer el análisis](https://www.heise.de/select/mac-and-i/2026/4/2609012234834091131) (de pago, en alemán).
 
-¿Cansado de compartir URLs llenas de basura tipo `?utm_source=...`? ¿Harto de webs que bloquean la selección de texto o reproducen vídeos sin pedir permiso? Trackless Links lo arregla todo automáticamente — y funciona al 100% en tu dispositivo, sin enviar datos a ningún servidor.
+¿Cansado de compartir URLs llenas de basura tipo `?utm_source=...`? ¿Harto de webs que bloquean la selección de texto o reproducen vídeos sin pedir permiso? Trackless Links lo arregla todo automáticamente — los enlaces se limpian en tu dispositivo, sin recopilar datos.
 
 Con un diseño limpio y moderno, Trackless Links se siente ligero y potente en iPhone, iPad y Mac.
 
@@ -42,7 +42,7 @@ Privacidad completa y control total de la navegación en iOS. **Solo para iOS: e
 
 ## ✨ ¿Qué hace diferente a Trackless Links?
 
-La mayoría de extensiones de "privacidad" se limitan a bloquear anuncios. Trackless Links va más allá: limpia tus URLs, te aleja de los sitios más invasivos y arregla comportamientos rotos en las webs. Y todo sin enviar ni un solo byte a ningún servidor.
+La mayoría de extensiones de "privacidad" se limitan a bloquear anuncios. Trackless Links va más allá: limpia tus URLs, te aleja de los sitios más invasivos y arregla comportamientos rotos en las webs. Los enlaces se limpian por completo en tu dispositivo, y la app solo se conecta a internet cuando tú lo pides.
 
 ### 🛡️ Eliminación automática de rastreadores
 
@@ -113,6 +113,7 @@ Recupera funciones de la web que los sitios intentan romper.
 - **Eliminar los popups de "¿Seguro que quieres salir?"**
 - **Aplicar modo oscuro** a cualquier web con inversión inteligente de colores
 - **Bloquear la velocidad de reproducción** para que los vídeos no vuelvan a 1x
+- **Ocultar avisos de "Abrir app"** en Reddit, YouTube e Instagram, además de banners como "Descargar Chrome" y "Cambiar a Edge"
 - **Pausar en este sitio** cuando un sitio no funciona bien: allí no se limpian enlaces, no se aplican ajustes ni se ocultan avisos hasta que lo reanudes (los sitios en pausa aparecen en la configuración de la app)
 
 ### 🔍 Credibilidad de la fuente — Sabe antes de hacer clic
@@ -139,7 +140,8 @@ Encuentra al instante contenido borrado o modificado.
 
 ### 📤 Funciona en cualquier sitio donde navegues
 
-- **Integración con la hoja para compartir** – Toca **Limpiar y copiar** y el enlace sin rastreadores queda en el portapapeles, desde Reddit, X, correo, donde sea (iPhone y iPad). Una línea sobre los botones indica qué rastreadores elimina, que el enlace ya está limpio o que un enlace corto como t.co oculta su destino
+- **Integración con la hoja para compartir** – Toca **Limpiar y copiar** y el enlace sin rastreadores queda en el portapapeles, desde Reddit, X, correo, donde sea (iPhone y iPad). Una línea sobre los botones indica qué rastreadores elimina, que el enlace ya está limpio o que un enlace corto como t.co oculta su destino. Toca **Resolver** para ver adónde lleva un enlace corto de t.co, bit.ly, TikTok o Reddit, sin rastreadores: Trackless Links pregunta una vez al acortador, sin cookies (la extensión de Safari nunca lo hace)
+- **Limpia todos los enlaces de un texto compartido** – Comparte un mensaje o una nota con varios enlaces y toca **Limpiar y copiar texto**: se limpian todos los enlaces y el texto queda exactamente igual (iPhone y iPad)
 - **Sincronización con iCloud** – Tus ajustes se sincronizan al instante en iPhone, iPad y Mac
 - **Integración inmediata con Safari** – Los cambios se aplican al momento
 
@@ -192,8 +194,10 @@ Recupera funciones desactivadas por las webs. Activa la selección de texto, men
 
 **No podemos ver tus datos porque nunca los recibimos.**
 
-- ✅ **Procesamiento 100% en el dispositivo** – Nada sale de tu iPhone, iPad o Mac
-- ✅ **Cero recopilación de datos** – Sin analíticas, sin seguimiento, sin servidores
+- ✅ **Limpieza en el dispositivo** – Los enlaces se limpian en tu iPhone, iPad o Mac, nunca en un servidor
+- ✅ **Cero recopilación de datos** – Sin analíticas, sin seguimiento, no recibimos nada sobre tu navegación
+- ✅ **Conexión solo cuando hace falta** – Por ejemplo, al resolver un enlace corto; cada conexión figura en la [política de privacidad](https://github.com/aloth/trackless-links/blob/main/privacy_policy.md#23-network-access) (en inglés)
+- ✅ **Funciona junto a tu VPN** – Sin perfil VPN ni ajustes de DNS
 - ✅ **Sin cuenta** – Funciona inmediatamente tras instalar
 - ✅ **Sincronización por iCloud opcional** – Usa TU iCloud, no la nuestra (desactivada por defecto)
 - ✅ **Desarrollo abierto** – Reportes de errores y peticiones de funciones en GitHub

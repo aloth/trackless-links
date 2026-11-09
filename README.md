@@ -20,7 +20,7 @@ Already own Trackless Links? The [Upgrade Bundle](https://apps.apple.com/app-bun
 
 > 📰 **Reviewed in Mac & i 4/2026 (heise).** "Trackless Links is useful for covering your digital tracks and getting around annoying website restrictions" - and, compared to competitor StopTheMadness Pro, "significantly cheaper and easier to use." (Translated from German. Original: "praktisch, um digitale Spuren zu verwischen und lästige Einschränkungen von Websites zu umgehen" / "deutlich günstiger und einfacher zu bedienen".) [Read the review](https://www.heise.de/select/mac-and-i/2026/4/2609012234834091131) (paywalled, German).
 
-Tired of sharing messy URLs full of `?utm_source=...` tracking garbage? Frustrated by websites that block text selection or force autoplay videos? Trackless Links fixes all of this automatically – and it runs 100% on your device with zero data collection.
+Tired of sharing messy URLs full of `?utm_source=...` tracking garbage? Frustrated by websites that block text selection or force autoplay videos? Trackless Links fixes all of this automatically – links are cleaned on your device, with zero data collection.
 
 Built with a clean, modern design, Trackless Links feels light and powerful on iPhone, iPad, and Mac.
 
@@ -42,7 +42,7 @@ Complete privacy protection and browsing control for iOS. **iOS only — Mac use
 
 ## ✨ What Makes Trackless Links Different?
 
-Most "privacy" extensions just block ads. Trackless Links does more – it cleans your URLs, redirects you away from tracking-heavy sites, and fixes broken website behaviors. All without sending a single byte of data to any server.
+Most "privacy" extensions just block ads. Trackless Links does more – it cleans your URLs, redirects you away from tracking-heavy sites, and fixes broken website behaviors. Links are cleaned entirely on your device, and the app only goes online when you ask it to.
 
 ### 🛡️ Automatic Tracker Removal
 
@@ -113,6 +113,7 @@ Restore the web functionality that sites try to break.
 - **Remove "Are you sure you want to leave?" popups**
 - **Apply dark mode** to any website with smart color inversion
 - **Lock playback speed** so videos don't reset to 1x
+- **Hide "Open App" nags** on Reddit, YouTube, and Instagram, plus "Get Chrome" and "Switch to Edge" banners
 - **Pause on this site** when a site misbehaves: no cleaning, tweaks, or banner hiding there until you resume it (paused sites are listed in Settings)
 
 ### 🔍 Source Credibility — Know Before You Click
@@ -139,7 +140,8 @@ Find deleted or changed content instantly.
 
 ### 📤 Works Everywhere You Browse
 
-- **Share Sheet integration** – Tap **Clean & Copy** to get a tracker-free link on your clipboard, from Reddit, X, email, anywhere (iPhone & iPad). A line above the buttons shows which trackers it removes, that a link is already clean, or that a short link like t.co hides its destination
+- **Share Sheet integration** – Tap **Clean & Copy** to get a tracker-free link on your clipboard, from Reddit, X, email, anywhere (iPhone & iPad). A line above the buttons shows which trackers it removes, that a link is already clean, or that a short link like t.co hides its destination. Tap **Resolve** to see where a t.co, bit.ly, TikTok, or Reddit short link leads, with its trackers removed: Trackless Links asks the shortener once, without cookies (the Safari extension never does this)
+- **Clean every link in shared text** – Share a message or note with several links and tap **Clean & Copy Text**: every link is cleaned, and the text stays exactly as it was (iPhone & iPad)
 - **iCloud Sync** – Settings sync instantly across iPhone, iPad, and Mac
 - **Instant Safari integration** – Changes apply immediately
 
@@ -192,8 +194,10 @@ Restore disabled website features. Enable text selection, right-click menus, vid
 
 **We can't see your data because we never receive it.**
 
-- ✅ **100% on-device processing** – Nothing leaves your iPhone, iPad, or Mac
-- ✅ **Zero data collection** – No analytics, no tracking, no servers
+- ✅ **On-device cleaning** – Links are cleaned on your iPhone, iPad, or Mac, never on a server
+- ✅ **Zero data collection** – No analytics, no tracking, and we receive nothing about your browsing
+- ✅ **Online only when needed** – For example when you resolve a short link; every connection is listed in the [Privacy Policy](https://github.com/aloth/trackless-links/blob/main/privacy_policy.md#23-network-access)
+- ✅ **Works alongside your VPN** – No VPN profile, no DNS settings
 - ✅ **No account required** – Works immediately after install
 - ✅ **Optional iCloud Sync** – Uses YOUR iCloud, not ours (disabled by default)
 - ✅ **Open development** – Bug reports and feature requests on GitHub
