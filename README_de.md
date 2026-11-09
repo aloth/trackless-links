@@ -154,7 +154,7 @@ Finde gelöschte oder geänderte Inhalte sofort.
 ### 📤 Share Sheet: Kurzlinks auflösen
 Teile einen t.co-, bit.ly-, TikTok- oder Reddit-Kurzlink und tippe auf Auflösen: Du siehst, wohin er führt, mit bereits entfernten Trackern (iPhone & iPad).
 
-<img src="screenshots/trackless-links-share-sheet-resolve-short-link.png" alt="Share Sheet löst einen t.co-Kurzlink zu seinem Ziel auf, Tracking-Parameter entfernt" width="400"/>
+<img src="screenshots/trackless-links-share-sheet-resolve-short-link-de.png" alt="Teilen-Menü löst einen t.co-Kurzlink zu seinem Ziel auf, Tracking-Parameter entfernt" width="400"/>
 
 </td>
 <td width="50%">
@@ -162,7 +162,7 @@ Teile einen t.co-, bit.ly-, TikTok- oder Reddit-Kurzlink und tippe auf Auflösen
 ### 📤 Share Sheet: Alle Links im Text bereinigen
 Teile eine Nachricht oder Notiz mit mehreren Links und tippe auf Bereinigen & Text kopieren. Alle Links werden bereinigt, der Text bleibt, wie er war.
 
-<img src="screenshots/trackless-links-share-sheet-clean-copy-text.png" alt="Share Sheet bereinigt alle Links in geteiltem Text mit Bereinigen & Text kopieren" width="400"/>
+<img src="screenshots/trackless-links-share-sheet-clean-copy-text-de.png" alt="Teilen-Menü bereinigt alle Links in geteiltem Text mit Bereinigen & Text kopieren" width="400"/>
 
 </td>
 </tr>
