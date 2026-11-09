@@ -153,6 +153,24 @@ Encuentra al instante contenido borrado o modificado.
 <tr>
 <td width="50%">
 
+### 📤 Hoja para compartir: resolver enlaces cortos
+Comparte un enlace corto de t.co, bit.ly, TikTok o Reddit y toca Resolver para ver adónde lleva, ya sin rastreadores (iPhone y iPad).
+
+<img src="screenshots/trackless-links-share-sheet-resolve-short-link.png" alt="Hoja para compartir resolviendo un enlace corto de t.co a su destino sin parámetros de seguimiento" width="400"/>
+
+</td>
+<td width="50%">
+
+### 📤 Hoja para compartir: limpiar todos los enlaces de un texto
+Comparte un mensaje o una nota con varios enlaces y toca Limpiar y copiar texto. Se limpian todos los enlaces y el texto queda igual.
+
+<img src="screenshots/trackless-links-share-sheet-clean-copy-text.png" alt="Hoja para compartir limpiando todos los enlaces de un texto con Limpiar y copiar texto" width="400"/>
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
 ### 🏠 Panel de privacidad
 Estadísticas en tiempo real con rastreadores bloqueados, redirecciones aplicadas y datos ahorrados. Diseño Liquid Glass limpio para iPhone, iPad y Mac.
 

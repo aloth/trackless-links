@@ -153,6 +153,24 @@ Retrouvez instantanément les contenus supprimés ou modifiés.
 <tr>
 <td width="50%">
 
+### 📤 Feuille de partage : résoudre les liens courts
+Partagez un lien court t.co, bit.ly, TikTok ou Reddit et touchez Résoudre pour voir où il mène, déjà sans traqueurs (iPhone et iPad).
+
+<img src="screenshots/trackless-links-share-sheet-resolve-short-link.png" alt="Feuille de partage résolvant un lien court t.co vers sa destination sans paramètres de suivi" width="400"/>
+
+</td>
+<td width="50%">
+
+### 📤 Feuille de partage : nettoyer tous les liens d'un texte
+Partagez un message ou une note contenant plusieurs liens et touchez Nettoyer et copier le texte. Tous les liens sont nettoyés, le texte reste tel quel.
+
+<img src="screenshots/trackless-links-share-sheet-clean-copy-text.png" alt="Feuille de partage nettoyant tous les liens d'un texte avec Nettoyer et copier le texte" width="400"/>
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
 ### 🏠 Tableau de bord de confidentialité
 Statistiques en temps réel : traqueurs bloqués, redirections appliquées, bande passante économisée. Design Liquid Glass épuré pour iPhone, iPad et Mac.
 

@@ -151,6 +151,24 @@ Free版でもついに実現。ページを離れずにYouTube動画をPiPで視
 <tr>
 <td width="50%">
 
+### 📤 共有シート：短縮リンクを展開
+t.co、bit.ly、TikTok、Redditの短縮リンクを共有して展開をタップすると、トラッカーを削除したリンク先を確認できます（iPhone・iPad）。
+
+<img src="screenshots/trackless-links-share-sheet-resolve-short-link.png" alt="t.coの短縮リンクをトラッキングパラメータなしのリンク先に展開する共有シート" width="400"/>
+
+</td>
+<td width="50%">
+
+### 📤 共有シート：テキスト内のすべてのリンクをクリーンに
+複数のリンクを含むメッセージやメモを共有し、クリーンにしてテキストをコピーをタップ。テキストはそのままで、すべてのリンクがクリーンになります。
+
+<img src="screenshots/trackless-links-share-sheet-clean-copy-text.png" alt="クリーンにしてテキストをコピーで共有テキスト内のすべてのリンクをクリーンにする共有シート" width="400"/>
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
 ### 🏠 プライバシーダッシュボード
 ブロックしたトラッカー、適用したリダイレクト、節約したデータ量をリアルタイム表示。iPhone、iPad、Mac向けのクリーンなLiquid Glassデザイン。
 

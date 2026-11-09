@@ -153,6 +153,24 @@ Find deleted or changed content instantly.
 <tr>
 <td width="50%">
 
+### 📤 Share Sheet: Resolve Short Links
+Share a t.co, bit.ly, TikTok, or Reddit short link and tap Resolve to see where it leads, with its trackers already removed (iPhone & iPad).
+
+<img src="screenshots/trackless-links-share-sheet-resolve-short-link.png" alt="Share Sheet resolving a t.co short link to its destination with tracking parameters removed" width="400"/>
+
+</td>
+<td width="50%">
+
+### 📤 Share Sheet: Clean Every Link in Text
+Share a message or note with several links and tap Clean & Copy Text. Every link is cleaned, the text stays exactly as it was.
+
+<img src="screenshots/trackless-links-share-sheet-clean-copy-text.png" alt="Share Sheet cleaning every link in shared text with Clean & Copy Text" width="400"/>
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
 ### 🏠 Privacy Dashboard
 Real-time statistics showing blocked trackers, applied redirects, and bandwidth saved. Clean Liquid Glass design for iPhone, iPad, and Mac.
 

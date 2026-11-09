@@ -151,6 +151,24 @@ iOS完整的隐私保护和浏览控制。**仅支持 iOS — Mac 用户需要 P
 <tr>
 <td width="50%">
 
+### 📤 共享表单：展开短链接
+分享 t.co、bit.ly、TikTok 或 Reddit 短链接并点击展开，即可查看它指向哪里，跟踪器已被移除（iPhone 和 iPad）。
+
+<img src="screenshots/trackless-links-share-sheet-resolve-short-link.png" alt="共享表单将 t.co 短链接展开为已移除跟踪参数的目标地址" width="400"/>
+
+</td>
+<td width="50%">
+
+### 📤 共享表单：清理文本中的所有链接
+分享包含多个链接的消息或备忘录，点击清理并复制文本。所有链接都会被清理，文本保持原样。
+
+<img src="screenshots/trackless-links-share-sheet-clean-copy-text.png" alt="共享表单通过清理并复制文本清理分享文本中的所有链接" width="400"/>
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
 ### 🏠 隐私仪表板
 实时统计显示已拦截的追踪器、已应用的重定向和节省的带宽。为iPhone、iPad和Mac优化的简洁Liquid Glass设计。
 
